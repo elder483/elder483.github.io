@@ -21,7 +21,13 @@ Marging/padding:
     margin: 20px; this makes a margin affecting the outside of the element.
     padding: 40px; this affects the inside.
     you can alter specific sides of a margin or padding via margin-top, bottom etc. padding-to, bottom etc. 
- */
+    
+Borders:
+    border-style: solid, dotted, dashed, double, groove, ridge, inset, outset.
+    to specify certain thickness on border elements border-left-width 20px, border-right-width 10px; 
+    border-color
+    you can do all of this in one line as border: 20px solid red; 
+
 
 body {
     font-family: Arial, sans-serif;
@@ -31,7 +37,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/*This here is getting a specific link to have an underrline.*/
+/*This here is getting a specific link to have an underrline.
 a[href="https://elder483.itch.io/"]
 {
     text-decoration: underline;
@@ -44,7 +50,7 @@ header {
     padding: 1em;
     text-align: center;
 }
-/*These are table style values*/
+/*These are table style values
 table
 {
  width: 100%;
@@ -52,7 +58,7 @@ margin: 0 auto;
  border-collapse: collapse;
 }
 
-/*These are table style values*/
+/*These are table style values
 th,td
 {
      border: 1px solid black;
@@ -60,16 +66,18 @@ th,td
     text-align: center; 
     vertical-align: middle; 
 }
-/*These are list style values*/
+/*These are list style values
 ul, ol
 {
  list-style-position: inside;   
 }
+
+/* Image values 
 img[src="Images/GamesJamIcon.png"]
 {
     width: 630px; 
     height: 500px;
-    /*padding: 10px;*/
+    /*padding: 10px;
     margin: 20px;
     border: 5px solid #280461;
 }
@@ -93,3 +101,4 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+*/
