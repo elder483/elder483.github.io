@@ -1,9 +1,29 @@
+/* Font families:
+    font-weight: bold
+    font-style: italic
+    replace bold/italic with normal
+   
+ Text Decorations:
+    text-decoration: underline, overline or line-through.
+    
+Text Transform:
+    text-transform: capitalize, uppercase, lowercase,none,
+    "capitalize" changes the first letter of each word to a capital.
+ */
+
 body {
     font-family: Arial, sans-serif;
     color: red;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
+
+/*This here is getting a specific link to have an underrline.*/
+a[href="https://elder483.itch.io/"]
+{
+    text-decoration: underline;
+    color: #ffe226;
 }
 
 header {
