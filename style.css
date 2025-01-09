@@ -65,7 +65,7 @@ ul, ol
 {
  list-style-position: inside;   
 }
-img[ src="Images/GamesJamIcon.png" ]
+img[src="Images/GamesJamIcon.png"]
 {
     width: 630px; 
     height: 500px;
