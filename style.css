@@ -12,6 +12,27 @@ header {
     padding: 1em;
     text-align: center;
 }
+/*These are table style values*/
+table
+{
+ width: 100%
+ border-collapse: collapse;
+}
+
+/*These are table style values*/
+th,td
+{
+     border: 1px solid black;
+    padding: 8px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+/*These are list style values*/
+ul, ol
+{
+ list-style-position: inside;   
+}
+
 
 nav a {
     color: #fff;
