@@ -15,7 +15,8 @@ header {
 /*These are table style values*/
 table
 {
- width: 100%
+ width: 100%;
+margin: 0 auto; 
  border-collapse: collapse;
 }
 
