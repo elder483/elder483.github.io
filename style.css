@@ -9,6 +9,18 @@
 Text Transform:
     text-transform: capitalize, uppercase, lowercase,none,
     "capitalize" changes the first letter of each word to a capital.
+
+Text Spacing:
+    letter-spacing:
+    word-spacing:
+    line-height:
+    text-align:
+    text-indent:
+
+Marging/padding:
+    margin: 20px; this makes a margin affecting the outside of the element.
+    padding: 40px; this affects the inside.
+    you can alter specific sides of a margin or padding via margin-top, bottom etc. padding-to, bottom etc. 
  */
 
 body {
@@ -53,7 +65,14 @@ ul, ol
 {
  list-style-position: inside;   
 }
-
+img[ src="Images/GamesJamIcon.png" ]
+{
+    width: 630px; 
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid 280461;
+}
 
 nav a {
     color: #fff;
