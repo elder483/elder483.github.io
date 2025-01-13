@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford Suzaku</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Suzaku</h1>
+<nav>
+   <a href="index.html">Home/About Me</a>
+   <a href="Skills.html">Skills and Education</a>
+   <a href="ProfessionalWorks.html">Professional Works</a>
+   <a href="GamesJams.html"> Games Jams</a>
+    <a href="Solo_University.html"> Solo/University projects</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--Overview section-->
+    <section>
+<h2>Overview</h2>
+      <p>Developed in Unreal Engine 4</p> 
+         <p>A prototype and final year project, experimenting with level design, camera cuts, VFX and more.</p>
+       
+        
+    </section>
+    <!--Responsibilities section-->
+    <section>
+      <h2>Responsibilities</h2>
+      <ul>
+          <l>Creating all assets</l>
+          <l>Game & Level Design.</l>
+          <l>Prototyping and implementing all mechanics</l>
+           <l>UI/UX Design/implementation. </l>
+        
+        
+      </ul>
+    </section>
+<!--Story section-->
+    <section>
+      <h2>Synopsis/Demo</h2>
+      
+    <p>The player must push iceblocks into the gaps to form walkways, in doing so they can light the lanterns and exit the cave.</p>
+    
+    
+      
+    </section>
+<!--Skills developed section-->
+    <section>
+      <h2>New Skills Developed</h2>
+      <ul>
+        <l>Unreal Engine 4's physics system.</l>
+        <l>Post processing and other VFX using cascade.</l>
+        <l>level design.</l>
+
+      </ul>
+    </section>
+
+    <!--Gallery section-->
+    <section> 
+     <h2>Gallery</h2>
+      <h3>Images</h3>
+        
+        <img src="Images/Suzaku/Images/SuzakuTitle.png" alt="Suzaku Project Title Screen">
+        <img src="Images/Suzaku/Images/SuzakuControls.png" alt="Suzaku Controls">
+        <img src="Images/Suzaku/Images/SuzakuFirstLantern.png" alt="Suzaku Lanterns">
+        <img src="Images/Suzaku/Images/SuzakuEnemyEncounter.png" alt="Suzaku Boss">
+        <img src="Images/Suzaku/Images/SuzakuEnemyEncounterIceAttack.png" alt="Suzaku Boss Projectiles">
+        <img src="Images/Suzaku/Images/SuzakuIceBridge.png" alt="Suzaku Project Title Screen">
+        <img src="Images/Suzaku/Images/SuzakuEndGame.png" alt="Suzaku End Screen">
+      
+      
+      <h3>Gifs</h3>
+      <h4>Gun</h4>
+        
+        <img src="Images/Suzaku/Gifs/Suzaku_IceBlock.gif" alt="Suzaku_IceBlock">
+        <img src="Images/Suzaku/Gifs/Suzaku_Lantern.gif" alt="Suzaku_Lantern">
+        <img src="Images/Suzaku/Gifs/Suzaku_Icicles.gif" alt="Suzaku_Icicles">
+        <img src="Images/Suzaku/Gifs/Suzaku_SwordSwing.gif" alt="Suzaku_Sword">
+
+     
+      
+      <h3>Videos</h3>
+        <h4>Mechanics Overview Trailer</h4>
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/wLNnCYDpOXg?si=-5yjDbbh1vFpMjWt"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+    
+       
+        <h4>Full Playthrough</h4>
+       <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/AF02c1dx79Y?si=G67HgmHxlFQuE2lj" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      
+    </section>
+     <!--Rights & Plugins section-->
+    <section>
+      <h2>Demo Download</h2>
+        <a href="https://elder483.itch.io/suzaku-level-design-project">Itch.Io page to download demo</a>
+      
+    </section>
+
+     <!--Footer section-->
+    
+    <footer>
+      <section id= "contact">
+      <h4> Contact information & Socials</h4>
+        <p>Phone Number: 07592784198</p>
+        <p>Email: harryjameslinford@gmail.com </p>
+        <p>Linkedin:<a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line:Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
