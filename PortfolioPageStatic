@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford Static</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Static</h1>
+<nav>
+   <a href="index.html">Home/About Me</a>
+   <a href="Skills.html">Skills and Education</a>
+   <a href="ProfessionalWorks.html">Professional Works</a>
+   <a href="GamesJams.html"> Games Jams</a>
+    <a href="Solo_University.html"> Solo/University projects</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--Overview section-->
+    <section>
+<h2>Overview</h2>
+  
+<p>Created for MiniJam 125/MiniJam 125.</p>
+<p>MiniJam 125's theme was "signal".</p>
+<p>The original concept was to make the use of a radar, it would detect our player and alert enemies to our character's presence. </p>
+<p>The limitation of this jam, was "everything is tied to the rhythm". Both Tv's that flash to provide light a heart rate system. It allowed the world and the protagonist to feel connected. </p>
+        
+    </section>
+
+<section>
+
+<h2><Warning!/h2>
+<p>If you suffer from epilepsy we would advise you to not play or watch any content from this game or take necessary risks when doing the following.</p>
+
+</section>
+    <!--Responsibilities section-->
+    <section>
+      <h2>Responsibilities</h2>
+      
+      <ul>
+        
+          <l>Creating the game design (Game rules, mechanics, players, enemies, level progression). </l>
+          <l>Level Design</l>
+          <l>Planar movement.</l>
+          <l>Managing the team.</l>
+          <l>Asset placement.</l>
+          <l>UI/UX. (UI animations)</l>
+          <l>All content developed via Blueprints</l>
+         
+        
+      </ul>
+    </section>
+<!--Story section-->
+    <section>
+      <h2>Synopsis/Demo</h2>
+      
+    <p>Static is lost at sea, around them are the horrors of other units like them self, strung up and left to rot. 
+       The other units still have some power and will attempt to light the way for static to reach their home. 
+       The search light will increase Static's heart rate, the TV's will also flicker in time with the heart rate. 
+       Watch out for the creatures of the deep, is this how the others met their end?</p>
+      
+    </section>
+
+ <section>
+      <h2>Character Mechanics</h2>
+      
+    <ol>
+      <l>Movement: The player's main and only real mechanic, it allows static to traverse the level. Using the environment and timing their movement will be key to avoiding detection.</l>
+     
+      
+    </ol>
+      <h2>Level Mechanics</h2>
+      
+    <ol>
+      <l>Oxygen Cannisters: Unlike most games, the higher your heart rate the closer you are to death. Collecting cannisters will reduce the player's heart rate to a comfotrable level.</l>
+      <l>Radar: The radar is similar to a lighthouse, if it detects the player it will sound off an alarm.</l>
+      <l>TV's: These are tied to the player's heartrate and will produce light when nearby this is helpful when navigating through the darkness. </l>
+      
+    </ol>
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+      
+      <h4>Cyber-Sharks</h4>
+    <ol>
+      <l>CyberSharks will chase the player if they are within a certain radius.</l>
+     
+      
+    </ol>
+      
+    </section>
+<!--Skills developed section-->
+    <section>
+      <h2>New Skills Developed</h2>
+      <ul>
+        <l>Experimented with Unreal Engine 5's AI.</l>
+        <l>UI Animations.</l>
+        <l>Created a world using planes and 2D sprites.</l>
+
+      </ul>
+    </section>
+
+    <!--Gallery section-->
+    <section> 
+     <h2>Gallery</h2>
+      <h3>Images</h3>
+        
+      <img src="Images/Static/Images/Static_Title.png" alt="Static Title Screen.">
+      <img src="Images/Static/Images/Static_AvoidingTheLight.png" alt="Avoiding the light.">
+      <img src="Images/Static/Images/Static_Detection.png" alt="Detected.">
+      <img src="Images/Static/Images/Static_EnemyOnTail.png" alt="Being Chased.">
+      <img src="Images/Static/Images/Static_HomeSweetHome.png" alt="HomeSweetHome.">
+      <img src="Images/Static/Images/Static_EndScreen.png" alt="Static End Screen.">
+      <img src="Images/Static/Images/Static_StaticBlub.png" alt="Static Blub our hero.">
+      <img src="Images/Static/Images/Static_Enemy.png" alt="A Cyber-Shark.">
+      
+      
+      
+    
+      
+      
+      <h3>Gifs</h3>
+
+      <img src="Images/Static/Gifs/Static_Heartrate.gif" alt="Static Heart rate.">
+      <img src="Images/Static/Gifs/Static_OxygenCan.gif" alt="Static Oxygen Cannister.">
+      <img src="Images/Static/Gifs/Static_CyberShark.gif" alt="Static Cyber Shark attack.">
+      <img src="Images/Static/Gifs/Static_Hide.gif" alt="Static Hiding.">
+
+     
+      
+      <h3>Videos</h3>
+        <h4>Mechanics Overview Trailer</h4>
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/BYtvaepRhQ8?si=BKkZmwTanpFNqtLo" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+    
+       
+        <h4>Full Playthrough</h4>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-jh6K7SJyWA?si=NqYWgiHzOgKxN3m4"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+    </section>
+     <!--Rights & Plugins section-->
+    <section>
+      <h2>Demo Download</h2>
+        <a href="https://elder483.itch.io/static-blub">Itch.Io page to download demo</a>
+
+      <h4>Team Member's Portfolios</h4>
+        <p>Please check out my team's work:</p>
+        <p>Art/Story: </p>
+      <ul>
+        <l>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></l>
+     
+      </ul>
+          <p>Audio: </p>
+      <ul>
+        <l>Angus Macnaughton </l>
+
+      </ul>
+   
+      
+    </section>
+
+     <!--Footer section-->
+    
+    <footer>
+      <section id= "contact">
+      <h4> Contact information & Socials</h4>
+        <p>Phone Number: 07592784198</p>
+        <p>Email: harryjameslinford@gmail.com </p>
+        <p>Linkedin:<a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line:Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
