@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford REM</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>REM</h1>
+<nav>
+   <a href="index.html">Home/About Me</a>
+   <a href="Skills.html">Skills and Education</a>
+   <a href="ProfessionalWorks.html">Professional Works</a>
+   <a href="GamesJams.html"> Games Jams</a>
+    <a href="Solo_University.html"> Solo/University projects</a>
+   <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--Overview section-->
+    <section>
+<h2>Overview</h2>
+  
+<p>Submitted as part of the Tranzfuser Games Jam <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="786b5654-dc29-4019-b4c4-513193cbee8c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></p>  
+<p>This was one of the first Games Jams I did outside of University.</p>
+<p>For this games Jam I wanted to experiment with mechanics and try to give them a dual purpose.</p>
+
+        
+    </section>
+    <!--Responsibilities section-->
+    <section>
+      <h2>Responsibilities</h2>
+      
+      <ul>
+        
+          <l>Creating the game design (Game rules, mechanics, players, enemies, level progression). </l>
+          <l>Level Design</l>
+          <l>Managing the team.</l>
+          <l>Asset placement.</l>
+          <l>3D assets Spider, log, floors, checkpoints, boulders.</l>
+          <l>UI/UX.</l>
+          <l>All content developed via Blueprints</l>
+          <l>Implementing new assets</l>
+        
+      </ul>
+    </section>
+<!--Story section-->
+    <section>
+      <h2>Synopsis/Demo</h2>
+      
+    <p>REM is a platformer game set in a dream world.
+       The player must travel through her dream and then escape her nightmare, they will encounter many obstacles along the way only with their trusty plush can they make it to the end. 
+       REM has two main mechanics for the player to utilise both with dual functionality. Slam to break objects blocking Rem's way and also use it to navigate the level and gain extra height. 
+       Throw the plush can be used similarly to break objects, hit enemies, hit buttons to trigger in game events and it can be used in conjunction with the soul shift mechanic where the player can control the plush.</p>
+      
+    </section>
+
+ <section>
+      <h2>Character Mechanics</h2>
+      
+    <ol>
+      <l>Jump: Player can use this to traverse the world additionally some mechanics require the player to jump first.</l>
+      <l>Slam: The player can perform a slam, when they have the plus in their hand, in doing so it can break walls and even gain some extra height acting as a double jump.</l>
+      <l>Aim: The player an use the right mouse button to create a reticle, this will dictate the direction in which their plush will travel once thrown.</l>
+      <l>Throw: With the plush in hand the player can throw the plush once they are aiming. This can also be used to combat enemies or hit far away switches and break objects. </l>
+      <l>Recall: Once the plush is thrown, calling the plush will allow it to return to the players hand.</l>
+      <l>Soul Switch: This allows the player to take control of the plush (must be thrown) or back to the player. This will allow the plush to solve puzzles which will allow the player to progress. </l>
+      
+    </ol>
+    
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+      
+      <h4>Bat</h4>
+    <ol>
+      <l>Gravity orb: This fires an orb of dark energy which attracts the player and deals damage to them.</l>
+      
+    </ol>
+      
+      <h4>Spider</h4>
+    <ol>
+      <l>Web Shot: The spider will shoot a sphere of web, which will cause the player to take damage and will reduce their movement speed.</l>
+      
+    </ol>
+
+       <h4>Lady</h4>
+    <ol>
+      <l>Slash: The lady will charge at the player and try to perform a slash attack.</l>
+   
+    </ol>
+    
+       <h4>Snake</h4>
+    <ol>
+      <l>Venom Shot: The snake will shoot an orb of poison at the player causing damage.</l>
+   
+    </ol>
+
+ <h4>Eye</h4>
+    <ol>
+
+      <l>Eye Reflect: If the player throws the plush and it doesn't connect with the eye's weak spot, the plush will be reflected back to the player.</l>
+      <l>Eye Meteor: The eye will randomly summon meteors within it's proximity causing the player to move. </l>
+   
+    </ol>
+      
+    </section>
+<!--Skills developed section-->
+    <section>
+      <h2>New Skills Developed</h2>
+      <ul>
+        <l>First time using the possession mechanic, allowing me to experiment with unique gameplay. </l>
+        <l>First usage of sequencer to create cinematics showcasing to the player changes that occured due to their actions.</l>
+        <l>Checkpoint system.</l>
+        <l>implementing 3D assets.</l>
+        <l>First time I managed a team.</l>
+
+      </ul>
+    </section>
+
+    <!--Gallery section-->
+    <section> 
+     <h2>Gallery</h2>
+      <h3>Images</h3>
+        
+      <img src="Images/R.E.M/Images/REM_Title.png" alt="REM Title Screen.">
+      <img src="Images/R.E.M/Images/REM_Controls.png" alt="REM Controls Screen.">
+      <img src="Images/R.E.M/Images/REM_Field.png" alt="REM Field.">
+      <img src="Images/R.E.M/Images/REM_Field2.png" alt="REM Field 2.">
+      <img src="Images/R.E.M/Images/REM_Castle.png" alt="REM Castle.">
+      <img src="Images/R.E.M/Images/REM_Button.png" alt="REM Button.">
+      <img src="Images/R.E.M/Images/REM_Eye.png" alt="REM Eye.">
+      
+      
+      <h3>Gifs</h3>
+
+         <img src="Images/R.E.M/Gifs/REM_Slam.gif" alt="REM Slam.">
+         <img src="Images/R.E.M/Gifs/REM_Throw.gif" alt="REM Throw.">
+         <img src="Images/R.E.M/Gifs/REM_SoulSwitch.gif" alt="REM Soul Switch.">
+         <img src="Images/R.E.M/Gifs/REM_Recall.gif" alt="REM Recall.">
+         <img src="Images/R.E.M/Gifs/REM_WallBreaker.gif" alt="REM WallBreaker.">
+         <img src="Images/R.E.M/Gifs/REM_Cages.gif" alt="REM Cages.">
+         <img src="Images/R.E.M/Gifs/REM_EyeBoss.gif" alt="REM Eye Boss.">
+         <img src="Images/R.E.M/Gifs/REM_EyeBoss_Rebound.gif" alt="REM Eye Boss Rebound.">
+         <img src="Images/R.E.M/Gifs/REM_EyeBossMeteor.gif" alt="REM Eye Boss Meteor.">
+        
+        
+
+     
+      
+      <h3>Videos</h3>
+        <h4>Mechanics Overview Trailer</h4>
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/caO4BP90L-s?si=na_Q-gGNGvXez3_U" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+    
+       
+        <h4>Full Playthrough</h4>
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/u3EWXvYc88k?si=NDSro7pWoE1RVDj4" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+      
+    </section>
+     <!--Rights & Plugins section-->
+    <section>
+      <h2>Demo Download</h2>
+        <a href="https://cancri.itch.io/rem">Itch.Io page to download demo</a>
+
+      <h4>Team Member's Portfolios</h4>
+        <p>Please check out my team's work:</p>
+        <p>Art: </p>
+      <ul>
+        <l>Kieran Adams: <a href="https://github.com/Kierananas">Kieran Adams's Github</a></l>
+        <l>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></l>
+        <l>James Fox: <a href="https://www.artstation.com/jfoxzero">James Fox's Artstation</a></l>
+        <l>Milosz Sankowski: <a href="https://www.artstation.com/miloszsankowski">Milosz Sankowski's Artstation</a></l>
+        <l>Jack Read: <a href="https://jack_cowbell.artstation.com/">Jack read's Artstation</a></l>
+        <l>Keenan Smith: 2021 VFX</l>
+      </ul>
+   
+      
+    </section>
+
+     <!--Footer section-->
+    
+    <footer>
+      <section id= "contact">
+      <h4> Contact information & Socials</h4>
+        <p>Phone Number: 07592784198</p>
+        <p>Email: harryjameslinford@gmail.com </p>
+        <p>Linkedin:<a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line:Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
