@@ -4,6 +4,7 @@
 a
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+    text-align: center;
     color: #E8C900;
 }
 
@@ -11,6 +12,7 @@ body
 {
 font-family: "Noto Sans","Noto Sans Japanese";
 font-size: 14px;
+text-align: center;
 color: white;   
     /*Should be Charcoal/grey*/
 background-color: #484848;
