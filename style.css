@@ -23,6 +23,7 @@ h1
     font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
+    padding: 40px;
     background-color: #138389;
 }
 
