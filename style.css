@@ -86,7 +86,7 @@ ul
 {
 
     
-   padding-left:20px; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change.*/
+   padding-left: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
    list-style-position: inside; /*brings bullet points inside the text.*/
 
 }
