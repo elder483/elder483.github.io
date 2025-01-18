@@ -37,55 +37,18 @@ a:active
     color: #DB03CA;    
 }
 
-header
-{
-     /*display: flex;
-    justify-content: center;
-    align-items: center;*/
-  
-    padding: 20px 0;
-    background-color: rgba(19,131,137,0.5);
-      position: relative;
-}
-
-header::before, header::after
-{
-    content: '';
-    position: absolute;
-    bottom: -3px;
-    height: 3px;  /* Thickness of the line */
-    background-color: #115F63;  /* Color of the line */
-    width: 50%;  /* Adjust as needed to control line length */
-}
-
-header::before
-{
-    left:0;
-  
-}
-
-header::after
-{
-    
-    right:0;
-}
-
-
 /*This is for the Overal header*/
-nav 
+header nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
         
         background-color: rgba(19,131,137,0.5);
-        /*display: inline-block;*/
+        display: inline-block;
         border: 3px solid #115F63; 
         border-top: none;
         border-radius: 0px 0px 12px 12px;
         padding: 10px;
-        margin-top:-3px;
-        text-align: center;
-        z-index: 1;
-      
+        margin: 0;
     
 }
 
@@ -118,20 +81,44 @@ background-color: rgba(72,72,72,100);
 
 h1
 {
-   
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
     margin: 0;
-    padding: 0;
+    padding: 50px;
     /*
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
     border-bottom-color: #115F63;
     */
-  
+    background-color: rgba(19,131,137,0.5);
 }
 
+h1::before, h1::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;  /* Adjust as needed to control line length */
+    height: 3px;  /* Thickness of the line */
+    background-color: #115F63;  /* Color of the line */
+}
+
+h1::before
+{
+    left:0;
+    right:50%;
+}
+
+h1:: after
+{
+    left:50%
+    right:0;
+}
 
 /* Font families:
     font-weight: bold
