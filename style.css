@@ -40,6 +40,7 @@ header nav a
         background-color: #138389;
         display: inline-block;
         border: 3px solid #115F63; 
+        border-radius: 5px 12px 12px 12px;
         padding: 10px;
         margin: 30px;
     
