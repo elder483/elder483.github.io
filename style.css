@@ -4,6 +4,7 @@
 a:link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+    font-size: 18px;
     text-align: center;
     /*Mustard yellow*/
     color: #E8C900;
@@ -12,6 +13,7 @@ a:link
 a:visited
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+     font-size: 18px;
     text-align: center;
     /*Brick red*/
     color: #CC4C4C;
@@ -20,6 +22,7 @@ a:visited
 a:hover
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+     font-size: 18px;
     text-align: center;
     /*Purple*/
     color: #6C2AA6;    
@@ -28,6 +31,7 @@ a:hover
 a:active
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+     font-size: 18px;
     text-align: center;
     /*Neon Pink*/
     color: #DB03CA;    
@@ -42,7 +46,7 @@ header nav
         display: inline-block;
         border: 3px solid #115F63; 
         border-top: none;
-        border-radius: 5px 5px 12px 12px;
+        border-radius: 0px 0px 12px 12px;
         padding: 10px;
         margin: 0;
     
@@ -77,6 +81,10 @@ background-color: rgba(72,72,72,100);
 
 h1
 {
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
@@ -90,7 +98,27 @@ h1
     background-color: rgba(19,131,137,0.5);
 }
 
+h1::before, h1::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;  /* Adjust as needed to control line length */
+    height: 3px;  /* Thickness of the line */
+    background-color: #115F63;  /* Color of the line */
+}
 
+h1::before
+{
+    left:0;
+    right:50%;
+}
+
+h1:: after
+{
+    left:50%
+    right:0;
+}
 /* Font families:
     font-weight: bold
     font-style: italic
