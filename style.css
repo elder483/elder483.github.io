@@ -116,7 +116,7 @@ h1::before
 
 h1::after
 {
-    left:50%
+    left:50%;
     right:0;
 }
 /* Font families:
