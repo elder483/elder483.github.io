@@ -37,7 +37,8 @@ header nav
 {
     /*Should draw boxes around links and have a dark teal colour.*/
     
-        display: inline
+        display: inline-block;
+        background-color: #138389;
         margin: 10px;
         padding: 10px;
         border: 3px solid #115F63; 
