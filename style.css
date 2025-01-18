@@ -37,6 +37,40 @@ a:active
     color: #DB03CA;    
 }
 
+header
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+    background-color: rgba(19,131,137,0.5);
+    
+}
+
+header::before, header::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 3px;  /* Thickness of the line */
+    background-color: #115F63;  /* Color of the line */
+     width: calc(50% - 50px);  /* Adjust as needed to control line length */
+}
+
+header::before
+{
+    left:0;
+  
+}
+
+header::after
+{
+    
+    right:0;
+}
+
+
 /*This is for the Overal header*/
 header nav 
 {
@@ -48,7 +82,7 @@ header nav
         border-top: none;
         border-radius: 0px 0px 12px 12px;
         padding: 10px;
-        margin: 0;
+      
     
 }
 
@@ -81,10 +115,7 @@ background-color: rgba(72,72,72,100);
 
 h1
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+   
     font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
@@ -95,30 +126,10 @@ h1
     border-bottom-width: 0.5em; 
     border-bottom-color: #115F63;
     */
-    background-color: rgba(19,131,137,0.5);
+  
 }
 
-h1::before, h1::after
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;  /* Adjust as needed to control line length */
-    height: 3px;  /* Thickness of the line */
-    background-color: #115F63;  /* Color of the line */
-}
 
-h1::before
-{
-    left:0;
-    right:50%;
-}
-
-h1::after
-{
-    left:50%;
-    right:0;
-}
 /* Font families:
     font-weight: bold
     font-style: italic
