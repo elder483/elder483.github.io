@@ -1,16 +1,35 @@
 
 
 
-a: link
+a:link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
     text-align: center;
+    /*Mustard yellow*/
     color: #E8C900;
 }
+
+a:active
+{
+    font-family: "Noto Sans","Noto Sans Japanese";
+    text-align: center;
+    /*Neon Pink*/
+    color: #DB03CA;    
+}
+
+a:hover
+{
+    font-family: "Noto Sans","Noto Sans Japanese";
+    text-align: center;
+    /*Purple*/
+    color: #6C2AA6;    
+}
+
 a:visited
 {
     font-family: "Noto Sans","Noto Sans Japanese";
     text-align: center;
+    /*Brick red*/
     color: #CC4C4C;
 }
 
