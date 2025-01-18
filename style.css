@@ -43,7 +43,7 @@ header nav
         border: 3px solid #115F63; 
         border-radius: 5px 12px 12px 12px;
         padding: 10px;
-        margin: 30px;
+        margin: 0;
     
 }
 
@@ -80,11 +80,12 @@ h1
     color: white;
    /*Should be Teal*/
     margin: 0;
-    margin-bottom: 10px;
     padding: 50px;
+    /*
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
     border-bottom-color: #115F63;
+    */
     background-color: rgba(19,131,137,0.5);
 }
 
