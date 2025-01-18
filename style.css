@@ -81,6 +81,7 @@ background-color: rgba(72,72,72,100);
 
 h1
 {
+    text-decoration: underline;
     display: flex;
     justify-content: center;
     align-itmes: center;
@@ -98,14 +99,32 @@ h1
     background-color: rgba(19,131,137,0.5);
 }
 
+footer {
+
+
+        font-family: "Noto Sans","Noto Sans Japanese";
+        font-size: 20px;
+        text-align: center;
+    
+        background-color: rgba(19,131,137,0.5);
+        display: inline-block;
+        border: 3px solid #115F63; 
+        border-radius: 0px 0px 12px 12px;
+        padding: 10px;
+        margin: 0;
+    
+}
+
+
+/*
 h1::before, h1::after
 {
     content: '';
     position: absolute;
     bottom: 0;
     width: 100%;  /* Adjust as needed to control line length */
-    height: 3px;  /* Thickness of the line */
-    background-color: #115F63;  /* Color of the line */
+   /* height: 3px;  /* Thickness of the line */
+   /* background-color: #115F63;  /* Color of the line 
 }
 
 h1::before
@@ -118,7 +137,7 @@ h1:: after
 {
     left:50%
     right:0;
-}
+}*/
 
 /* Font families:
     font-weight: bold
