@@ -87,6 +87,7 @@ h1
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
+    border: 3px solid #115F63;
     color: white;
    /*Should be Teal*/
     margin: 0;
@@ -109,8 +110,9 @@ footer {
         background-color: rgba(19,131,137,0.5);
         display: inline-block;
         border: 3px solid #115F63; 
-        border-radius: 0px 0px 12px 12px;
-        padding: 10px;
+        border-bottom: none;
+        border-radius: 12px 12px 0px 0px;
+        padding: 50px;
         margin: 0;
     
 }
