@@ -33,11 +33,26 @@ a:active
     color: #DB03CA;    
 }
 
-header nav a
+/*This is for the Overal header*/
+header nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
         
         background-color: rgba(19,131,137,0.5);
+        display: inline-block;
+        border: 3px solid #115F63; 
+        border-radius: 5px 12px 12px 12px;
+        padding: 10px;
+        margin: 30px;
+    
+}
+
+/* This is for the links specifically. */
+header nav a
+{
+    /*Should draw boxes around links and have a dark teal colour.*/
+        
+        background-color:rgba(72,72,72,100);
         display: inline-block;
         border: 3px solid #115F63; 
         border-radius: 5px 12px 12px 12px;
@@ -56,7 +71,7 @@ font-size: 14px;
 text-align: center;
 color: white;   
     /*Should be Charcoal/grey*/
-background-color: #484848;
+background-color: rgba(72,72,72,100);
 }
 
 h1
