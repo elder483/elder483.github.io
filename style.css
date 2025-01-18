@@ -95,7 +95,16 @@ ol
     padding-left: 0; 
 }
 
-ol ul li
+ul li
+{
+    text-indent: 0; /* Prevents indentation, or wrapped lines */
+    margin-left: 0; /* Keeps left alignment consistent within the list itself */
+  /*margin: 0; /*Removes the margin.*/
+/*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
+    list-style-position: inside; /*brings bullet points inside the text.*/
+}
+
+ol li
 {
     text-indent: 0; /* Prevents indentation, or wrapped lines */
     margin-left: 0; /* Keeps left alignment consistent within the list itself */
