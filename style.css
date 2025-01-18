@@ -12,8 +12,19 @@ a
     color: blue;
 }
 
+body
+{
+font-size: 14px;
+color: white;    
+background-color: #484;
+}
 
-
+h1
+{
+    color: white;
+    /*Should be Charcoal/grey*/
+    background-color: #484;
+}
 
 
 /* Font families:
