@@ -25,11 +25,10 @@ h1
    /*Should be Teal*/
     margin: 0;
     margin-bottom: 10px;
-    padding: 40px;
+    padding: 50px;
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
     border-bottom-colour: #115F63;
-    border-bottom-alpha: 0.5;
     background-color: #138389;
 }
 
