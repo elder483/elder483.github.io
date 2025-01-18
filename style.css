@@ -39,13 +39,13 @@ a:active
 
 header
 {
-     display: flex;
+     /*display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    align-items: center;*/
+  
     padding: 20px 0;
     background-color: rgba(19,131,137,0.5);
-    
+      position: relative;
 }
 
 header::before, header::after
@@ -55,7 +55,7 @@ header::before, header::after
     bottom: -3px;
     height: 3px;  /* Thickness of the line */
     background-color: #115F63;  /* Color of the line */
-    width: calc(50% - 50px);  /* Adjust as needed to control line length */
+    width: 50%;  /* Adjust as needed to control line length */
 }
 
 header::before
@@ -72,7 +72,7 @@ header::after
 
 
 /*This is for the Overal header*/
-header nav 
+nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
         
@@ -84,6 +84,7 @@ header nav
         padding: 10px;
         margin-top:-3px;
         text-align: center;
+        z-index: 1;
       
     
 }
@@ -122,7 +123,7 @@ h1
     color: white;
    /*Should be Teal*/
     margin: 0;
-    padding: 50px;
+    padding: 0;
     /*
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
