@@ -28,7 +28,8 @@ h1
     padding: 50px;
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
-    border-bottom-colour: #FF0000;
+    border-bottom-color: #115F63;
+    border-bottom-alpha: 0.5;
     background-color: #138389;
 }
 
