@@ -87,16 +87,17 @@ ul
 
     
    padding-left: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-   list-style-position: inside; /*brings bullet points inside the text.*/
+  
 
 }
 
-li
+ul li
 {
     text-indent: 0; /* Prevents indentation, or wrapped lines */
     margin-left: 0; /* Keeps left alignment consistent within the list itself */
   /*margin: 0; /*Removes the margin.*/
 /*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
+    list-style-position: inside; /*brings bullet points inside the text.*/
 }
 
 h1
