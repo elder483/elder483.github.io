@@ -3,13 +3,13 @@
 
 a
 {
-    font-family: "Google Noto";
+    font-family: "Noto Sans","Noto Sans Japanese";
     color: #E8C900;
 }
 
 body
 {
-font-family: "Google Noto";
+font-family: "Noto Sans","Noto Sans Japanese";
 font-size: 14px;
 color: white;   
     /*Should be Charcoal/grey*/
@@ -18,7 +18,7 @@ background-color: #484848;
 
 h1
 {
-    font-family: "Google Noto";
+    font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
     background-color: #138389;
