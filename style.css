@@ -100,6 +100,63 @@ h1
     background-color: rgba(19,131,137,0.5);
 }
 
+h2
+{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
+    font-family: "Noto Sans","Noto Sans Japanese";
+    font-size: 28px;
+    text-decoration: underline;
+    color: white;
+  
+}
+
+h3
+{
+ text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
+    font-family: "Noto Sans","Noto Sans Japanese";
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+h4
+{
+ text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
+    font-family: "Noto Sans","Noto Sans Japanese";
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+h5
+{
+ text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-itmes: center;
+    position: relative;
+    font-family: "Noto Sans","Noto Sans Japanese";
+    font-size: 16px;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+
 footer {
 
 
@@ -112,9 +169,8 @@ footer {
         border: 3px solid #115F63; 
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
-        padding: 50px;
         margin: 0;
-    
+        padding: 50px;
 }
 
 
