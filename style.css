@@ -90,8 +90,12 @@ ul
   
 
 }
+ol
+{
+    padding-left: 0; 
+}
 
-ul li
+ol ul li
 {
     text-indent: 0; /* Prevents indentation, or wrapped lines */
     margin-left: 0; /* Keeps left alignment consistent within the list itself */
@@ -102,7 +106,7 @@ ul li
 
 h1
 {
-    width: 100%;
+    /*width: 100%;*/
     text-decoration: underline;
     text-align: center;
     display: flex;
