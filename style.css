@@ -1,11 +1,17 @@
 
 
 
-a
+a: link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
     text-align: center;
     color: #E8C900;
+}
+a:visited
+{
+    font-family: "Noto Sans","Noto Sans Japanese";
+    text-align: center;
+    color: #CC4C4C;
 }
 
 body
