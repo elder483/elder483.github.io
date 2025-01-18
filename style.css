@@ -37,7 +37,7 @@ header nav a
 {
     /*Should draw boxes around links and have a dark teal colour.*/
         
-        background-color: #138389;
+        background-color: rgba(19,131,137,0.5);
         display: inline-block;
         border: 3px solid #115F63; 
         border-radius: 5px 12px 12px 12px;
@@ -49,6 +49,8 @@ header nav a
 
 body
 {
+margin: 0;
+padding: 0;
 font-family: "Noto Sans","Noto Sans Japanese";
 font-size: 14px;
 text-align: center;
@@ -68,8 +70,7 @@ h1
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
     border-bottom-color: #115F63;
-    border-bottom-alpha: 0.5;
-    background-color: #138389;
+    background-color: rgba(19,131,137,0.5);
 }
 
 
