@@ -1,29 +1,25 @@
 
 
-p
-{
-color: red;
-    
-}
 
 a
 {
 
-    color: blue;
+    color: #E8C900;
 }
 
 body
 {
 font-size: 14px;
-color: white;    
-background-color: #484;
+color: white;   
+    /*Should be Charcoal/grey*/
+background-color: #484848;
 }
 
 h1
 {
     color: white;
-    /*Should be Charcoal/grey*/
-    background-color: #484;
+   /*Should be Teal*/
+    background-color: #138389;
 }
 
 
