@@ -33,15 +33,15 @@ a:active
     color: #DB03CA;    
 }
 
-header nav
+header nav a
 {
     /*Should draw boxes around links and have a dark teal colour.*/
         
         background-color: #138389;
-        display: inline;
+        display: inline-block;
         border: 3px solid #115F63; 
         padding: 10px;
-        margin: 10px;
+        margin: 30px;
     
 }
 
