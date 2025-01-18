@@ -23,7 +23,13 @@ h1
     font-family: "Noto Sans","Noto Sans Japanese";
     color: white;
    /*Should be Teal*/
+    margin: 0;
+    margin-bottom: 10px;
     padding: 40px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em; 
+    border-bottom-colour: #115F63;
+    border-bottom-alpha: 0.5;
     background-color: #138389;
 }
 
