@@ -91,7 +91,7 @@ header nav li:hover ul
 */
 ul
 {
-    padding:0;
+    padding: 0;
     margin: 0;
     background: rgba(19,131,137,0.5);
 }
@@ -99,7 +99,8 @@ ul
 li
 {
     display: inline;
-    position: relative;
+    /*Originally relative.*/
+    position: absolute;
     
 }
 
