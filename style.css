@@ -94,7 +94,7 @@ background-color: rgba(72,72,72,100);
 ul, ol
 { 
    padding-left: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-   margin: 0 auto;
+   /*margin: 0 auto;*/
    text-align: center;
    list-style-position: inside;
 
