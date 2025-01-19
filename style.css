@@ -74,12 +74,12 @@ header nav a
     
 }
 
-header nav ul
+header nav ul ul
 {
     position:absolute;
     display: none;
 }
-header nav a:hover ul
+header nav li:hover ul
 {
     display: block;
 }
