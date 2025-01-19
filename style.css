@@ -116,6 +116,7 @@ ul ul
 li:hover ul
 {
     display: block;
+    white-space: nowrap;
     z-index: 1;
 }
 body
