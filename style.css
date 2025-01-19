@@ -147,6 +147,8 @@ ul ul
 {
     position: absolute;
     display: none;
+    left: 0;
+    top: 100%;
 }
 
 li:hover ul
