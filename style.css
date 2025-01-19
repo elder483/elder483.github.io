@@ -116,7 +116,6 @@ ul ul
 li:hover ul
 {
     display: block;
-    position: relative;
     z-index: 1;
 }
 body
