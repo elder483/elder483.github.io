@@ -109,6 +109,7 @@ ul ul
     position: absolute;
     white-space: wrap;
     display: none;
+    tetx-align: center;
     left: 0;
     top: 100%;
     z-index: 1;
