@@ -100,7 +100,7 @@ li
 {
     display: inline;
     /*Originally relative.*/
-    position: absolute;
+    position: relative;
     
 }
 
@@ -116,6 +116,7 @@ ul ul
 li:hover ul
 {
     display: block;
+    position: relative;
     z-index: 1;
 }
 body
