@@ -4,37 +4,45 @@
 a:link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
+    font-style: bold;
     font-size: 18px;
     text-align: center;
     /*Mustard yellow*/
     color: #E8C900;
+    text-decoration: none;
 }
 
 a:visited
 {
     font-family: "Noto Sans","Noto Sans Japanese";
-     font-size: 18px;
+    font-size: 18px;
+    font-style: bold;
     text-align: center;
     /*Brick red*/
     color: #CC4C4C;
+     text-decoration: none;
 }
 
 a:hover
 {
     font-family: "Noto Sans","Noto Sans Japanese";
-     font-size: 18px;
+    font-size: 18px;
+    font-style: bold;
     text-align: center;
     /*Purple*/
     color: #6C2AA6;    
+     text-decoration: none;
 }
 
 a:active
 {
     font-family: "Noto Sans","Noto Sans Japanese";
-     font-size: 18px;
+    font-size: 18px;
+    font-style: bold;
     text-align: center;
     /*Neon Pink*/
     color: #DB03CA;    
+    text-decoration: none;
 }
 
 /*This is for the Overal header*/
@@ -75,7 +83,7 @@ flex-direction: column;
 margin: 0;
 padding: 0;
 font-family: "Noto Sans","Noto Sans Japanese";
-font-size: 14px;
+font-size: 20px;
 text-align: center;
 color: white;   
     /*Should be Charcoal/grey*/
@@ -116,13 +124,15 @@ ol li
 h1
 {
     /*width: 100%;*/
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     display: flex;
     justify-content: center;
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
+    font-style: bold;
+    font-size: 30px;
     border: 3px solid #115F63;
     color: white;
    /*Should be Teal*/
@@ -138,56 +148,56 @@ h1
 
 h2
 {
-    text-decoration: underline;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
+    font-style: bold;
     font-size: 28px;
-    text-decoration: underline;
     color: white;
   
 }
 
 h3
 {
- text-decoration: underline;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
-    font-size: 20px;
-    text-decoration: underline;
+    font-style: bold;
+    font-size: 26px;
     color: white;
     
 }
 
 h4
 {
- text-decoration: underline;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
-    font-size: 18px;
-    text-decoration: underline;
+    font-style: bold;
+    font-size: 24px;
     color: white;
     
 }
 
 h5
 {
- text-decoration: underline;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-itmes: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
-    font-size: 16px;
-    text-decoration: underline;
+    font-style: bold;
+    font-size: 22px;
     color: white;
     
 }
@@ -197,6 +207,7 @@ footer {
 
         width:100%;
         font-family: "Noto Sans","Noto Sans Japanese";
+        font-style: bold;
         font-size: 20px;
         text-align: center;
         background-color: rgba(19,131,137,0.5);
