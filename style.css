@@ -78,8 +78,9 @@ header nav a
 body
 {
 display: flex;
-flex: 1;
 flex-direction: column;
+align-items:center;
+justify-content: flex-start;
 margin: 0;
 padding: 0;
 font-family: "Noto Sans","Noto Sans Japanese";
@@ -90,38 +91,24 @@ color: white;
 background-color: rgba(72,72,72,100);
 }
 
-ul
-{
-
-    
+ul, ol
+{ 
    padding-left: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-  
+   margin: 0 auto;
+   text-align: center;
+   list-style-position: inside;
 
 }
-ol
+
+
+ul li, ol li
 {
-    padding-left: 0; 
+    text-align: left; /* Prevents indentation, or wrapped lines */
+    display: inline-block;
+    width: auto;
+    padding-left: 5px;
 }
 
-ul li
-{
-    text-indent: 0; /* Prevents indentation, or wrapped lines */
-    text-align: center;
-    margin-left: 0; /* Keeps left alignment consistent within the list itself */
-  /*margin: 0; /*Removes the margin.*/
-/*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
-    list-style-position: inside; /*brings bullet points inside the text.*/
-}
-
-ol li
-{
-    text-indent: 0; /* Prevents indentation, or wrapped lines */
-    text-align: center;
-    margin-left: 0; /* Keeps left alignment consistent within the list itself */
-  /*margin: 0; /*Removes the margin.*/
-/*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
-    list-style-position: inside; /*brings bullet points inside the text.*/
-}
 
 h1
 {
