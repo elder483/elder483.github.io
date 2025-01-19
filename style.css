@@ -89,6 +89,32 @@ header nav li:hover ul
     list-style-type:none;
 }
 */
+ul
+{
+    padding:0;
+    margin: 0;
+    background: rgba(19,131,137,0.5);
+}
+
+li
+{
+    display: inline;
+    position: relative;
+    
+}
+
+ul ul 
+{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+}
+
+li:hover ul
+{
+    display: block;
+}
 body
 {
 display: flex;
@@ -130,32 +156,7 @@ ul li, ol li
 
 */
 
-ul
-{
-    padding:0;
-    margin: 0;
-    background: rgba(19,131,137,0.5);
-}
 
-li
-{
-    display: inline;
-    position: relative;
-    
-}
-
-ul ul 
-{
-    position: absolute;
-    display: none;
-    left: 0;
-    top: 100%;
-}
-
-li:hover ul
-{
-    display: block;
-}
 
 h1
 {
