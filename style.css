@@ -104,9 +104,10 @@ ul, ol
 ul li, ol li
 {
     text-align: left; /* Prevents indentation, or wrapped lines */
-    margin-left: 50px;
+    margin-left: 0;
     display: list-item;
     padding-left: 5px; /*bulelt point padding*/
+    width: fit-content;
 }
 
 
