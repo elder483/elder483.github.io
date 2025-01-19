@@ -107,6 +107,7 @@ li
 ul ul 
 {
     position: absolute;
+    white-space: nowrap;
     display: none;
     left: 0;
     top: 100%;
@@ -116,7 +117,6 @@ ul ul
 li:hover ul
 {
     display: block;
-    white-space: nowrap;
     z-index: 1;
 }
 body
