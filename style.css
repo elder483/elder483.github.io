@@ -106,6 +106,7 @@ ol
 ul li
 {
     text-indent: 0; /* Prevents indentation, or wrapped lines */
+    text-align: center;
     margin-left: 0; /* Keeps left alignment consistent within the list itself */
   /*margin: 0; /*Removes the margin.*/
 /*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
@@ -115,6 +116,7 @@ ul li
 ol li
 {
     text-indent: 0; /* Prevents indentation, or wrapped lines */
+    text-align: center;
     margin-left: 0; /* Keeps left alignment consistent within the list itself */
   /*margin: 0; /*Removes the margin.*/
 /*padding-left: 5px; /* the value of spacing between the bullet point and the line of text.*/
