@@ -109,7 +109,7 @@ ul ul
     position: absolute;
     white-space: wrap;
     display: none;
-    tetx-align: center;
+    text-align: center;
     left: 0;
     top: 100%;
     z-index: 1;
@@ -117,7 +117,7 @@ ul ul
 
 li:hover ul
 {
-    display: block;
+    display: list-item, block;
     text-align: center;
     z-index: 1;
 }
