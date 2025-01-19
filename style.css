@@ -46,6 +46,7 @@ a:active
 }
 
 /*This is for the Overal header*/
+/*
 header nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
@@ -57,10 +58,11 @@ header nav
         border-radius: 0px 0px 12px 12px;
         padding: 10px;
         margin: 0;
-    */
+    
 }
-
+*/
 /* This is for the links specifically. */
+/*
 header nav a
 {
     /*Should draw boxes around links and have a dark teal colour.*/
@@ -71,9 +73,9 @@ header nav a
         border-radius: 5px 12px 12px 12px;
         padding: 10px;
         margin: 30px;
-    */
-}
-*/
+   
+} */
+/*
 header nav ul ul
 {
     position:absolute;
@@ -86,7 +88,7 @@ header nav li:hover ul
     display: block;
     list-style-type:none;
 }
-
+*/
 body
 {
 display: flex;
@@ -127,6 +129,31 @@ ul li, ol li
 }
 
 */
+
+ul
+{
+    padding:0;
+    margin: 0;
+}
+
+li
+{
+    display: inline;
+    position: relative;
+    
+}
+
+ul ul 
+{
+    position: absolute;
+    display: none;
+}
+
+li:hover ul
+{
+    display: block;
+}
+
 h1
 {
     /*width: 100%;*/
