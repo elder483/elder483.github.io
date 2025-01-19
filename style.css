@@ -103,10 +103,12 @@ color: white;
 background-color: rgba(72,72,72,100);
 }
 
+/*
 ul, ol
 { 
    padding: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-   margin: 0 auto;
+   /*
+    margin: 0 auto;
    text-align: left;
    width: fit-content;
    list-style-position: inside;
@@ -117,13 +119,14 @@ ul, ol
 ul li, ol li
 {
     /*text-align: left; /* Prevents indentation, or wrapped lines */
+  /*
     margin: 0;
     display: list-item;
     padding-left: 0; /*bulelt point padding*/
-    
+/*    
 }
 
-
+*/
 h1
 {
     /*width: 100%;*/
