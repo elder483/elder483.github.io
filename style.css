@@ -83,11 +83,11 @@ header nav ul ul
     list-style-type:none;
     
 }
-header nav li:hover ul
+/*header nav li:hover ul
 {
     display: block;
     list-style-type:none;
-}
+}*/
 
 ul
 {
@@ -119,7 +119,6 @@ ul ul
 li:hover ul
 {
     display: grid;
-    position: relative;
     list-style-type: none;
     text-align: center; 
     padding-left: 2px;
