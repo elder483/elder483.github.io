@@ -86,6 +86,7 @@ header nav ul ul
 /*This does affect the dropdown list as well.*/
 header nav li:hover ul
 {
+    position: relative;
     display: block;
     left:0;
     list-style-type:none;
