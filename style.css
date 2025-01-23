@@ -121,6 +121,7 @@ li:hover ul
     display: grid;
     list-style-type: none;
     text-align: center; 
+    padding-right: 3px;
     left: 0;
     border: 3px solid #115F63; 
     border-radius: 5px;
