@@ -107,7 +107,7 @@ li
 ul ul 
 {
     position: absolute;
-    white-space: wrap;
+    /*white-space: wrap;*/
     display: none;
     text-align: center;
     /*left: 0;*/
@@ -120,7 +120,7 @@ li:hover ul
 {
     display: grid;
     list-style-type: none;
-    text-align: center;
+   /* text-align: center; */
     left: 0;
     border: 3px solid #115F63; 
     border-radius: 5px;
