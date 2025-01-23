@@ -46,11 +46,11 @@ a:active
 }
 
 /*This is for the Overal header*/
-/*
+
 header nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
-        /*
+        
         background-color: rgba(19,131,137,0.5);
         display: inline-block;
         border: 3px solid #115F63; 
@@ -60,13 +60,13 @@ header nav
         margin: 0;
     
 }
-*/
+
 /* This is for the links specifically. */
-/*
+
 header nav a
 {
     /*Should draw boxes around links and have a dark teal colour.*/
-       /* 
+       
         background-color:rgba(72,72,72,100);
         display: inline-block;
         border: 3px double #115F63; 
@@ -74,8 +74,8 @@ header nav a
         padding: 10px;
         margin: 30px;
    
-} */
-/*
+} 
+
 header nav ul ul
 {
     position:absolute;
