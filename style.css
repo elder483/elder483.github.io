@@ -115,11 +115,14 @@ ul ul
     z-index: 1;
 }
 
+/* This should be the hover list for our Navigation.*/
 li:hover ul
 {
     display: grid;
     list-style-type: none;
     text-align: center;
+    left: 0;
+    border-radius: 5px;
     background: rgba(19,131,137,1);
     z-index: 1;
 }
