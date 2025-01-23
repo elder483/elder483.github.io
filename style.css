@@ -117,7 +117,7 @@ ul ul
 
 li:hover ul
 {
-    display: list-item;
+    display: grid;
     list-style-type: none;
     text-align: center;
     z-index: 1;
