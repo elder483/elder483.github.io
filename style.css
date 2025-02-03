@@ -135,10 +135,9 @@ body
 {
 min-height: 100vh;
 display: flex;
-flex-grow: 1;
 flex-direction: column;
-align-items:center;
 justify-content: flex-start;
+align-items:center;
 margin: 0;
 padding: 0;
 font-family: "Noto Sans","Noto Sans Japanese";
@@ -150,30 +149,7 @@ background-color: rgba(72,72,72,100);
 Z-index: -1;    
 }
 
-/*
-ul, ol
-{ 
-   padding: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-   /*
-    margin: 0 auto;
-   text-align: left;
-   width: fit-content;
-   list-style-position: inside;
 
-}
-
-
-ul li, ol li
-{
-    /*text-align: left; /* Prevents indentation, or wrapped lines */
-  /*
-    margin: 0;
-    display: list-item;
-    padding-left: 0; /*bulelt point padding*/
-/*    
-}
-
-*/
 
 
 
@@ -261,23 +237,19 @@ h5
 
 footer {
 
-     
-        bottom: 0;
-        flex-direction: column; 
-        justify-content: flex-end;
-        align-content: flex-end;
+    
         width:100%;
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
         font-size: 20px;
         text-align: center;
         background-color: rgba(19,131,137,0.5);
-        /*display: inline-block;*/
         border: 3px solid #115F63; 
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
-        margin: 0;
-        padding: 50px;
+        padding: 50px;     
+        bottom: 0;
+        margin-top: 0;
 }
 
 
@@ -407,4 +379,29 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+*/
+
+/*
+ul, ol
+{ 
+   padding: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
+   /*
+    margin: 0 auto;
+   text-align: left;
+   width: fit-content;
+   list-style-position: inside;
+
+}
+
+
+ul li, ol li
+{
+    /*text-align: left; /* Prevents indentation, or wrapped lines */
+  /*
+    margin: 0;
+    display: list-item;
+    padding-left: 0; /*bulelt point padding*/
+/*    
+}
+
 */
