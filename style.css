@@ -260,7 +260,7 @@ h5
 footer {
 
         
-        align-items: flex-end;
+        align-content: flex-end;
         width:100%;
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
