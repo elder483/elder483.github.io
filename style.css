@@ -261,6 +261,8 @@ h5
 
 footer {
 
+        position: fixed;
+        bottom: 0;
         flex-direction: column; 
         justify-content: flex-end;
         align-content: flex-end;
