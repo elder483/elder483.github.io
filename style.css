@@ -140,7 +140,6 @@ justify-content: flex-start;
 align-items:center;
 margin: 0;
 padding: 0;
-padding-bottom: 20px;
 font-family: "Noto Sans","Noto Sans Japanese";
 font-size: 20px;
 text-align: center;
@@ -249,6 +248,7 @@ footer {
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
         padding: 50px;     
+        padding-top: 20px;
         bottom: 0;
       
 }
