@@ -260,7 +260,7 @@ h5
 footer {
 
         flex-direction: column; 
-        justify-content: flex end;
+        justify-content: flex-end;
         align-content: flex-end;
         width:100%;
         font-family: "Noto Sans","Noto Sans Japanese";
