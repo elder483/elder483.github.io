@@ -237,7 +237,7 @@ h5
 
 footer {
 
-    
+        margin-top: auto;
         width:100%;
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
@@ -249,7 +249,7 @@ footer {
         border-radius: 12px 12px 0px 0px;
         padding: 50px;     
         bottom: 0;
-        margin-top: 0;
+      
 }
 
 
