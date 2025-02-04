@@ -243,7 +243,7 @@ h5
     
 }
 
-.Mechanics li
+.Mechanics ol li
 {
     display: list-item;
     list-style: disc;
@@ -255,7 +255,7 @@ h5
 }
 
 
-#New Skills li
+#New_Skills ul li
 {
 
     display: list-item;
@@ -269,9 +269,10 @@ h5
 
 #Gallery
 {
- max-width: 100%;
- height: auto;
- border: 5px rgba(24,24,24, 0.25);
+ width: 400px;
+ height: 300px;
+ object-fit: contain;
+ border: 5px rgba(24,24,24, 0.5);
     
 }
 
