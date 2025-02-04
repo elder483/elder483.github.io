@@ -243,10 +243,10 @@ h5
     
 }
 
-.Mechanics 
+.Mechanics li
 {
     display: grid;
-    list-style-type: disc;
+    list-style: disc;
     text-align: center; 
 }
 
@@ -255,7 +255,7 @@ h5
 {
 
     display: grid;
-    list-style-type: disc;
+    list-style: disc;
     text-align: center; 
 
 }
