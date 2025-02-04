@@ -235,12 +235,40 @@ h5
     
 }
 
+/*Attempting some class interaction with AKOM*/
+
 #Portfolios
 {
     padding-bottom: 50px;
     
 }
 
+.Mechanics li
+{
+    list-style-type: bullet;
+    text-align: center; 
+}
+
+
+#New Skills li
+{
+
+    list-style-type: bullet;
+    text-align: center; 
+
+}
+
+#Gallery
+{
+ max-width: 100%;
+ height: auto;
+ border: 5px rgba(24,24,24, 0.25);
+    
+}
+
+*{
+    box-sizing: border-box;
+}
 footer {
 
         margin-top: auto;
