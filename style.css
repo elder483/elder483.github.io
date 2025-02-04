@@ -245,8 +245,9 @@ h5
 
 .Mechanics li
 {
-    display: grid;
+    display: list-item;
     list-style: disc;
+    list-style-position: outside;
     text-align: center; 
 }
 
@@ -254,8 +255,9 @@ h5
 #New Skills li
 {
 
-    display: grid;
+    display: list-item;
     list-style: disc;
+    list-style-position: outside;
     text-align: center; 
 
 }
