@@ -161,7 +161,7 @@ h1
     text-align: center;
     display: flex;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
@@ -184,7 +184,7 @@ h2
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
@@ -198,7 +198,7 @@ h3
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
@@ -212,7 +212,7 @@ h4
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
@@ -226,7 +226,7 @@ h5
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-itmes: center;
+    align-items: center;
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
@@ -245,7 +245,8 @@ h5
 
 .Mechanics li
 {
-    list-style-type: bullet;
+    display: grid;
+    list-style-type: disc;
     text-align: center; 
 }
 
@@ -253,7 +254,8 @@ h5
 #New Skills li
 {
 
-    list-style-type: bullet;
+    display: grid;
+    list-style-type: disc;
     text-align: center; 
 
 }
