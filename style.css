@@ -271,8 +271,8 @@ h5
 {
  max-width: 400px;
  height: 300px;
- object-fit: contain;
- border: 5px rgba(24,24,24, 0.5);
+ /*object-fit: contain;*/
+ border: 5px solid rgba(24,24,24, 0.5);
     
 }
 
