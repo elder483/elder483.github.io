@@ -269,7 +269,7 @@ h5
 
 #Gallery
 {
- width: 400px;
+ max-width: 400px;
  height: 300px;
  object-fit: contain;
  border: 5px rgba(24,24,24, 0.5);
