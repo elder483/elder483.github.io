@@ -19,7 +19,7 @@ ul.topnav li
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-ul.topnav, .dropbtn li a
+ul.topnav .dropbtn li a
 {
     display: block;
     color: white;
@@ -43,7 +43,7 @@ ul.topnav a.active
     background-color: #E8C900;
 }
 
-li a:hover:, dropdown:hover . dropbtn
+li a:hover: dropdown:hover . dropbtn
 {
     background-color: red;
 }
