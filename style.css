@@ -32,7 +32,7 @@ ul.topnav a.active
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-ul.topnav li a, .dropbtn
+/*ul.topnav*/ li a, .dropbtn
 {
     display: inline-block;
     color: white;
