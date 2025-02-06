@@ -68,7 +68,7 @@ header nav a
     /*Should draw boxes around links and have a dark teal colour.*/
        
         background-color:rgba(13,17,22,100);
-        display: inline-block;
+        display: inline;
         text-align: center;
         border: 3px double #115F63; 
         border-radius: 5px 12px 12px 12px;
