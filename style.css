@@ -61,8 +61,8 @@ li a:hover, .dropdown:hover .dropbtn
 {
     display: none;
     /*was absolute*/
-    position: static;
-    float: center;
+    float: left;
+    position: absolute;
     background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -82,7 +82,8 @@ li a:hover, .dropdown:hover .dropbtn
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content
-{display: block;}
+{display: block;
+ }
 
 /*This is for mobile devices and will alter the shape of our nav to suit the device.*/
 @media screen and (max-width: 600px)
