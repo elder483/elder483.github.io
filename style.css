@@ -123,7 +123,7 @@ ul ul
 li:hover ul
 {
     
-    display: block;
+    display: grid;
     list-style-type: none;
     text-align: center; 
     /*
