@@ -4,7 +4,7 @@ ul.topnav
     list-style-type: none;
     margin: 0;
     padding: 0;
-    Overflow: 0;
+    Overflow: hidden; /*was 0*/
     background-color: #333;
     
 }
@@ -45,7 +45,7 @@ ul.topnav a.active
 
 li a:hover:, dropdown:hover . dropbtn
 {
-    bacground-color: red;
+    background-color: red;
 }
 
 li.dropdown
