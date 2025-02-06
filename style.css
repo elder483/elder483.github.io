@@ -1,8 +1,8 @@
 
 ul.topnav
 {
-    list-style-type:none;
-    margin:0;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
     Overflow: 0;
     background-color: #333;
@@ -10,7 +10,7 @@ ul.topnav
 }
 
 /*This is the list position, i.e. home, games jams etc.*/
-ul.tponav li
+ul.topnav li
 {
     float: left;
     border-right: 5px solid purple;
@@ -34,15 +34,16 @@ ul.topnav li a:hover:not(.active)
 }
 
 /*This is the active page i.e. home page will be a set colour when active.*/
-ul.topnav .active
+ul.topnav a.active
 {
+      /*Mustard yellow*/
     background-color: #E8C900;
 }
 
 /*This is for mobile devices and will alter the shape of our nav to suit the device.*/
 @media screen and (max-width: 600px)
 {
-     ul.topnav li {float: none;
+     ul.topnav li {float: none;}
 }
 /*Attempting some class interaction with AKOM*/
 
