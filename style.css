@@ -122,11 +122,13 @@ ul ul
 /* This should be the hover list for our Navigation.*/
 li:hover ul
 {
-    display: grid;
+    position: absolute;
+    display: block;
     list-style-type: none;
     text-align: center; 
+    /*
     padding-left: 2px;
-    left: 0;
+    left: 0;*/
     border: 3px solid #115F63; 
     border-radius: 5px;
     background: rgba(19,131,137,1);
