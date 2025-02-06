@@ -102,7 +102,7 @@ ul
 
 li
 {
-    display: inline;
+    display: block;
     /*Originally relative.*/
     position: relative;
     
