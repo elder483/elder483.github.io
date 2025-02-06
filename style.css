@@ -46,7 +46,7 @@ ul.topnav a.active
 
 li a:hover, .dropdown:hover .dropbtn
 {
-    background-color: red;
+    background-color: rgba(22,15,56,0.5);
 }
 /*I toggled this out before shall see what happens.*/
 /*li.dropdown
