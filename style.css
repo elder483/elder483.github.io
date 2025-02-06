@@ -65,7 +65,7 @@ li.dropdown
     z-index: 1;
 }
 /*Link colours for dropdown.*/
-.dropdown-content li a
+.dropdown-content a
 {
     list-style-type: none;
     color: black;
