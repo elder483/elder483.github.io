@@ -19,9 +19,9 @@ ul.topnav li
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-ul.topnav li a /*a.dropbtn*/
+ul.topnav li a, .dropbtn /*a.dropbtn*/
 {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -43,14 +43,13 @@ ul.topnav a.active
     background-color: #E8C900;
 }
 
-li a:hover, li:hover .dropbtn
+li a:hover, .dropdown:hover .dropbtn
 {
     background-color: red;
 }
 
 li.dropdown
 {
-    position: relative;
     display: inline-block;
 }
 
@@ -76,7 +75,7 @@ li.dropdown
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
-li.dropdown:hover .dropdown-content
+.dropdown:hover .dropdown-content
 {display: block;}
 
 /*This is for mobile devices and will alter the shape of our nav to suit the device.*/
