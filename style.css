@@ -19,7 +19,7 @@ ul.topnav li
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-ul.topnav li /*a .dropbtn*/
+ul.topnav li a, /*.dropbtn*/
 {
     display: inline-block;
     color: white;
@@ -58,7 +58,8 @@ li.dropdown
 .dropdown-content
 {
     display: none;
-    position: absolute;
+    /*was absolute*/
+    position: relative;
     background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
