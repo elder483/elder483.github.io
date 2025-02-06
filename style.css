@@ -48,13 +48,13 @@ li a:hover, .dropdown:hover .dropbtn
 {
     background-color: red;
 }
-/*
+/*I toggled this out before shall see what happens.*/
 li.dropdown
 {
-    /*Was inline-block
+    /*Was inline-block*/
     display: inline-block;
 }
-*/
+
 
 /*Dropdown boxes*/
 .dropdown-content
@@ -71,8 +71,6 @@ li.dropdown
 .dropdown-content a
 {
     /*list-style-type: none;*/
-    /*There wasn't a pos before.*/
-    position: relative;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
