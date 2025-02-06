@@ -69,6 +69,7 @@ header nav a
        
         background-color:rgba(13,17,22,100);
         display: inline-block;
+        text-align: center;
         border: 3px double #115F63; 
         border-radius: 5px 12px 12px 12px;
         padding: 5px;
@@ -78,8 +79,8 @@ header nav a
 
 header nav ul ul
 {
-    position:absolute;
     display: none;
+    position:absolute;
     list-style-type:none;
     
 }
