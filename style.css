@@ -1,6 +1,4 @@
-
-
-
+/*Link styles*/
 a:link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
@@ -50,7 +48,7 @@ a:active
 header nav 
 {
     /*Should draw boxes around links and have a dark teal colour.*/
-        
+        /*This is the Jade colour for the nav bar*/
         background-color: rgba(19,131,137,0.5);
         display: block;
         border: 3px solid #115F63; 
@@ -68,7 +66,7 @@ header nav a
     /*Should draw boxes around links and have a dark teal colour.*/
        
         background-color:rgba(13,17,22,100);
-        display: block;
+        float:left;
         text-align: center;
         border: 3px double #115F63; 
         border-radius: 5px 12px 12px 12px;
@@ -299,156 +297,3 @@ footer {
       
 }
 
-
-/*
-h1::before, h1::after
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;  /* Adjust as needed to control line length */
-   /* height: 3px;  /* Thickness of the line */
-   /* background-color: #115F63;  /* Color of the line 
-}
-
-h1::before
-{
-    left:0;
-    right:50%;
-}
-
-h1:: after
-{
-    left:50%
-    right:0;
-}*/
-
-/* Font families:
-    font-weight: bold
-    font-style: italic
-    replace bold/italic with normal
-   
- Text Decorations:
-    text-decoration: underline, overline or line-through.
-    
-Text Transform:
-    text-transform: capitalize, uppercase, lowercase,none,
-    "capitalize" changes the first letter of each word to a capital.
-
-Text Spacing:
-    letter-spacing:
-    word-spacing:
-    line-height:
-    text-align:
-    text-indent:
-
-Marging/padding:
-    margin: 20px; this makes a margin affecting the outside of the element.
-    padding: 40px; this affects the inside.
-    you can alter specific sides of a margin or padding via margin-top, bottom etc. padding-to, bottom etc. 
-    
-Borders:
-    border-style: solid, dotted, dashed, double, groove, ridge, inset, outset.
-    to specify certain thickness on border elements border-left-width 20px, border-right-width 10px; 
-    border-color
-    you can do all of this in one line as border: 20px solid red; 
-
-
-body {
-    font-family: Arial, sans-serif;
-    color: red;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-/*This here is getting a specific link to have an underrline.
-a[href="https://elder483.itch.io/"]
-{
-    text-decoration: underline;
-    color: #ffe226;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-/*These are table style values
-table
-{
- width: 100%;
-margin: 0 auto; 
- border-collapse: collapse;
-}
-
-/*These are table style values
-th,td
-{
-     border: 1px solid black;
-    padding: 8px;
-    text-align: center; 
-    vertical-align: middle; 
-}
-/*These are list style values
-ul, ol
-{
- list-style-position: inside;   
-}
-
-/* Image values 
-img[src="Images/GamesJamIcon.png"]
-{
-    width: 630px; 
-    height: 500px;
-    /*padding: 10px;
-    margin: 20px;
-    border: 5px solid #280461;
-}
-
-nav a {
-    color: #fff;
-    margin: 0 1em;
-    text-decoration: none;
-}
-
-section {
-    padding: 2em;
-    text-align: center;
-    color: #00A86B;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-*/
-
-/*
-ul, ol
-{ 
-   padding: 0; /*Removes the padding fromm the left which cause bullet points to be thrown to the left side of the screen. Was 0 on first change. 20px on second*/
-   /*
-    margin: 0 auto;
-   text-align: left;
-   width: fit-content;
-   list-style-position: inside;
-
-}
-
-
-ul li, ol li
-{
-    /*text-align: left; /* Prevents indentation, or wrapped lines */
-  /*
-    margin: 0;
-    display: list-item;
-    padding-left: 0; /*bulelt point padding*/
-/*    
-}
-
-*/
