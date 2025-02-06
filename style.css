@@ -122,7 +122,7 @@ ul ul
 /* This should be the hover list for our Navigation.*/
 li:hover ul
 {
-    position: absolute;
+    
     display: block;
     list-style-type: none;
     text-align: center; 
