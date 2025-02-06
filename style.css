@@ -49,11 +49,11 @@ li a:hover, .dropdown:hover .dropbtn
     background-color: red;
 }
 /*I toggled this out before shall see what happens.*/
-li.dropdown
+/*li.dropdown
 {
-    /*Was inline-block*/
+    /*Was inline-block
     display: inline-block;
-}
+}*/
 
 
 /*Dropdown boxes*/
@@ -62,6 +62,7 @@ li.dropdown
     display: none;
     /*was absolute*/
     position: absolute;
+    float: center;
     background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
