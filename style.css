@@ -13,11 +13,13 @@ ul.topnav
 ul.topnav li
 {
     float: left;
-    border-right: 5px solid purple;
+    /*Will see about this border*/
+    /*Should be a dark purple.*/
+    border: 5px solid rgba(22,15,56,0.5);
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-ul.topnav li a
+ul.topnav, .dropbtn li a
 {
     display: block;
     color: white;
@@ -33,12 +35,48 @@ ul.topnav li a:hover:not(.active)
      background-color: #111;
 }
 
+
 /*This is the active page i.e. home page will be a set colour when active.*/
 ul.topnav a.active
 {
       /*Mustard yellow*/
     background-color: #E8C900;
 }
+
+li a:hover:, dropdown:hover . dropbtn
+{
+    bacground-color: red;
+}
+
+li.dropdown
+{
+    display: inline-block;
+}
+
+/*Dropdown boxes*/
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    z-index: 1;
+}
+/*Link colours for dropdown.*/
+.dropdown-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content
+{display:block;}
 
 /*This is for mobile devices and will alter the shape of our nav to suit the device.*/
 @media screen and (max-width: 600px)
