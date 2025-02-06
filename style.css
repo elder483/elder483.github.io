@@ -1,11 +1,12 @@
-/*Link styles*/
+/*
+/*Link styles
 a:link
 {
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
     font-size: 18px;
     text-align: center;
-    /*Mustard yellow*/
+    /*Mustard yellow
     color: #E8C900;
     text-decoration: none;
 }
@@ -16,7 +17,7 @@ a:visited
     font-size: 18px;
     font-style: bold;
     text-align: center;
-    /*Brick red*/
+    /*Brick red
     color: #CC4C4C;
      text-decoration: none;
 }
@@ -27,7 +28,7 @@ a:hover
     font-size: 18px;
     font-style: bold;
     text-align: center;
-    /*Purple*/
+    /*Purple
     color: #6C2AA6;    
      text-decoration: none;
 }
@@ -38,17 +39,17 @@ a:active
     font-size: 18px;
     font-style: bold;
     text-align: center;
-    /*Neon Pink*/
+    /*Neon Pink
     color: #DB03CA;    
     text-decoration: none;
 }
 
-/*This is for the Overal header*/
+/*This is for the Overal header
 
 header nav 
 {
-    /*Should draw boxes around links and have a dark teal colour.*/
-        /*This is the Jade colour for the nav bar*/
+    /*Should draw boxes around links and have a dark teal colour.
+        /*This is the Jade colour for the nav bar
         background-color: rgba(19,131,137,0.5);
         display: block;
         border: 3px solid #115F63; 
@@ -59,11 +60,11 @@ header nav
     
 }
 
-/* This is for the links specifically. */
+/* This is for the links specifically. 
 
 header nav a
 {
-    /*Should draw boxes around links and have a dark teal colour.*/
+    /*Should draw boxes around links and have a dark teal colour.
        
         background-color:rgba(13,17,22,100);
         float:left;
@@ -82,26 +83,26 @@ header nav ul ul
     list-style-type:none;
     
 }
-/*This does affect the dropdown list as well.*/
+/*This does affect the dropdown list as well.
 header nav li:hover ul
 {
     
     display: inline-block;
     /*left:0;
-    list-style-type:none;*/
+    list-style-type:none;
 }
 
 ul
 {
     padding: 0;
     margin: 0;
-    /*background: rgba(19,131,137,0.5);*/
+    /*background: rgba(19,131,137,0.5);
 }
 
 li
 {
     display: block;
-    /*Originally relative.*/
+    /*Originally relative.
     position: relative;
     
 }
@@ -109,15 +110,15 @@ li
 ul ul 
 {
     position: absolute;
-    /*white-space: wrap;*/
+    /*white-space: wrap;
     display: none;
     text-align: center;
-    /*left: 0;*/
+    /*left: 0;
     top: 100%;
     z-index: 1;
 }
 
-/* This should be the hover list for our Navigation.*/
+/* This should be the hover list for our Navigation.
 li:hover ul
 {
     
@@ -126,7 +127,7 @@ li:hover ul
     text-align: center; 
     /*
     padding-left: 2px;
-    left: 0;*/
+    left: 0;
     border: 3px solid #115F63; 
     border-radius: 5px;
     background: rgba(19,131,137,1);
@@ -137,7 +138,7 @@ body
 min-height: 100vh;
 display: flex;
 flex-direction: column;
-    /*Justify content was felx-start*/
+    /*Justify content was felx-start*
 justify-content: center;
 align-items: center;
 margin: 0;
@@ -146,7 +147,7 @@ font-family: "Noto Sans","Noto Sans Japanese";
 font-size: 20px;
 text-align: center;
 color: white;   
-    /*Should be code Navy blue,  old was Charcoal 72,72,72/grey*/
+    /*Should be code Navy blue,  old was Charcoal 72,72,72/grey*
 background-color: rgba(13,17,22,100);
 /*Z-index: -1;*/    
 }
@@ -157,7 +158,7 @@ background-color: rgba(13,17,22,100);
 
 h1
 {
-    /*width: 100%;*/
+    /*width: 100%;*
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -169,14 +170,14 @@ h1
     font-size: 30px;
     border: 3px solid #115F63;
     color: white;
-   /*Should be Teal*/
+   /*Should be Teal*
     margin: 0;
     padding: 50px;
     /*
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
     border-bottom-color: #115F63;
-    */
+    *
     background-color: rgba(19,131,137,0.5);
 }
 
