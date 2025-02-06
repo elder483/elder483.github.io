@@ -1,5 +1,5 @@
 
-ul
+ul.topnav
 {
     list-style-type:none;
     margin:0;
@@ -10,14 +10,14 @@ ul
 }
 
 /*This is the list position, i.e. home, games jams etc.*/
-li
+ul.tponav li
 {
     float: left;
     border-right: 5px solid purple;
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-li a
+ul.topnav li a
 {
     display: block;
     color: white;
@@ -28,17 +28,22 @@ li a
 }
 
 /*This is the default list when you hover over it, it will change the BG colour i.e. gamesjams*/
-li a:hover:not(.active)
+ul.topnav li a:hover:not(.active)
 {
      background-color: #111;
 }
 
 /*This is the active page i.e. home page will be a set colour when active.*/
-.active
+ul.topnav .active
 {
     background-color: #E8C900;
 }
 
+/*This is for mobile devices and will alter the shape of our nav to suit the device.*/
+@media screen and (max-width: 600px)
+{
+     ul.topnav li {float: none;
+}
 /*Attempting some class interaction with AKOM*/
 
 #Portfolios
