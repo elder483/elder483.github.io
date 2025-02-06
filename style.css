@@ -71,7 +71,9 @@ li.dropdown
 .dropdown-content a
 {
     /*list-style-type: none;*/
-    color: black;
+    /*There wasn't a pos before.*/
+    position: relative;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
