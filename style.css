@@ -27,9 +27,15 @@ li a
 }
 
 /*This is the default list when you hover over it, it will change the BG colour i.e. gamesjams*/
-li a:hover
+li a:hover:not(.active)
 {
      background-color: #111;
+}
+
+/*This is the active page i.e. home page will be a set colour when active.*/
+.active
+{
+    background-color: #E8C900;
 }
 
 /*Attempting some class interaction with AKOM*/
