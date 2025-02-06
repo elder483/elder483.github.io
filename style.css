@@ -1,3 +1,97 @@
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    Overflow: 0;
+    background-color: #333;
+    
+}
+
+/*This is the list position, i.e. home, games jams etc.*/
+li
+{
+    float: left;
+}
+
+/*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /*background-color: rgba(72,72,72,1);*/
+}
+
+/*This is the default list when you hover over it, it will change the BG colour i.e. gamesjams*/
+li a:hover
+{
+     background-color: #111;
+}
+
+/*Attempting some class interaction with AKOM*/
+
+#Portfolios
+{
+    padding-bottom: 50px;
+    
+}
+
+.Mechanics ol li
+{
+    display: list-item;
+    list-style: disc;
+    list-style-position: outside;
+    text-align: left; 
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+}
+
+
+#New_Skills ul li
+{
+
+    display: list-item;
+    list-style: disc;
+    list-style-position: outside;
+    text-align: left; 
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+}
+
+#Gallery img
+{
+ max-width: 400px;
+ height: 300px;
+ /*object-fit: contain;*/
+ border: 5px solid rgba(24,24,24, 0.5);
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+footer {
+
+        margin-top: auto;
+        width:100%;
+        font-family: "Noto Sans","Noto Sans Japanese";
+        font-style: bold;
+        font-size: 20px;
+        text-align: center;
+        background-color: rgba(19,131,137,0.5);
+        border: 3px solid #115F63; 
+        border-bottom: none;
+        border-radius: 12px 12px 0px 0px;
+        padding: 50px;     
+        bottom: 0;
+      
+}
 /*
 /*Link styles
 a:link
@@ -238,88 +332,3 @@ h5
 }
 */
 /*This is the Navigation list to begin with.*/
-ul
-{
-    list-style-type:none;
-    margin:0;
-    padding: 0;
-    Overflow: 0;
-    
-}
-
-/*This is the list position, i.e. home, games jams etc.*/
-li
-{
-    float: left;
-}
-
-/*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
-li a
-{
-    display: block;
-    padding: 8px;
-    background-color: rgba(72,72,72,1);
-}
-
-
-/*Attempting some class interaction with AKOM*/
-
-#Portfolios
-{
-    padding-bottom: 50px;
-    
-}
-
-.Mechanics ol li
-{
-    display: list-item;
-    list-style: disc;
-    list-style-position: outside;
-    text-align: left; 
-    margin: 0;
-    padding: 5px;
-    justify-content: center;
-}
-
-
-#New_Skills ul li
-{
-
-    display: list-item;
-    list-style: disc;
-    list-style-position: outside;
-    text-align: left; 
-    margin: 0;
-    padding: 5px;
-    justify-content: center;
-}
-
-#Gallery img
-{
- max-width: 400px;
- height: 300px;
- /*object-fit: contain;*/
- border: 5px solid rgba(24,24,24, 0.5);
-    
-}
-
-*{
-    box-sizing: border-box;
-}
-footer {
-
-        margin-top: auto;
-        width:100%;
-        font-family: "Noto Sans","Noto Sans Japanese";
-        font-style: bold;
-        font-size: 20px;
-        text-align: center;
-        background-color: rgba(19,131,137,0.5);
-        border: 3px solid #115F63; 
-        border-bottom: none;
-        border-radius: 12px 12px 0px 0px;
-        padding: 50px;     
-        bottom: 0;
-      
-}
-
