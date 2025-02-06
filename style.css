@@ -13,6 +13,7 @@ ul
 li
 {
     float: left;
+    border-right: 5px solid purple;
 }
 
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
