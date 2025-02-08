@@ -223,7 +223,10 @@ h5
     
 }
 
-div.gallery {border: 5px solid rgba(24,24,24, 0.5); }
+/*Gallery May need to adjust this for AKOM and other games colour palettes*/
+
+/*AKOM Pink colour for border images. Will need to change this per game.*/
+div.gallery {border: 5px solid rgba(212,14,75, 0.5); }
 
 div.gallery:hover {border: 5px solid #E8C900;}
 
