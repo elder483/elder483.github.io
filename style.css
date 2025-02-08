@@ -96,12 +96,6 @@ li a:hover, .dropdown:hover .dropbtn
 }
 /*Attempting some class interaction with AKOM*/
 
-#Portfolios
-{
-    padding-bottom: 50px;
-    
-}
-
 .Mechanics ol li
 {
     display: list-item;
@@ -127,55 +121,6 @@ li a:hover, .dropdown:hover .dropbtn
 }
 
 
-div.gallery {border: 5px solid rgba(24,24,24, 0.5); }
-
-div.gallery:hover {border: 5px solid #E8C900;}
-
-div.gallery img
-{
- width: 100%;
- height: auto;
-}
-
-div.desc
-{
-  padding: 15px;
-  text-align: center;  
-}
-
-*{
-    box-sizing: border-box;
-}
-
-.responsive
-{
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px)
-{.responsive
- {
-    width: 49.99999%;
-    margin: 6px 0;
- }
-}
-@media only screen and (max-width: 500px)
-{.responsive
- {
-    width: 100%;
- }
-}
-
-.clearfix:after
-{
-    content:"";
-    display: table;
-    clear: both;
-}
-
-
 body
 {
 min-height: 100vh;
@@ -194,8 +139,6 @@ color: white;
 background-color: rgba(13,17,22,100);
 /*Z-index: -1;*/  
 }
-
-
 
 
 
@@ -280,6 +223,59 @@ h5
     
 }
 
+div.gallery {border: 5px solid rgba(24,24,24, 0.5); }
+
+div.gallery:hover {border: 5px solid #E8C900;}
+
+div.gallery img
+{
+ width: 100%;
+ height: auto;
+}
+
+div.desc
+{
+  padding: 15px;
+  text-align: center;  
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.responsive
+{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px)
+{.responsive
+ {
+    width: 49.99999%;
+    margin: 6px 0;
+ }
+}
+@media only screen and (max-width: 500px)
+{.responsive
+ {
+    width: 100%;
+ }
+}
+
+.clearfix:after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+#Portfolios
+{
+    padding-bottom: 50px;
+    
+}
 footer {
 
         margin-top: auto;
