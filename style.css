@@ -229,7 +229,7 @@ h5
 div.gallery {border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);
             }
 
-div.gallery:hover {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 6px rgba(255,253,154,0.5);
+div.gallery:hover {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 6px 6px 6px 6px rgba(255,253,154,0.5);
                    }
 
 div.gallery img
