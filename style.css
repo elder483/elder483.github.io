@@ -7,7 +7,7 @@ ul.topnav
     list-style-type: none;
     margin: 0;
     padding: 0;
-    Overflow: clip; /*was hidden but it stops the sticky from working allegedly*/
+    Overflow: hidden; /*was hidden but it stops the sticky from working allegedly*/
     background-color: #333;
     
 }
@@ -98,7 +98,7 @@ li a:hover, .dropdown:hover .dropbtn
      ul.topnav li {float: none;}
 }
 
-/*Aside section used for quick navigation in a web page.*/
+/*Aside section used for quick navigation in a web page.
 .aside
 {
   position: sticky;
@@ -114,7 +114,7 @@ li a:hover, .dropdown:hover .dropbtn
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 }
-
+*/
 /*Attempting some class interaction with AKOM*/
 
 .mechanics ol li
