@@ -104,7 +104,8 @@ li a:hover, .dropdown:hover .dropbtn
   position: sticky;
   top: 10px;
   right: 10px;
-  display: block; /*was grid*/  
+  float: right;
+  display: grid; /*was grid*/  
   background-color: #33b5e5;
   padding: 15px;
   color: #ffffff;
