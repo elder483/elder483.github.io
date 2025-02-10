@@ -7,7 +7,7 @@ ul.topnav
     list-style-type: none;
     margin: 0;
     padding: 0;
-    Overflow: hidden; /*was 0*/
+    Overflow: clip; /*was hidden but it stops the sticky from working allegedly*/
     background-color: #333;
     
 }
@@ -102,7 +102,7 @@ li a:hover, .dropdown:hover .dropbtn
 .aside
 {
   position: sticky;
-  right: 1;
+  right: 0;
   float: right;
   display: grid;  
   align-items: start;
