@@ -5,7 +5,8 @@
 h1
 {
     width: 100%;
-    margin: 0;/*
+    margin: 0;
+    padding: 50px;/*
     text-decoration: none;
     text-align: center;
   /*  display: flex;
@@ -19,7 +20,7 @@ h1
     color: white;
    /*Should be Teal
   
-    padding: 50px;
+    
     /*
     border-bottom-style: solid;
     border-bottom-width: 0.5em; 
