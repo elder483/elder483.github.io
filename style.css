@@ -111,6 +111,20 @@ li a:hover, .dropdown:hover .dropbtn
     float: left;
     padding: 15px
 }
+
+
+/*Aside section used for quick navigation in a web page.*/
+.aside
+{
+  position: sticky;
+  display: grid;
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 /*Grid website design attempt*/
 /*For mobile phones */
 [class*="col-"]{width: 100%}
@@ -131,20 +145,6 @@ li a:hover, .dropdown:hover .dropbtn
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
-/*Aside section used for quick navigation in a web page.*/
-.aside
-{
-  position: sticky;
-  display: grid;
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
 /*Attempting some class interaction with AKOM*/
 
 .mechanics ol li
