@@ -169,10 +169,10 @@ h1
     width: 100%;
     text-decoration: none;
     text-align: center;
-    display: flex;
+  /*  display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    align-items: center; 
+    position: relative;*/
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
     font-size: 30px;
