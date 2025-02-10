@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+h1
+{
+    width: 100%;
+    margin: 0;/*
+    text-decoration: none;
+    text-align: center;
+  /*  display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    font-family: "Noto Sans","Noto Sans Japanese";
+    font-style: bold;
+    font-size: 30px;
+    border: 3px solid #115F63;
+    color: white;
+   /*Should be Teal
+  
+    padding: 50px;
+    /*
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em; 
+    border-bottom-color: #115F63;
+ */   
+    background-color: rgba(19,131,137,0.5);
+}
+
 ul.topnav
 {
     list-style-type: none;
@@ -143,31 +169,7 @@ li a:hover, .dropdown:hover .dropbtn
 }
 
 
-h1
-{
-    width: 100%;
-    margin: 0;/*
-    text-decoration: none;
-    text-align: center;
-  /*  display: flex;
-    justify-content: center;
-    align-items: center; 
-    position: relative;
-    font-family: "Noto Sans","Noto Sans Japanese";
-    font-style: bold;
-    font-size: 30px;
-    border: 3px solid #115F63;
-    color: white;
-   /*Should be Teal
-  
-    padding: 50px;
-    /*
-    border-bottom-style: solid;
-    border-bottom-width: 0.5em; 
-    border-bottom-color: #115F63;
- */   
-    background-color: rgba(19,131,137,0.5);
-}
+
 
 body
 {
