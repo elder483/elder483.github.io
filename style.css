@@ -108,7 +108,7 @@ li a:hover, .dropdown:hover .dropbtn
 /*Grid style website design.*/
 [class*="col-"]
 {
-    float: left;
+    float: none;
     padding: 15px
 }
 
@@ -117,6 +117,8 @@ li a:hover, .dropdown:hover .dropbtn
 .aside
 {
   position: sticky;
+  right: 0;
+  float: right;
   display: grid;
   background-color: #33b5e5;
   padding: 15px;
