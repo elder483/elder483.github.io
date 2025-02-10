@@ -116,8 +116,6 @@ li a:hover, .dropdown:hover .dropbtn
 .aside
 {
   position: sticky;
-  left: 0;
-  float: right;
   display: grid;
   background-color: #33b5e5;
   padding: 15px;
