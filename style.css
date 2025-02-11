@@ -275,8 +275,8 @@ div.desc
   padding: 15px;
   text-align: center;  
 }
-/*
-div.gallery, div.gif, div.video, .responsive
+
+div.gallery .responsive
 {
     padding: 6px 6px;
     float: left;
