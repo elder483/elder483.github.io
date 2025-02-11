@@ -254,9 +254,9 @@ h5
 /*Gallery May need to adjust this for AKOM and other games colour palettes*/
 
 /*AKOM Pink colour for border images. Will need to change this per game. USE CSS Variables for this*/
-.gallery, .gif, .video, {border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
+div.gallery, div.gif, div.video, {border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
-.gallery:hover ,.gif:hover  ,.video:hover {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
+div.gallery:hover ,div.gif:hover  ,div.video:hover {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
 
 div.gallery img
 {
