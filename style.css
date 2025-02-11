@@ -256,10 +256,12 @@ h5
 
 /*AKOM Pink colour for border images. Will need to change this per game. USE CSS Variables for this*/
 div.gif, div.video, div.gallery {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    max-width: 100%;
+    width:100%;
+    /*width: fit-content;*/
     margin: auto;
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
