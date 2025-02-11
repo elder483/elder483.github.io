@@ -277,7 +277,7 @@ div.desc
   text-align: center;  
 }
 
-div.gallery, .responsive
+.responsive
 {
     padding: 6px 6px;
     float: left;
