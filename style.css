@@ -265,12 +265,12 @@ div.gallery img
  height: auto;
 }
 
-/* div.gif, div.video
+div.gif, div.video
 {
     width:100%;
     height:auto;
 }
-*/
+
 div.desc
 {
   padding: 15px;
