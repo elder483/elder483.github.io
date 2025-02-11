@@ -359,12 +359,12 @@ div.desc
  }
 }
 
-#responsibilities
+#responsibilities ul ol li
 {
     list-style-type: none;
 }
 
-#portfolios
+#portfolios ul ol li
 {
     padding-bottom: 50px;
     list-style-type: none;
