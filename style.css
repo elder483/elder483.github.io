@@ -270,10 +270,17 @@ div.desc
   text-align: center;  
 }
 
-.responsive
+div.gallery, .responsive
 {
     padding: 6px 6px;
     float: left;
+    width: 24.99999%;
+}
+
+div. gif, div.video .responsive
+{
+    padding: 6px 6px;
+    float: none;
     width: 24.99999%;
 }
 
