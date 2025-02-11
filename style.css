@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
 
 h1
 {
@@ -259,9 +255,9 @@ h5
 /*Gallery May need to adjust this for AKOM and other games colour palettes*/
 
 /*AKOM Pink colour for border images. Will need to change this per game. USE CSS Variables for this*/
-div.gallery, div.gif, div.video {border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
+div.gallery /*div.gif, div.video*/ {border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
-div.gallery:hover ,div.gif:hover  ,div.video:hover {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
+div.gallery:hover /*,div.gif:hover  ,div.video:hover*/ {border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
 
 div.gallery img
 {
@@ -269,12 +265,12 @@ div.gallery img
  height: auto;
 }
 
- div.gif, div.video
+/* div.gif, div.video
 {
     width:100%;
     height:auto;
 }
-
+*/
 div.desc
 {
   padding: 15px;
@@ -321,42 +317,6 @@ div.gallery, .responsive
     content:"";
     display: table;
     clear: both;
-}
-* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
 }
 
 footer {
