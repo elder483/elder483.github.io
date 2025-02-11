@@ -267,8 +267,11 @@ div.gallery img
 
 div.gif, div.video
 {
-    width:auto;
+    display: block;
+    max-width: 100%;
+    width:100%;
     height:auto;
+    margin:0;
 }
 
 div.desc
