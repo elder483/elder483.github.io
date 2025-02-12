@@ -243,8 +243,7 @@ h4
   #coinopcapitalTitle h4
     {
          -webkit-text-stroke-width: 1px;
-         -webkit-text-stroke-color: white;
-         color: rgb(255,25,175);
+         -webkit-text-stroke-color: rgb(255,25,175);
          text-shadow: 3px 4px 4px rgba(255,25,175,0.75);
     }
 
