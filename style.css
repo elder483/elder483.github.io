@@ -295,6 +295,13 @@ h4
          text-shadow: 4px 4px 4px rgba(222,121,0,0.75);
 }
 
+#rd2Title h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(255,0,221);
+         text-shadow: 4px 4px 4px rgba(255,0,221,0.75);
+}
+
 div.projectMargin
 {
     margin-bottom: 100px;
