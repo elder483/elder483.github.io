@@ -246,6 +246,54 @@ h4
          -webkit-text-stroke-color: rgb(255,25,175);
          text-shadow: 4px 4px 4px rgba(255,25,175,0.75);
     }
+#hauntedHelperTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(56,234,230);
+         text-shadow: 4px 4px 4px rgba(56,234,230,0.75);
+}
+
+#quantumAxleTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(65,30,255);
+         text-shadow: 4px 4px 4px rgba(65,30,255,0.75);
+}
+
+#doomedFluxTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(173,9,57);
+         text-shadow: 4px 4px 4px rgba(173,9,57,0.75);
+}
+
+#staticTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(24,245,255);
+         text-shadow: 4px 4px 4px rgba(24,245,255,0.75);
+}
+
+#aKOMTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(237,34,100);
+         text-shadow: 4px 4px 4px rgba(237,34,100,0.75);
+}
+
+#remTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(241,172,55);
+         text-shadow: 4px 4px 4px rgba(241,172,55,0.75);
+}
+
+#fotpTitle h4
+ {
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgb(222,121,0);
+         text-shadow: 4px 4px 4px rgba(222,121,0,0.75);
+}
 
 div.projectMargin
 {
