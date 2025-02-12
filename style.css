@@ -238,7 +238,7 @@ h4
     font-style: bold;
     font-size: 35px;
     color: white;
-    #coinopcapitalTitle
+    #coinopcapitalTitle h4
     {
         color: rgba(255,25,175,1);
     }
