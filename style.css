@@ -238,7 +238,15 @@ h4
     font-style: bold;
     font-size: 35px;
     color: white;
-    
+    #coinopcapitalTitle
+    {
+        color: rgba(255,25,175,1);
+    }
+}
+
+div.projectMargin
+{
+    margin-bottom: 100px;
 }
 
 h5
