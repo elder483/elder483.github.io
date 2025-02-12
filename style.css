@@ -284,8 +284,8 @@ h4
 #remTitle h4
  {
          -webkit-text-stroke-width: 1px;
-         -webkit-text-stroke-color: rgb(241,172,55);
-         text-shadow: 4px 4px 4px rgba(241,172,55,0.75);
+         -webkit-text-stroke-color: rgb(147,79,233);
+         text-shadow: 4px 4px 4px rgba(147,79,233,0.75);
 }
 
 #fotpTitle h4
