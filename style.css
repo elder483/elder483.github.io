@@ -319,8 +319,8 @@ h4
 #sakuraCellTitle h4
  {
          -webkit-text-stroke-width: 1px;
-         -webkit-text-stroke-color: rgb(250,199,211);
-         text-shadow: 4px 4px 4px rgba(250,199,211,0.75);
+         -webkit-text-stroke-color: rgb(255,105,150);
+         text-shadow: 4px 4px 4px rgba(255,105,150,0.75);
 }
 #robotTitle h4
  {
