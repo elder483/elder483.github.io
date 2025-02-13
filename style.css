@@ -31,11 +31,6 @@ h1
    
 }
 
-.rd2 h1, .rd2 footer
-{
-     background-color: rgba(255,0,221,0.5) !important;
-     border: 3px solid rgb(57,21,93) !important;
-}
 
 ul.topnav
 {
@@ -499,6 +494,12 @@ footer {
         bottom: 0;
 }
 
+/*RD2 page changes.*/
+.rd2 h1, .rd2 footer
+{
+     background-color: rgba(255,0,221,0.5) !important;
+     border: 3px solid rgb(57,21,93) !important;
+}
 
 /*
 /*Link styles
