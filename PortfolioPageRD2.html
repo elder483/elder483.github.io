@@ -21,32 +21,213 @@
 <!--Overview section-->
     <section>
 <h2>Overview</h2>
-      <p>This is my first professional project in the games industry. This is still a work in progress, and is currently waiting for more funding before it can be continued.</p> 
-         <p>This showcases 8 months of  the teams work, with all the game design, blueprint functionality including,  the player (car), waypoints, number plate changing to correspond with the drivers action, as well as level structure.</p>
-        <p> I also had  weekly meetings with another member and mentor to discuss the game design for the project as well as the projects progression.  </p>
-        <p>The team would have regular playtest sessions, and the feedback on the car would be reworked and tweaked as necessary. Compared to the UE5 default Chaos vehicle, a lot of changes were implemented to get it to play as it does in this build.</p>
+      <p>This is my first professional project in the games industry.</p> 
+      <p>This showcases 8 months of my work for the project.</p>
+      <p>The team would have regular playtest sessions, and the feedback on the car would be reworked and tweaked as necessary. Compared to the UE5 default Chaos vehicle, a lot of changes were implemented to get it to play as it does in this build.</p>
     </section>
-    <!--Responsibilities section-->
+
     <section>
-      <h2>Responsibilities</h2>
+      <!--Problems and soultions section-->
+    <h2>Problems and Solutions</h2>
+      <h5>The Car</h5>
+    <ul>
+    <li>The main problem was how to adapt Unreal Engine 5's Chaos vehicle system designed for realistic cars to create an arcade car.</li>
+    <li>The team wanted to craft an open world driving experience similar to the games 'Need for Speed Most Wanted' and 'Burnout'.</li>
+    <li>Researching and playing these games, I decided on some mechanics to utilise and tweaked the cars parameters to get it closer to the teams goal.</li>
+    <li>The car needed to have abilities or functions player's of racing/driving games have come to expect such as a boost and a drift, this lead to the next issue how should the player get access to these mechanics (default or unlockable).</li>
+    <li>The team wanted to include narrative that the car had an AI inside it. I decided how could I utilise this idea into being both enjoyable for the player and helpful?</li>
+    <li>I created two UI elements one for the numberplate and an emoticon which appears on the back of the car, both of these will display different properties based on the player's actions.</li>
+    <li>Added additional sounds and effects to help give the AI personality.</li>
+    <li>The sense of speed was another issue that needed to be addressed in conjunction with the AI, I decided on having a spoiler animate when the player reaches a certain speed, this allowed the player to have a visual que on their actions.</li>
+    </ul>
+      <h5>Story and Level Structure.</h5>
       <ul>
-          <li>Designed the mechanics of the car and provided balancing throughout development using Unreal Engine 5’s Chaos vehicle system. </li>
-          <li>UI/UX implementation including the numberplate and car’s emoji. This provided player feedback based on their actions.  </li>
-          <li>Designing level flow and missions. </li>
-          <li>Designed elements that would add to and make a diverse driving experience, such as ramps, and elevations. </li>
-          <li>Creating and distributing builds. </li>
-          <li>Transferring data using the game instance to allow level progression to work correctly. </li>
-          <li>Source control. </li>
-          <li> Optimising the game, draw calls, data layers, material, lighting and VFX optimisation.</li>
-          <li>Provided assistance to colleagues, which includes teaching them about Unreal Engine, implementing audio and dialogue. </li>
-          <li> Meetings with colleagues which included playtesting sessions, current progress, the next week’s objectives, monthly milestones and more.</li>
-          <li>Monthly video recorded documentation. </li>
-          <li>Research for plugins and implementation. </li>
-      </ul>
+    <li>The team also wanted to embed a story that when the player cleared certain missions and objectives the world would change.</li>
+    <li>I had to create a scenario that would fit the intended goals of the team, but also be enjoyable for the player.</li>
+    <li>I needed to create a scenario where the player would immidiately be driving and have something to accomplish and give them enough space and environmental set pieces to gaze apon as they made their way to the city.</li>
+    <li>The next problem was getting something to occur in the main world by doing something in another level.</li>
+    <li>This lead to new sections of the world map unlocking by completing other objectives such as races. The primary target for the demo was to have a bridge appear after winning a race in the past.</li>
+    </ul>
     </section>
-<!--Story section-->
+
+    <!--Gallery section-->
+    <section> 
+     <h2>Gallery</h2>
+      <h3>Images</h3>
+      <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2Horizon.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2Horizon.jpg" width="400px" height= "300px" alt="RD2 Project Thumbnail">
+          </a>
+          <div class="desc">A promotional shot of the car, mountains and the city on the horizon.</div>
+        </div>
+      </div>
+
+       <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2MainMenu.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2MainMenu.jpg" width="400px" height= "300px"alt="RD2 MainMenu">
+            </a>
+          <div class="desc">The games main menu screen.</div>
+        </div>
+      </div>
+
+        <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2Drifting.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2Drifting.jpg"width="400px" height= "300px" alt="RD2 Drifting">
+                </a>
+          <div class="desc">The car performing the drift. With the player's first objective to reach the blue beacons.</div>
+        </div>
+      </div>
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2Tunnel.jpg">
+        <img  loading="lazy"src="Images/Retrodrive2_Content/Images/RD2Tunnel.jpg" width="400px" height= "300px"alt="RD2 Tunnel">
+              </a>
+          <div class="desc">The car driving through the tunnel on route to the city.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2TunnelExit.jpg">
+        <img  loading="lazy" src="Images/Retrodrive2_Content/Images/RD2TunnelExit.jpg"width="400px" height= "300px" alt="RD2 Tunnel Exit">
+              </a>
+          <div class="desc">The car entering the city.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2RedBeacon.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2RedBeacon.jpg" width="400px" height= "300px"alt="RD2 Red Beacon">
+              </a>
+          <div class="desc">The Player's second objective to reach the Red beacon objectives.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2GreenBeacon.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2GreenBeacon.jpg" width="400px" height= "300px"alt="RD2 Green Beacon">
+              </a>
+          <div class="desc">The player's third objective and trial reaching the Green beacons.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2PastArrival.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2PastArrival.jpg" width="400px" height= "300px"alt="RD2 Past Arrival">
+              </a>
+          <div class="desc">The player arrives in the past.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2PastOverview.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2PastOverview.jpg" width="400px" height= "300px"alt="RD2 Past Arrival Overview">
+              </a>
+          <div class="desc">An in engine shot of the past.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2Datalayers.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2Datalayers.jpg" width="400px" height= "300px"alt="RD2 Datalayers">
+              </a>
+          <div class="desc">Showcasing data layers.</div>
+        </div>
+      </div>
+
+             <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/Retrodrive2_Content/Images/RD2Datalayers2.jpg">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Images/RD2Datalayers2.jpg"width="400px" height= "300px" alt="RD2 Datalayers 2">
+              </a>
+          <div class="desc">A screenshot of the base reality the main map.</div>
+        </div>
+      </div>
+      <div class = "clearfix"></div>
+      
+      <h3>Gifs</h3>
+      <div class = "responsive">
+        <div class = "gif">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Gifs/RD2_Driving.gif" alt="RD2 Driving">
+      </div>
+    </div>
+      <div class = "responsive">
+        <div class = "gif">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Gifs/RD2_Drifting.gif" alt="RD2 Drifting">  
+          </div>
+        </div>
+      <div class = "responsive">
+        <div class = "gif">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Gifs/RD2_Boost.gif" alt="RD2 Boost">
+          </div>
+        </div>
+      <div class = "responsive">
+        <div class = "gif">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Gifs/RD2_Recharge.gif" alt="RD2 Recharge">
+          </div>
+        </div>
+      <div class = "responsive">
+        <div class = "gif">
+        <img loading="lazy" src="Images/Retrodrive2_Content/Gifs/RD2_Brake.gif" alt="RD2 Brake">
+          </div>
+        </div>
+      
+      
+      <h3>Videos</h3>
+        <h4>Mechanics Overview Trailer</h4>
+        <div class = "responsive">
+        <div class = "video">
+          <iframe loading="lazy" width="560" height="315"
+            src="https://www.youtube.com/embed/Qhwgooed3Oc?si=wrTYKdhqWQk_5vt-" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+                     </div>
+        </div>
+        <h4>Mission Overview Trailer</h4>
+        <div class = "responsive">
+        <div class = "video">
+          <iframe loading="lazy" width="560" height="315"
+            src="https://www.youtube.com/embed/bht4d0vp9UY?si=I-ijEU4L8_ZblhLr"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+         </div>
+        </div>
+        <h4>Full Playthrough</h4>
+            <div class = "responsive">
+        <div class = "video">
+          <iframe loading="lazy" width="560" height="315"
+             src="https://www.youtube.com/embed/u607DydkBK8?si=NiB6u1lmP1iTjtsm" title="YouTube video player"
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+              </div>
+        </div>
+      
+        <h4>Monthly Progress Videos</h4>
+            <div class = "responsive">
+        <div class = "video">
+          <iframe loading="lazy" width="560" height="315" 
+            src="https://www.youtube.com/embed/rXa0HekV23M?si=Lq2ipAOhBqtdAv00" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+                  </div>
+        </div>
+    </section>
+
+    <!--Story section-->
     <section>
       <h2>Synopsis/Demo</h2>
+         
+      <h3>Download Demo</h3>
+      
+      <a href="https://elder483.itch.io/retrodrive-2">Itch.Io page to download demo</a>
       
       <p>In this build the player has to navigate the mountain into the main city, collecting the blue beacons/waypoints as a guide. </p>
       <p>After this a set of red beacons will appear, same principle. Once the player collects the final one, they are ambushed by the police.</p>
@@ -56,6 +237,27 @@
       <p>After this the player is then teleported to the past, here the player must complete the race doing so will cause a change in the main city of the distant future, allowing the player to proceed.</p>
       
     </section>
+
+      <!--Responsibilities section-->
+    <section>
+      <h2>Responsibilities</h2>
+      <ul>
+          <li>Designed the mechanics of the car and provided balancing throughout development using Unreal Engine 5’s Chaos vehicle system.</li>
+          <li>UI/UX implementation including the numberplate and car’s emoji. This provided player feedback based on their actions.  </li>
+          <li>Designing level flow and missions. </li>
+          <li>Designed elements that would add to and make a diverse driving experience, such as ramps, and elevations. </li>
+          <li>Creating and distributing builds. </li>
+          <li>Transferring data using the game instance to allow level progression to work correctly. </li>
+          <li>Source control.</li>
+          <li>Optimising the game, draw calls, data layers, material, lighting and VFX optimisation.</li>
+          <li>Provided assistance to colleagues, which includes teaching them about Unreal Engine, implementing audio and dialogue. </li>
+          <li>Meetings with a game design mentor to discuss the game design for the project alongside it's projects progression.</li>
+          <li>Meetings with colleagues which included playtesting sessions,current progress, the next week’s objectives, monthly milestones and more.</li>
+          <li>Monthly video recorded documentation. </li>
+          <li>Research for plugins and implementation. </li>
+      </ul>
+    </section>
+
 <!--Skills developed section-->
     <section>
       <h2>New Skills Developed</h2>
@@ -68,63 +270,8 @@
         <li>nanite mesh reduction.</li>
       </ul>
     </section>
-
-    <!--Gallery section-->
-    <section> 
-     <h2>Gallery</h2>
-      <h3>Images</h3>
-        <img src="Images/Retrodrive2_Content/Images/RD2Horizon.jpg" alt="RD2 Project Thumbnail">
-        <img src="Images/Retrodrive2_Content/Images/RD2MainMenu.jpg" alt="RD2 MainMenu">
-        <img src="Images/Retrodrive2_Content/Images/RD2Drifting.jpg" alt="RD2 Drifting">
-        <img src="Images/Retrodrive2_Content/Images/RD2Tunnel.jpg" alt="RD2 Tunnel">
-        <img src="Images/Retrodrive2_Content/Images/RD2TunnelExit.jpg" alt="RD2 Tunnel Exit">
-        <img src="Images/Retrodrive2_Content/Images/RD2RedBeacon.jpg" alt="RD2 Red Beacon">
-        <img src="Images/Retrodrive2_Content/Images/RD2GreenBeacon.jpg" alt="RD2 Green Beacon">
-        <img src="Images/Retrodrive2_Content/Images/RD2PastArrival.jpg" alt="RD2 Past Arrival">
-        <img src="Images/Retrodrive2_Content/Images/RD2PastOverview.jpg" alt="RD2 Past Arrival Overview">
-        <img src="Images/Retrodrive2_Content/Images/RD2Datalayers.jpg" alt="RD2 Datalayers">
-        <img src="Images/Retrodrive2_Content/Images/RD2Datalayers2.jpg" alt="RD2 Datalayers 2">
-      
-      <h3>Gifs</h3>
-        <img src="Images/Retrodrive2_Content/Gifs/RD2_Driving.gif" alt="RD2 Driving">
-        <img src="Images/Retrodrive2_Content/Gifs/RD2_Drifting.gif" alt="RD2 Drifting">  
-        <img src="Images/Retrodrive2_Content/Gifs/RD2_Boost.gif" alt="RD2 Boost">
-        <img src="Images/Retrodrive2_Content/Gifs/RD2_Recharge.gif" alt="RD2 Recharge">
-        <img src="Images/Retrodrive2_Content/Gifs/RD2_Brake.gif" alt="RD2 Brake">
-      
-      
-      <h3>Videos</h3>
-        <h4>Mechanics Overview Trailer</h4>
-          <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/Qhwgooed3Oc?si=wrTYKdhqWQk_5vt-" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            
-            </iframe>
-      
-        <h4>Mission Overview Trailer</h4>
-          <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/bht4d0vp9UY?si=I-ijEU4L8_ZblhLr"
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            
-          </iframe>
-      
-        <h4>Full Playthrough</h4>
-          <iframe width="560" height="315"
-             src="https://www.youtube.com/embed/u607DydkBK8?si=NiB6u1lmP1iTjtsm" title="YouTube video player"
-             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-          </iframe>
-      
-        <h4>Monthly Progress Videos</h4>
-          <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/rXa0HekV23M?si=Lq2ipAOhBqtdAv00" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-          </iframe>
-    </section>
      <!--Rights & Plugins section-->
     <section id = "Portfolios">
-
-      <h2>Download Demo</h2>
-        <a href="https://elder483.itch.io/retrodrive-2">Itch.Io page to download demo</a>
 
       <h2>Plugins and Rights</h2>
       <ul>
@@ -138,11 +285,11 @@
     
     <footer>
       <section id= "contact">
-      <h4> Contact information & Socials</h4>
+      <h4> Contact Information & Socials</h4>
         <p>Phone Number: 07592784198</p>
         <p>Email: harryjameslinford@gmail.com </p>
-        <p>Linkedin:<a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
-        <p>Line:Harry-James Linford</p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line: Harry-James Linford</p>
         <p>"Courtesy of Retrodrive Ltd, all content and rights are reserved and RetroDrive © "</p>
         <!--<p>Discord: elder483</p>-->
         
