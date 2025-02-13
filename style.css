@@ -50,8 +50,8 @@ ul.topnav li
 {
     float: left;
     /*Will see about this border*/
-    /*Should be a dark purple.*/
-    border: 5px solid rgba(22,15,56,0.5);
+    /*Should be a dark purple.rgba(22,15,56,0.5)*/
+    border: 5px solid rgba(153,153,153,0.5);
 }
 
 ul.topnav li a:hover:not(.active)
