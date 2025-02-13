@@ -466,17 +466,28 @@ div.desc
  }
 }
 
-#responsibilities ul ol li
+ul li
 {
     list-style-type: none;
+}
+
+ol li
+{
+     list-style: none;
+}
+
+/*
+#responsibilities ul ol li
+{
+    
 }
 
 #portfolios ul ol li
 {
-    /*padding-bottom: 50px;*/
+    /*padding-bottom: 50px;
     list-style-type: none;
 }
-
+*/
 .clearfix:after
 {
     content:"";
