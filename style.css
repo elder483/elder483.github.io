@@ -67,6 +67,10 @@ ul.topnav a.active
     background-color: #E8C900;
 }
 
+ul.topnav .rd2 a.active
+{
+    background-color: rgb(255,0,221) !important;
+}
 /*This is the list's links themselves their shape and colour i.e. Games jam, home etc.*/
 /*ul.topnav*/ li a, .dropbtn
 {
