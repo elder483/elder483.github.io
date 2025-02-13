@@ -30,6 +30,11 @@ h1
     background-color: rgba(19,131,137,0.5);
 }
 
+rd2Head h1
+{
+     background-color: rgba(255,0,221,0.5);
+}
+
 ul.topnav
 {
     list-style-type: none;
@@ -363,6 +368,8 @@ div.gif, div.video, div.gallery {
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
  div.gif:hover  ,div.video:hover, div.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
+
+
 
 div.gif
 {
