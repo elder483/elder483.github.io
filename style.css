@@ -498,7 +498,7 @@ footer {
         bottom: 0;
 }
 
-.rd2 footer 
+footer.rd2 
 {
      background-color: rgba(255,0,221,0.5) !important;
      border: 3px solid rgb(57,21,93) !important;
