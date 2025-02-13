@@ -67,7 +67,7 @@ ul.topnav a.active
     background-color: #E8C900;
 }
 
-ul.topnav .rd2 a.active
+ul.topnav a.rd2.active 
 {
     background-color: rgb(255,0,221) !important;
 }
