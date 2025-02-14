@@ -55,6 +55,12 @@ h1
      border: 3px solid rgb(255,25,175) !important;
 }
 
+.hauntedHelper h1
+{
+    background-color: rgba(17,93,80,0.5) !important;
+     border: 3px solid rgb(56,234,230) !important;
+}
+
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5) !important;
@@ -113,6 +119,12 @@ ul.topnav a.coinOp.active
 {
     /*Blue*/
     background-color: rgba(0,109,255,0.75);
+}
+
+ul.topnav a.hauntedHelper.active 
+{
+    /*purple*/
+    background-color: rgba(130,83,174,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -434,6 +446,24 @@ div.rd2.gallery, div.rd2.gif, div.rd2.video
 
 div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
 
+div.coinOP.gallery, div.coinOp.gif, div.coinOp.video
+
+{
+    border: 6px solid rgba(173,173,173,0.5);
+}
+
+div.coinOP.gif:hover  ,div.coinOP.video:hover, div.coinOP.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
+
+div.hauntedHelper.gallery, div.hauntedHelper.gif, div.hauntedHelper.video
+
+{
+    border: 6px solid rgba(17,93,80,0.5);
+}
+
+div.hauntedHelper.gif:hover  ,div.hauntedHelper.video:hover, div.hauntedHelper.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(56,234,230); box-shadow: 2px 2px 2px 2px  rgba(56,234,230,0.5);}
+
+
+
 div.gif
 {
     display: flex;
@@ -597,6 +627,13 @@ footer.coinOp
     background-color: rgba(173,173,173,0.5) !important;
      border: 3px solid rgb(255,25,175) !important;
      border-bottom: none !important;
+}
+
+footer.hauntedHelper 
+{
+    background-color: rgba(17,93,80,0.5) !important;
+    border: 3px solid rgb(56,234,230) !important;
+    border-bottom: none !important;
 }
 
 footer.aKOM
