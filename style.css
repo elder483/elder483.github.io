@@ -446,13 +446,13 @@ div.rd2.gallery, div.rd2.gif, div.rd2.video
 
 div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
 
-div.coinOP.gallery, div.coinOp.gif, div.coinOp.video
+div.coinOp.gallery, div.coinOp.gif, div.coinOp.video
 
 {
     border: 6px solid rgba(173,173,173,0.5);
 }
 
-div.coinOP.gif:hover  ,div.coinOP.video:hover, div.coinOP.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
+div.coinOp.gif:hover  ,div.coinOp.video:hover, div.coinOp.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
 
 div.hauntedHelper.gallery, div.hauntedHelper.gif, div.hauntedHelper.video
 
