@@ -727,7 +727,7 @@ ol li
 footer {
 
         margin-top: auto;
-        width:100%;
+        width:100vw;
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
         font-size: 20px;
