@@ -121,6 +121,12 @@ h1
      border: 3px solid rgb(255,158,46);
 }
 
+.pdisorder h1
+{
+     background-color: rgba(245,20,20, 0.5);
+     border: 3px solid rgb(237,233,69);
+}
+
 ul.topnav
 {
     list-style-type: none;
@@ -236,6 +242,12 @@ ul.topnav a.suzaku.active
 {
     /*Brown*/
     background-color: rgba(96,65,35,0.75);
+}
+
+ul.topnav a.pdisorder.active 
+{
+    /*Jade*/
+    background-color: rgba(27,221,169,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -645,6 +657,15 @@ div.suzaku.gallery, div.suzaku.gif, div.suzaku.video
 
 div.suzaku.gif:hover  ,div.suzaku.video:hover, div.suzaku.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,158,46); box-shadow: 2px 2px 2px 2px  rgba(255,158,46);}
 
+div.pdisorder.gallery, div.pdisorder.gif, div.pdisorder.video
+
+{
+       border: 6px solid rgba(245,20,20, 0.5);
+
+}
+
+div.pdisorder.gif:hover  ,div.pdisorder.video:hover, div.pdisorder.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
+
 
 div.gif
 {
@@ -883,7 +904,11 @@ footer.suzaku
      border: 3px solid rgb(255,158,46);
 }
 
-
+footer.pdisorder
+{
+     background-color: rgba(245,20,20, 0.5);
+     border: 3px solid rgb(237,233,69);
+}
 /*RD2 page changes.*/
 
 
