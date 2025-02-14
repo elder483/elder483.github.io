@@ -103,6 +103,12 @@ h1
      border: 3px solid rgb(223,122,0);
 }
 
+.robot h1
+{
+     background-color: rgba(237,28,36, 0.5);
+     border: 3px solid rgb(64,221,217);
+}
+
 ul.topnav
 {
     list-style-type: none;
@@ -200,6 +206,12 @@ ul.topnav a.fotp.active
 {
     /*teal/green*/
     background-color: rgba(242,22,39,0.75);
+}
+
+ul.topnav a.robot.active 
+{
+    /*teal/green*/
+    background-color: rgba(41,124,108,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -579,6 +591,18 @@ div.fotp.gallery, div.fotp.gif, div.fotp.video
 
 div.fotp.gif:hover  ,div.fotp.video:hover, div.fotp.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(223,122,0); box-shadow: 2px 2px 2px 2px  rgba(223,122,0,0.5);}
 
+div.robot.gallery, div.robot.gif, div.robot.video
+
+{
+    
+    border: 6px solid  rgba(237,28,36, 0.5);
+
+
+ 
+}
+
+div.robot.gif:hover  ,div.robot.video:hover, div.robot.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(64,221,217); box-shadow: 2px 2px 2px 2px  rgba(64,221,217,0.5);}
+
 div.gif
 {
     display: flex;
@@ -796,6 +820,12 @@ footer.fotp
      background-color: rgba(6,0,0, 0.5);
      border: 3px solid rgb(223,122,0);
     border-bottom: none;
+}
+
+footer.robot
+{
+     background-color: rgba(237,28,36, 0.5);
+     border: 3px solid rgb(64,221,217);
 }
 
 
