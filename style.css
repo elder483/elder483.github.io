@@ -67,6 +67,12 @@ h1
      border: 3px solid rgb(134,164,255) !important;
 }
 
+.doomedFlux h1
+{
+    background-color: rgba(173,9,57,0.5) !important;
+     border: 3px solid rgb(68,0,2) !important;
+}
+
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5) !important;
@@ -137,6 +143,12 @@ ul.topnav a.quantumAxle.active
 {
     /*purple*/
     background-color: rgba(65,30,255,0.75);
+}
+
+ul.topnav a.doomedFlux.active 
+{
+    /*teal/green*/
+    background-color: rgba(112,199,187,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -483,6 +495,14 @@ div.quantumAxle.gallery, div.quantumAxle.gif, div.quantumAxle.video
 
 div.quantumAxle.gif:hover  ,div.quantumAxle.video:hover, div.quantumAxle.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(134,164,255); box-shadow: 2px 2px 2px 2px  rgba(134,164,255,0.5);}
 
+div.doomedFlux.gallery, div.doomedFlux.gif, div.doomedFlux.video
+
+{
+    border: 6px solid rgba(173,9,57,0.5);
+}
+
+div.doomedFlux.gif:hover  ,div.doomedFlux.video:hover, div.doomedFlux.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(68,0,2); box-shadow: 2px 2px 2px 2px  rgba(68,0,2,0.5);}
+
 
 
 
@@ -662,6 +682,13 @@ footer.quantumAxle
 {
     background-color: rgba(70,0,111,0.5) !important;
      border: 3px solid rgb(134,164,255) !important;
+    border-bottom: none !important;
+}
+
+footer.doomedFlux
+{
+    background-color: rgba(173,9,57,0.5) !important;
+     border: 3px solid rgb(68,0,2) !important;
     border-bottom: none !important;
 }
 
