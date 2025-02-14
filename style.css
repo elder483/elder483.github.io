@@ -49,6 +49,12 @@ h1
      border: 3px solid rgb(57,21,93) !important;
 }
 
+.coinOp h1
+{
+    background-color: rgba(173,173,173,0.5) !important;
+     border: 3px solid rgb(255,25,175) !important;
+}
+
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5) !important;
@@ -103,6 +109,11 @@ ul.topnav a.rd2.active
     background-color: rgba(23,211,247,0.75);
 }
 
+ul.topnav a.coinOp.active 
+{
+    /*Blue*/
+    background-color: rgba(0,109,255,0.75);
+}
 /*ul.topnav a.aKOM.active 
 {
     /*Cyan
@@ -578,6 +589,13 @@ footer.rd2
 {
      background-color: rgba(255,0,221,0.5) !important;
      border: 3px solid rgb(57,21,93) !important;
+     border-bottom: none !important;
+}
+
+footer.coinOp 
+{
+    background-color: rgba(173,173,173,0.5) !important;
+     border: 3px solid rgb(255,25,175) !important;
      border-bottom: none !important;
 }
 
