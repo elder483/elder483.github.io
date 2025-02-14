@@ -61,6 +61,12 @@ h1
      border: 3px solid rgb(56,234,230) !important;
 }
 
+.quantumAxle h1
+{
+    background-color: rgba(70,0,111,0.5) !important;
+     border: 3px solid rgb(134,164,255) !important;
+}
+
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5) !important;
@@ -125,6 +131,12 @@ ul.topnav a.hauntedHelper.active
 {
     /*purple*/
     background-color: rgba(130,83,174,0.75);
+}
+
+ul.topnav a.quantumAxle.active 
+{
+    /*purple*/
+    background-color: rgba(65,30,255,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -463,6 +475,16 @@ div.hauntedHelper.gallery, div.hauntedHelper.gif, div.hauntedHelper.video
 div.hauntedHelper.gif:hover  ,div.hauntedHelper.video:hover, div.hauntedHelper.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(56,234,230); box-shadow: 2px 2px 2px 2px  rgba(56,234,230,0.5);}
 
 
+div.quantumAxle.gallery, div.quantumAxle.gif, div.quantumAxle.video
+
+{
+       border: 6px solid rgba(70,0,111,0.5);
+}
+
+div.quantumAxle.gif:hover  ,div.quantumAxle.video:hover, div.quantumAxle.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(134,164,255); box-shadow: 2px 2px 2px 2px  rgba(134,164,255,0.5);}
+
+
+
 
 div.gif
 {
@@ -633,6 +655,13 @@ footer.hauntedHelper
 {
     background-color: rgba(17,93,80,0.5) !important;
     border: 3px solid rgb(56,234,230) !important;
+    border-bottom: none !important;
+}
+
+footer.quantumAxle 
+{
+    background-color: rgba(70,0,111,0.5) !important;
+     border: 3px solid rgb(134,164,255) !important;
     border-bottom: none !important;
 }
 
