@@ -73,6 +73,12 @@ h1
      border: 3px solid rgb(68,0,2) !important;
 }
 
+.static h1
+{
+    background-color: rgba(31,88,75,0.5) !important;
+     border: 3px solid rgb(0,239,255) !important;
+}
+
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5) !important;
@@ -149,6 +155,12 @@ ul.topnav a.doomedFlux.active
 {
     /*teal/green*/
     background-color: rgba(112,199,187,0.75);
+}
+
+ul.topnav a.static.active 
+{
+    /*teal/green*/
+    background-color: rgba(126,81,96,0.75);
 }
 /*ul.topnav a.aKOM.active 
 {
@@ -503,7 +515,13 @@ div.doomedFlux.gallery, div.doomedFlux.gif, div.doomedFlux.video
 
 div.doomedFlux.gif:hover  ,div.doomedFlux.video:hover, div.doomedFlux.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(68,0,2); box-shadow: 2px 2px 2px 2px  rgba(68,0,2,0.5);}
 
+div.static.gallery, div.static.gif, div.static.video
 
+{
+       border: 6px solid rgba(31,88,75,0.5);
+}
+
+div.static.gif:hover  ,div.static.video:hover, div.static.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(0,239,255); box-shadow: 2px 2px 2px 2px  rgba(0,239,255,0.5);}
 
 
 div.gif
@@ -690,6 +708,12 @@ footer.doomedFlux
     background-color: rgba(173,9,57,0.5) !important;
      border: 3px solid rgb(68,0,2) !important;
     border-bottom: none !important;
+}
+
+footer.static
+{
+    background-color: rgba(31,88,75,0.5) !important;
+     border: 3px solid rgb(0,239,255) !important;
 }
 
 footer.aKOM
