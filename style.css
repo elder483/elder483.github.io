@@ -33,61 +33,61 @@ h1
 
 .skillsEducation h1
 {
-    background-color: rgba(73,23,116,0.5) !important;
-    border: 3px solid rgb(130,57,130) !important;
+    background-color: rgba(73,23,116,0.5);
+    border: 3px solid rgb(130,57,130);
 }
 
 .professionalWorks h1
 {
-    background-color: rgba(39,64,36,0.5) !important;
-    border: 3px solid rgb(82,99,37) !important;
+    background-color: rgba(39,64,36,0.5);
+    border: 3px solid rgb(82,99,37);
 }
 
 .rd2 h1 
 {
-     background-color: rgba(255,0,221,0.5) !important;
-     border: 3px solid rgb(57,21,93) !important;
+     background-color: rgba(255,0,221,0.5);
+     border: 3px solid rgb(57,21,93);
 }
 
 .coinOp h1
 {
-    background-color: rgba(173,173,173,0.5) !important;
-     border: 3px solid rgb(255,25,175) !important;
+    background-color: rgba(173,173,173,0.5);
+     border: 3px solid rgb(255,25,175);
 }
 
 .hauntedHelper h1
 {
-    background-color: rgba(17,93,80,0.5) !important;
-     border: 3px solid rgb(56,234,230) !important;
+    background-color: rgba(17,93,80,0.5);
+     border: 3px solid rgb(56,234,230);
 }
 
 .quantumAxle h1
 {
-    background-color: rgba(70,0,111,0.5) !important;
-     border: 3px solid rgb(134,164,255) !important;
+    background-color: rgba(70,0,111,0.5);
+     border: 3px solid rgb(134,164,255);
 }
 
 .doomedFlux h1
 {
-    background-color: rgba(173,9,57,0.5) !important;
-     border: 3px solid rgb(68,0,2) !important;
+    background-color: rgba(173,9,57,0.5);
+     border: 3px solid rgb(68,0,2);
 }
 
 .static h1
 {
-    background-color: rgba(31,88,75,0.5) !important;
-     border: 3px solid rgb(0,239,255) !important;
+    background-color: rgba(31,88,75,0.5);
+     border: 3px solid rgb(0,239,255);
 }
 
 .aKOM h1
 {
-     background-color: rgba(212,14,75, 0.5) !important;
-     border: 3px solid rgb(23,211,247) !important;
+     background-color: rgba(212,14,75, 0.5);
+     border: 3px solid rgb(23,211,247);
 }
 
 .rem h1
 {
-     background-color: rgba(241,172,55, 0.5);
+     background-color: rgba(255,157,2, 0.5);
      border: 3px solid rgb(241,22,72);
 }
 
@@ -540,12 +540,10 @@ div.rem.gallery, div.rem.gif, div.rem.video
 
 {
     
-     border: 3px solid rgb(241,22,72);
-    
-    border: 6px solid rgba(241,172,55, 0.5);
+    border: 6px solid rgba(255,157,2, 0.5);
 }
 
-div.doomedFlux.gif:hover  ,div.doomedFlux.video:hover, div.doomedFlux.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(241,22,72); box-shadow: 2px 2px 2px 2px  rgba(241,22,72,0.5);}
+div.rem.gif:hover  ,div.rem.video:hover, div.rem.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(241,22,72); box-shadow: 2px 2px 2px 2px  rgba(241,22,72,0.5);}
 
 div.gif
 {
@@ -686,64 +684,64 @@ footer {
 
 footer.skillsEducation 
 {
-   background-color: rgba(73,23,116,0.5) !important;
-    border: 3px solid rgb(130,57,130) !important;
+   background-color: rgba(73,23,116,0.5);
+    border: 3px solid rgb(130,57,130);
     border-bottom: none;
 }
 
 footer.professionalWorks 
 {
-    background-color: rgba(39,64,36,0.5) !important;
-    border: 3px solid rgb(82,99,37) !important;
+    background-color: rgba(39,64,36,0.5);
+    border: 3px solid rgb(82,99,37);
     border-bottom: none;
 }
 
 footer.rd2 
 {
-     background-color: rgba(255,0,221,0.5) !important;
-     border: 3px solid rgb(57,21,93) !important;
-     border-bottom: none !important;
+     background-color: rgba(255,0,221,0.5);
+     border: 3px solid rgb(57,21,93);
+     border-bottom: none;
 }
 
 footer.coinOp 
 {
-    background-color: rgba(173,173,173,0.5) !important;
-     border: 3px solid rgb(255,25,175) !important;
-     border-bottom: none !important;
+    background-color: rgba(173,173,173,0.5);
+     border: 3px solid rgb(255,25,175);
+     border-bottom: none;
 }
 
 footer.hauntedHelper 
 {
-    background-color: rgba(17,93,80,0.5) !important;
-    border: 3px solid rgb(56,234,230) !important;
-    border-bottom: none !important;
+    background-color: rgba(17,93,80,0.5);
+    border: 3px solid rgb(56,234,230);
+    border-bottom: none;
 }
 
 footer.quantumAxle 
 {
-    background-color: rgba(70,0,111,0.5) !important;
-     border: 3px solid rgb(134,164,255) !important;
-    border-bottom: none !important;
+    background-color: rgba(70,0,111,0.5);
+     border: 3px solid rgb(134,164,255);
+    border-bottom: none;
 }
 
 footer.doomedFlux
 {
-    background-color: rgba(173,9,57,0.5) !important;
-     border: 3px solid rgb(68,0,2) !important;
-    border-bottom: none !important;
+    background-color: rgba(173,9,57,0.5);
+     border: 3px solid rgb(68,0,2);
+    border-bottom: none;
 }
 
 footer.static
 {
-    background-color: rgba(31,88,75,0.5) !important;
-     border: 3px solid rgb(0,239,255) !important;
+    background-color: rgba(31,88,75,0.5);
+     border: 3px solid rgb(0,239,255);
 }
 
 footer.aKOM
 {
-     background-color: rgba(212,14,75, 0.5) !important;
-     border: 3px solid rgba(23,211,247,1) !important;
-     border-bottom: none !important;
+     background-color: rgba(212,14,75, 0.5);
+     border: 3px solid rgba(23,211,247,1);
+     border-bottom: none;
 }
 
 footer.rem 
