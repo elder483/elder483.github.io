@@ -117,7 +117,7 @@ h1
 
 .suzaku h1
 {
-     background-color: rgba(66,183,184, 0.5);
+     background-color: rgba(37,234,250, 0.5);
      border: 3px solid rgb(255,158,46);
 }
 
@@ -637,7 +637,7 @@ div.sakuraCell.gif:hover  ,div.sakuraCell.video:hover, div.sakuraCell.gallery:ho
 div.suzaku.gallery, div.suzaku.gif, div.suzaku.video
 
 {
-       border: 6px solid rgba(66,183,184, 0.5);
+       border: 6px solid rgba(37,234,250, 0.5);
 
    
      
@@ -879,7 +879,7 @@ footer.sakuraCell
 
 footer.suzaku 
 {
-     background-color: rgba(66,183,184, 0.5);
+     background-color: rgba(37,234,250, 0.5);
      border: 3px solid rgb(255,158,46);
 }
 
