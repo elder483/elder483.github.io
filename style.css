@@ -49,6 +49,12 @@ h1
     border: 3px solid rgb(43,6,6);
 }
 
+.soloUniversity h1
+{
+    background-color: rgba(140,154,181,0.5);
+    border: 3px solid rgb(0,39,113);
+}
+
 .rd2 h1 
 {
      background-color: rgba(255,0,221,0.5);
@@ -176,7 +182,12 @@ ul.topnav a.gamesJams.active
     background-color: rgba(224,30,30,0.75);
 }
 
-/*ul.topnav a.soloUniversity.active (Sapphire) */
+ul.topnav a.soloUniversity.active
+{
+    /*Sapphire*/
+    background-color: rgba(15,91,238,0.75);
+}
+
 
 ul.topnav a.rd2.active 
 {
@@ -822,6 +833,12 @@ footer.gamesJams
 {
     background-color: rgba(44,39,39,0.5);
     border: 3px solid rgb(43,6,6);
+}
+
+footer.soloUniversity 
+{
+    background-color: rgba(140,154,181,0.5);
+    border: 3px solid rgb(0,39,113);
 }
 
 footer.rd2 
