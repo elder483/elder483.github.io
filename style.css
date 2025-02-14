@@ -43,6 +43,12 @@ h1
     border: 3px solid rgb(82,99,37);
 }
 
+.gamesJams h1
+{
+    background-color: rgba(44,39,39,0.5);
+    border: 3px solid rgb(43,6,6);
+}
+
 .rd2 h1 
 {
      background-color: rgba(255,0,221,0.5);
@@ -139,6 +145,14 @@ ul.topnav a.professionalWorks.active
     /*Bronze*/
     background-color: rgba(113,77,22,0.75);
 }
+
+ul.topnav a.gamesJams.active 
+{
+    /*Ruby*/
+    background-color: rgba(224,30,30,0.75);
+}
+
+/*ul.topnav a.soloUniversity.active (Sapphire) */
 
 ul.topnav a.rd2.active 
 {
@@ -714,6 +728,12 @@ footer.professionalWorks
     background-color: rgba(39,64,36,0.5);
     border: 3px solid rgb(82,99,37);
     border-bottom: none;
+}
+
+footer.gamesJams
+{
+    background-color: rgba(44,39,39,0.5);
+    border: 3px solid rgb(43,6,6);
 }
 
 footer.rd2 
