@@ -697,6 +697,15 @@ div.gif img
     height: auto;
 }
 
+div.gif video
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
 div.video
 {
     display: flex;
