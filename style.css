@@ -417,6 +417,7 @@ background-color: rgba(13,17,22,100);
  @media screen and (max-width: 700px)
      {
          body{
+        margin: 10px; 
         font-size: 15px;
          }
     }
@@ -424,6 +425,7 @@ background-color: rgba(13,17,22,100);
  @media screen and (max-width: 500px)
     {
         body{
+         margin: 5px; 
         font-size: 12px;
         }
     }
