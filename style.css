@@ -426,6 +426,7 @@ background-color: rgba(13,17,22,100);
     {
         body{
          padding: 0 16%; 
+         margin: 0 8%;
         /*font-size: 12px;*/
         }
     }
