@@ -145,6 +145,7 @@ ul.topnav
 /*This is the list position, i.e. home, games jams etc.*/
 ul.topnav li
 {
+    margin-left: 10px;
     float: left;
     /*Will see about this border*/
     /*Should be a dark purple.rgba(22,15,56,0.5)*/
@@ -153,6 +154,7 @@ ul.topnav li
 
  ul.topnav li.language
 {
+    margin-right: 10px;
     float: right;
 } 
 
