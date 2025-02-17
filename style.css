@@ -413,24 +413,24 @@ background-color: rgba(13,17,22,100);
 
 }
 
-/*
- @media screen and (max-width: 700px)
+
+ @media screen and (max-width: 768px)
      {
          body{
-        margin: 10px; 
-        font-size: 15px;
+        padding: 0 8%; 
+       /* font-size: 15px;*/
          }
     }
 
  @media screen and (max-width: 500px)
     {
         body{
-         margin: 8px; 
-        font-size: 12px;
+         padding: 0 12%; 
+        /*font-size: 12px;*/
         }
     }
 
-*/
+
 
 h2
 {
