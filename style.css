@@ -408,7 +408,7 @@ color: white;
     /*Should be code Navy blue,  old was Charcoal 72,72,72/grey*/
 background-color: rgba(13,17,22,100);
 /*Z-index: -1;*/  
-
+ max-width: 90%;
 
 
 }
@@ -427,6 +427,7 @@ background-color: rgba(13,17,22,100);
         body{
          padding: 0 16%; 
          margin: 0 8%;
+           
         /*font-size: 12px;*/
         }
     }
