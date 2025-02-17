@@ -151,6 +151,11 @@ ul.topnav li
     /*border: 5px solid rgba(153,153,153,0.5);*/
 }
 
+ul.topnav.language
+{
+    float: right;
+} 
+
 ul.topnav li a:hover:not(.active)
 {
      background-color: #111;
