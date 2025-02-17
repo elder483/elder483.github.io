@@ -408,7 +408,7 @@ color: white;
     /*Should be code Navy blue,  old was Charcoal 72,72,72/grey*/
 background-color: rgba(13,17,22,100);
 /*Z-index: -1;*/  
- max-width: 90%;
+ /*max-width: 90%;*/
  white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
