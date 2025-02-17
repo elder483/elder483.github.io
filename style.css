@@ -409,6 +409,7 @@ color: white;
 background-color: rgba(13,17,22,100);
 /*Z-index: -1;*/  
  max-width: 90%;
+ white-space: normal;
 
 
 }
