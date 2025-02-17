@@ -400,7 +400,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: 0;
-padding: 0;
+padding: 0 5%;
 font-family: "Noto Sans","Noto Sans Japanese";
 font-size: calc(10px + 0.5vw);
 text-align: center;
