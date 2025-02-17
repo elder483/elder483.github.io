@@ -425,7 +425,7 @@ background-color: rgba(13,17,22,100);
  @media screen and (max-width: 500px)
     {
         body{
-         padding: 0 12%; 
+         padding: 0 14%; 
         /*font-size: 12px;*/
         }
     }
