@@ -419,7 +419,7 @@ background-color: rgba(13,17,22,100);
  @media screen and (max-width: 768px)
      {
          body{
-        padding: 0 8%; 
+        padding: 0 12%; 
        /* font-size: 15px;*/
          }
     }
@@ -427,7 +427,7 @@ background-color: rgba(13,17,22,100);
  @media screen and (max-width: 500px)
     {
         body{
-         padding: 0 16%; 
+         padding: 0 14%; 
          /*margin: 0 8%;*/
            
         /*font-size: 12px;*/
