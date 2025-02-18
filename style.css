@@ -445,7 +445,7 @@ h2
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
-    font-size: (28px, 4vw, 55px);
+    font-size: clamp(28px, 4vw, 55px);
     color: white;
   
 }
@@ -459,7 +459,7 @@ h3
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
-    font-size: (24px,3vw,45px);
+    font-size: clamp(24px,3vw,45px);
     color: white;
     
 }
@@ -473,7 +473,7 @@ h4
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
-    font-size: (20px,2vw,35px);
+    font-size: clamp(20px,2vw,35px);
     color: white;
 }
 
@@ -582,7 +582,7 @@ h5
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
-    font-size: (18px,1vw,25px);
+    font-size: clamp(18px,1vw,25px);
     color: white;
     
 }
