@@ -753,21 +753,21 @@ div.video iframe
     max-height: 100%;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
 div.video iframe
 {
     width: 480px;
     height: 270px;
     
 }
-
-@media screen and (max-width: 500px)
+}
+@media screen and (max-width: 500px){
 div.video iframe
 {
     width: 320px;
     height: 180px;
 }
-
+}
 
 
 div.gallery img,div.gif, div.video
@@ -794,19 +794,19 @@ div.desc
   display:block
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px){
 div.desc
 {
     padding: 12px;
 
 }
-
-@media screen and (max-width: 500px)
+}
+@media screen and (max-width: 500px){
 div.desc
 {
     padding: 10px;
 }
-
+}
 
 .responsive
 {
