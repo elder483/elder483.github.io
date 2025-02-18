@@ -845,6 +845,7 @@ div.desc
   display:block
 }
 
+/*
 @media screen and (max-width: 768px){
 div.desc
 {
@@ -858,7 +859,7 @@ div.desc
     padding: 10px;
 }
 }
-
+*/
 .responsive
 {
     display: inline-block;
