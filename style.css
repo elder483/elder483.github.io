@@ -840,7 +840,7 @@ div.gallery img,div.gif, div.video
 
 div.desc
 {
-  padding: 15px;
+  padding: clamp(10px,2vw,15px);
   text-align: center;  
   display:block
 }
