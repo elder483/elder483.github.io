@@ -756,15 +756,16 @@ div.video iframe
 @media screen and (max-width: 768px)
 div.video iframe
 {
-    width: 320px;
-    height: 180px;
+    width: 480px;
+    height: 270px;
+    
 }
 
 @media screen and (max-width: 500px)
 div.video iframe
 {
-    width: 480px;
-    height: 270px;
+    width: 320px;
+    height: 180px;
 }
 
 
