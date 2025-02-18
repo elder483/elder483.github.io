@@ -16,7 +16,7 @@ h1
     position: relative;
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
-    font-size: 65px;
+    font-size: clamp(28px, 5vw, 65px);
     border: 3px solid #115F63;
     color: white;
    /*Should be Teal
