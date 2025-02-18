@@ -719,7 +719,7 @@ div.gif
     box-sizing: border-box;
 }
 
-/*
+
 @media screen and (max-width: 768px){
 div.gif, div.gallery
 {
@@ -733,7 +733,7 @@ div.gif, div.gallery
    margin: 15px auto;
 }
 }
-*/
+
     
 
 div.gif img
