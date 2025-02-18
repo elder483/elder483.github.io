@@ -599,21 +599,35 @@ div.gif, div.video, div.gallery {
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
+div.rd2.initialImage
+{display: inline-block;
+    max-width: 100%;
+    width:100%;
+    width: fit-content;
+    margin: auto;}
+
  div.gif:hover  ,div.video:hover, div.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
 
 /*RD2*/
-div.rd2.gallery, div.rd2.gif, div.rd2.video, div.rd2.initialImage
+
+div.rd2.initialImage{border: 6px solid rgba(255,0,221,0.5);}
+
+div.rd2.gallery, div.rd2.gif, div.rd2.video
 {
     border: 6px solid rgba(255,0,221,0.5);
 }
 
-div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover,  div.rd2.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
+div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
+
+div.rd2.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
 
 div.coinOp.gallery, div.coinOp.gif, div.coinOp.video
 
 {
     border: 6px solid rgba(173,173,173,0.5);
 }
+
+
 
 div.coinOp.gif:hover  ,div.coinOp.video:hover, div.coinOp.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
 
