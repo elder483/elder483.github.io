@@ -825,14 +825,14 @@ div.video iframe
 }
 }
 
-
+*/
 div.gallery img,div.gif, div.video
 {
  display:block;
  width: 100%;
  height: auto;
 }
-/*
+
 
 /*Originally just width and height*/
 
