@@ -763,12 +763,6 @@ div.gif, div.gallery
 
  */   
 
-div.gif img
-{
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 div.gif video
 {
@@ -872,6 +866,8 @@ div.desc
 }
 }
 */
+
+/*
 .responsive
 {
     display: inline-block;
@@ -880,7 +876,7 @@ div.desc
     text-align: center;
     vertical-align: top;
 }
-
+*/
 
 @media only screen and (max-width: 768px)
 {.responsive
