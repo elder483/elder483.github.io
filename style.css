@@ -719,6 +719,7 @@ div.gif
     box-sizing: border-box;
 }
 
+/*
 @media screen and (max-width: 768px){
 div.gif, div.gallery
 {
@@ -732,7 +733,7 @@ div.gif, div.gallery
    margin: 15px auto;
 }
 }
-
+*/
     
 
 div.gif img
@@ -794,7 +795,7 @@ div.video iframe
 }
 }
 
-    @media screen and (max-width: 500px) and (orientation: landscape){
+@media screen and (max-width: 500px) and (orientation: landscape){
 div.video iframe
 {
     width: 480px;
