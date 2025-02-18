@@ -719,6 +719,22 @@ div.gif
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px){
+div.gif, div.gallery
+{
+    margin: 15px auto;
+    
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape){
+div.gif, div.gallery
+{
+   margin: 15px auto;
+}
+}
+
+    
+
 div.gif img
 {
     display: block;
