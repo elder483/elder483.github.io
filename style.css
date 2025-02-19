@@ -424,7 +424,7 @@ margin: 0;
 padding: 0 5%;
 font-family: "Noto Sans","Noto Sans Japanese";
 font-size: calc(10px + 0.5vw);
-text-align: center;
+text-align: left;
 color: white;   
     /*Should be code Navy blue,  old was Charcoal 72,72,72/grey*/
 background-color: rgba(13,17,22,100);
