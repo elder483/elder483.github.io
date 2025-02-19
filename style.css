@@ -2,7 +2,26 @@
     box-sizing: border-box;
 }
 /*Variables*/
-.index {--active-color:rgba(232,201,0,0.75);}
+.index {/*Mustard Yellow*/--active-color: rgba(232,201,0,0.75);}
+.skills {/*Silver*/--active-color: rgba(125,134,135,0.75);}
+.professional {/*Bronze*/--active-color: rgba(113,77,22,0.75);}
+.gamesJams {/*Ruby*/--active-color: rgba(224,30,30,0.75);}
+.solo {/*Sapphire*/--active-color: rgba(15,91,238,0.75);}
+.rd2 {/*NeonBlue*/--active-color: rgba(23,211,247,0.75);}
+.coinOp {/*Blue*/--active-color: rgba(0,109,255,0.75);}
+.hauntedHelper {/*Lilac*/--active-color: rgba(130,83,174,0.75);}
+.quantumAxle {/*DarkPurple*/--active-color: rgba(65,30,255,0.75);}
+.doomedFlux {/*PaleGreen*/--active-color: rgba(112,199,187,0.75);}
+.static {/*Coralbrown*/--active-color: rgba(126,81,96,0.75);}
+.aKOM {/*Mustard Yellow*/--active-color: rgba(232,201,0,0.75);} /*Same as Index*/
+.rem {/*PalePurple*/--active-color: rgba(147,79,233,0.75);}
+.fotp {/*Red*/--active-color: rgba(242,22,39,0.75);}
+.pDisorder {/*Jade*/--active-color: rgba(27,221,169,0.75);}
+.suzaku {/*Brown*/--active-color: rgba(96,65,35,0.75);}
+.sakuraCell {/*Peach*/--active-color: rgba(238,198,152,0.75);}
+.robot {/*DarkGreen*/--active-color: rgba(41,124,108,0.75);}
+
+
 
 h1
 {
@@ -929,7 +948,7 @@ ol li
 }
 
 
-/* Going to make this more dynamic.*/
+/* Links.*/
 a:link, a:visited
 {
     color: white;
@@ -940,28 +959,184 @@ a:link, a:visited
 div.index a
 {
     background-color: var(--active-color);
-   
 }
 
 div.index a:visited
 {
      background-color: var(--active-color);
-    
 }
 
-
-
-/*
-a:hover
+div.skills a
 {
-    
+    background-color: var(--active-color);
 }
 
-a:active
+div.skills a:visited
 {
-    
+     background-color: var(--active-color);
 }
-*/
+
+div.professional a
+{
+    background-color: var(--active-color);
+}
+
+div.professional a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.gamesJams a
+{
+    background-color: var(--active-color);
+}
+
+div.gamesJams a:visited
+{
+     background-color: var(--active-color);
+}
+
+
+div.solo a
+{
+    background-color: var(--active-color);
+}
+
+div.solo a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.rd2 a
+{
+    background-color: var(--active-color);
+}
+
+div.rd2 a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.coinOP a
+{
+    background-color: var(--active-color);
+}
+
+div.coinOP a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.hauntedHelper a
+{
+    background-color: var(--active-color);
+}
+
+div.hauntedHelper a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.quantumAxle a
+{
+    background-color: var(--active-color);
+}
+
+div.quantumAxle a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.doomedFlux a
+{
+    background-color: var(--active-color);
+}
+
+div.doomedFlux a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.static a
+{
+    background-color: var(--active-color);
+}
+
+div.static a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.aKom a
+{
+    background-color: var(--active-color);
+}
+
+div.aKom a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.rem a
+{
+    background-color: var(--active-color);
+}
+
+div.rem a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.fotp a
+{
+    background-color: var(--active-color);
+}
+
+div.fotp a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.pDisorder a
+{
+    background-color: var(--active-color);
+}
+
+div.pDisorder a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.suzaku a
+{
+    background-color: var(--active-color);
+}
+
+div.suzaku a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.sakuraCell a
+{
+    background-color: var(--active-color);
+}
+
+div.sakuraCell a:visited
+{
+     background-color: var(--active-color);
+}
+
+div.robot a
+{
+    background-color: var(--active-color);
+}
+
+div.robot a:visited
+{
+     background-color: var(--active-color);
+}
+
 .clearfix:after
 {
     content:"";
