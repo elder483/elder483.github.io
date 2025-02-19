@@ -289,7 +289,8 @@ ul.topnav a.pdisorder.active
 
 li a:hover, .dropdown:hover .dropbtn
 {
-    background-color: rgba(22,15,56,0.5);
+    /*rgba(22,15,56,0.5) purple Below is a dark grey*/
+    background-color: rgba(46,46,48,0.5);
 }
 /*I toggled this out before shall see what happens.*/
 /*li.dropdown
@@ -927,6 +928,29 @@ ol li
 }
 
 
+a:link 
+{
+     background-color: rgba(232,201,0,0.75);
+     text-decoration: none;
+    
+}
+a:visited
+{
+    background-color: rgba(232,201,0,0.75);
+    text-decoration: none;
+}
+
+/*
+a:hover
+{
+    
+}
+
+a:active
+{
+    
+}
+*/
 .clearfix:after
 {
     content:"";
