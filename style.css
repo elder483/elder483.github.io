@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
 }
-
+/*Variables*/
+.index{--active-color:rgba(232,201,0,0.75);}
 
 h1
 {
@@ -927,17 +928,30 @@ ol li
      list-style: none;
 }
 
-/* Going to make this more dynamic.
-a:link 
+
+/* Going to make this more dynamic.*/
+a:link
 {
-     background-color: rgba(232,201,0,0.75);
-     text-decoration: none;
-    
+    text-color: white;
+    text-decoration: none;
 }
+
 a:visited
 {
-    background-color: rgba(232,201,0,0.75);
+    text-color: white;
     text-decoration: none;
+}
+
+div.index a:
+{
+    background-color: var(--active-color);
+   
+}
+
+div.index a:visited
+{
+     background-color: var(--active-color);
+    
 }
 
 
