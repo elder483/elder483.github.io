@@ -927,7 +927,7 @@ ol li
      list-style: none;
 }
 
-
+/* Going to make this more dynamic.
 a:link 
 {
      background-color: rgba(232,201,0,0.75);
@@ -939,6 +939,8 @@ a:visited
     background-color: rgba(232,201,0,0.75);
     text-decoration: none;
 }
+
+
 
 /*
 a:hover
