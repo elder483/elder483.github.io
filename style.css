@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 /*Variables*/
-.index{--active-color:rgba(232,201,0,0.75);}
+.index {--active-color:rgba(232,201,0,0.75);}
 
 h1
 {
@@ -930,19 +930,14 @@ ol li
 
 
 /* Going to make this more dynamic.*/
-a:link
+a:link, a:visited
 {
-    text-color: white;
+    color: white;
     text-decoration: none;
 }
 
-a:visited
-{
-    text-color: white;
-    text-decoration: none;
-}
 
-div.index a:
+div.index a
 {
     background-color: var(--active-color);
    
