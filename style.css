@@ -726,7 +726,7 @@ div.gif, div.video, div.gallery {
 
 /*RD2*/
 
-div.rd2.initialImage{border: 6px solid rgba(255,0,221,0.5);}
+div.rd2.initialImage {border: 6px solid rgba(255,0,221,0.5);}
 
 div.rd2.gallery, div.rd2.gif, div.rd2.video
 {
