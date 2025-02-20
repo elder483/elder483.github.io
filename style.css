@@ -436,7 +436,7 @@ background-color: rgba(13,17,22,100);
 
 }
 
-
+/*
  @media screen and (max-width: 768px)
      {
          body{
@@ -449,12 +449,12 @@ background-color: rgba(13,17,22,100);
     {
         body{
          padding: 0 14%; 
-         /*margin: 0 8%;*/
+         
            
         font-size: 12px;
         }
     }
-
+*/
 
 
 h2
