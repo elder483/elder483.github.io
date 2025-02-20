@@ -25,7 +25,7 @@
 
 h1
 {
-    width: 100%; /*Was 100vw*/
+    width: 100vw; /*Was 100vw*/
     margin: 0;
     padding: 50px;
     text-decoration: none;
@@ -33,7 +33,7 @@ h1
     display: flex;
     justify-content: center;
     align-items: center; 
-    position: fixed; /*Was relative*/
+    position: relative; /*Was relative*/
     font-family: "Noto Sans","Noto Sans Japanese";
     font-style: bold;
     font-size: clamp(30px, 5vw, 65px);
@@ -1147,7 +1147,7 @@ div.robot a:visited
 footer {
 
         margin-top: auto;
-        width:100%; /*Was 100vw*/
+        width:100vw; /*Was 100vw*/
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
         font-size: 20px;
@@ -1157,9 +1157,9 @@ footer {
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
         padding: 50px; 
-        padding-bottom: 0;
+        /*padding-bottom: 0;*/
         bottom: 0;
-        position: fixed;
+        /*position: fixed;*/
 }
 
 footer.skillsEducation 
