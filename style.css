@@ -415,16 +415,16 @@ li a:hover, .dropdown:hover .dropbtn
     padding: 5px;
     justify-content: center;
 }
-
+/*
 .container
 {
-    /*This value can change.*/
+    /*This value can change.
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 5%;
     
 }
-
+*/
 
 body
 {
