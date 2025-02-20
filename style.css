@@ -874,31 +874,28 @@ div.gallery img,div.gif, div.video
  height: auto;
 }
 
-/*made some thing for tablets and mobile may need to be adjusted.
+/*made some thing for tablets and mobile may need to be adjusted.*/
 @media screen and (max-width: 768px)
-{
-
-   div.gallery img,div.gif, div.video{
+{ 
+    div.gallery img,div.gif, div.video{
     display: block;
     max-width: 100%;
     width:100%;
     height:auto;
     margin:0;
-}
+     }
 }
 
 @media screen and (max-width: 500px)
 {
-
-   div.gallery img,div.gif, div.video{
+   div.gallery img,div.gif, div.video {
     display: block;
     max-width: 100%;
     width: 100%;
     height:auto;
     margin:0;
+    }
 }
-}
-*/
 
 /*Originally just width and height*/
 
