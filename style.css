@@ -831,40 +831,41 @@ div.video iframe
     max-height: 100%;
 }
 /*Orientations for videos for mobile/tablets.*/
-/*
+
 @media screen and (max-width: 768px) and (orientation: portrait){
-div.video iframe
-{
+div.video iframe{
+
     width: 480px;
     height: 270px;
-    
+ }
 }
 
+
     @media screen and (max-width: 768px) and (orientation: landscape){
-div.video iframe
-{
+div.video iframe{
+
     width: 640px;
     height: 360px;
     
+    }   
 }
-    
-}
+
 @media screen and (max-width: 500px) and (orientation: portrait){
-div.video iframe
-{
+div.video iframe{
+
     width: 320px;
     height: 180px;
-}
+    }
 }
 
 @media screen and (max-width: 500px) and (orientation: landscape){
-div.video iframe
-{
+div.video iframe{ 
+       
     width: 480px;
     height: 270px;
+    }
 }
-}
-*/
+
 
 div.gallery img,div.gif, div.video
 {
