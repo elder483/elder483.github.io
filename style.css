@@ -27,7 +27,7 @@ h1
 {
     width: 100vw; /*Was 100vw*/
     margin: 0;
-    padding: 50px;
+    padding: 0;/*padding was 50px*/
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -165,7 +165,7 @@ ul.topnav
 /*This is the list position, i.e. home, games jams etc.*/
 ul.topnav li
 {
-    /*margin-left: 10px;*/
+    margin-left: 10px;
     float: left;
     /*Will see about this border*/
     /*Should be a dark purple.rgba(22,15,56,0.5)*/
@@ -174,7 +174,7 @@ ul.topnav li
 
  ul.topnav li.language
 {
-   /* margin-right: 10px;*/
+   margin-right: 10px;
     float: right;
 } 
 
@@ -1156,7 +1156,7 @@ footer {
         border: 3px solid #115F63; 
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
-        padding: 50px; 
+        padding: 0; /*was 50px*/
         /*padding-bottom: 0;*/
         bottom: 0;
         /*position: fixed;*/
