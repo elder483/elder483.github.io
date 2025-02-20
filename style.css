@@ -807,7 +807,7 @@ div.gif, div.gallery
 div.gif video
 {
     display: block;
-    width: 100%;
+    max-width: 100%; /*was width: 100%*/
     height: auto;
 }
 
@@ -818,7 +818,7 @@ div.video
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%; /*was width: 100%*/
     box-sizing: border-box;
 }
 
@@ -869,7 +869,7 @@ div.video iframe
 div.gallery img,div.gif, div.video
 {
  display:block;
- width: 100%;
+ max-width: 100%; /*was width: 100%*/
  height: auto;
 }
 
