@@ -51,6 +51,12 @@ h1
    
 }
 
+.homePage h1
+{
+     background-color: rgba(19,131,137,0.5);
+     border: 3px solid #115F63;
+} 
+
 .skillsEducation h1
 {
     background-color: rgba(73,23,116,0.5);
@@ -1162,6 +1168,13 @@ footer {
         /*position: fixed;*/
 }
 
+footer.homePage
+{
+     background-color: rgba(19,131,137,0.5);
+     border: 3px solid #115F63;
+     border-bottom: none;
+} 
+
 footer.skillsEducation 
 {
    background-color: rgba(73,23,116,0.5);
@@ -1180,12 +1193,14 @@ footer.gamesJams
 {
     background-color: rgba(44,39,39,0.5);
     border: 3px solid rgb(43,6,6);
+     border-bottom: none;
 }
 
 footer.soloUniversity 
 {
     background-color: rgba(140,154,181,0.5);
     border: 3px solid rgb(0,39,113);
+    border-bottom: none;
 }
 
 footer.rd2 
@@ -1227,6 +1242,7 @@ footer.static
 {
     background-color: rgba(31,88,75,0.5);
      border: 3px solid rgb(0,239,255);
+     border-bottom: none;
 }
 
 footer.aKOM
@@ -1254,22 +1270,26 @@ footer.robot
 {
      background-color: rgba(237,28,36, 0.5);
      border: 3px solid rgb(64,221,217);
+     border-bottom: none;
 }
 
 footer.sakuraCell 
 {
      background-color: rgba(255,170,184, 0.5);
      border: 3px solid rgb(114,46,56);
+     border-bottom: none;
 }
 
 footer.suzaku 
 {
      background-color: rgba(37,234,250, 0.5);
      border: 3px solid rgb(255,158,46);
+     border-bottom: none;
 }
 
 footer.pdisorder
 {
      background-color: rgba(245,20,20, 0.5);
      border: 3px solid rgb(237,233,69);
+     border-bottom: none;
 }
