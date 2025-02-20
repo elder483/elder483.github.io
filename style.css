@@ -783,23 +783,23 @@ div.gif
     box-sizing: border-box;
 }
 
-/*Margins for gallery sections on mobile/tablet.
+/*Margins for gallery sections on mobile/tablet.*/
 
 @media screen and (max-width: 768px){
 div.gif, div.gallery
 {
-    margin: 15px auto;
+    margin: 0 15px auto;
     
 }
 
 @media screen and (max-width: 500px) and (orientation: landscape){
 div.gif, div.gallery
 {
-   margin: 15px auto;
+   margin: 0 15px auto;
 }
 }
 
- */   
+ 
 
 
 div.gif video
@@ -890,7 +890,7 @@ div.gallery img,div.gif, div.video
    div.gallery img,div.gif, div.video{
     display: block;
     max-width: 100%;
-    width:100%;
+    width: 100%;
     height:auto;
     margin:0;
 }
@@ -944,7 +944,7 @@ div.desc
 {.responsive
  {
     width: 49.99999%;
-    margin: 6px 0;
+    margin: 0px 6px;
  }
 }
 @media only screen and (max-width: 500px)
