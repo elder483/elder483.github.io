@@ -702,12 +702,12 @@ h5
 */
 /*Initial Images*/
 /*THIS IS COMMENTED OUT FOR THE TEST*/
-div.rd2.initialImage
+/*div.rd2.initialImage
 {display: inline-block;
     max-width: 100%;
     width:100%;
     width: fit-content;
-    margin: auto;}
+    margin: auto;}*/
 /*Gallery May need to adjust this for AKOM and other games colour palettes*/
 
 /*AKOM Pink colour for border images. Will need to change this per game. USE CSS Variables for this*/
