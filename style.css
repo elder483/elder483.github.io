@@ -656,6 +656,13 @@ h5
     height: auto;
 }
 
+.galleryWrapper .gallery video
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 768px) {
     .galleryWrapper .gallery {
         flex: 1 1 calc(50% - 15px);
