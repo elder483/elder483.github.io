@@ -27,7 +27,7 @@ h1
 {
     width: 100vw; /*Was 100vw*/
     margin: 0;
-    padding: 0;/*padding was 50px*/
+    padding: 50px;/*padding was 50px*/
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -1156,7 +1156,7 @@ footer {
         border: 3px solid #115F63; 
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
-        padding: 0; /*was 50px*/
+        padding: 50px; /*was 50px*/
         /*padding-bottom: 0;*/
         bottom: 0;
         /*position: fixed;*/
