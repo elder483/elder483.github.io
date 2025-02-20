@@ -358,12 +358,14 @@ li a:hover, .dropdown:hover .dropbtn
 @media screen and (max-width: 768px)
 {
      ul.topnav li {float: none;}
+     ul.topnav li.language{float: none;} 
 }
 
 /*This is for mobile devices and will alter the shape of our nav to suit the device.*/
 @media screen and (max-width: 500px)
 {
-     ul.topnav li {float: none;}
+    ul.topnav li {float: none;}
+    ul.topnav li.language{float: none;} 
 }
 
 /*Aside section used for quick navigation in a web page.
