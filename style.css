@@ -442,7 +442,7 @@ background-color: rgba(13,17,22,100);
 
 }
 
-/*
+/*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet.*/
 
  @media screen and (max-width: 768px)
      {
@@ -461,7 +461,7 @@ background-color: rgba(13,17,22,100);
         font-size: 12px;
         }
     }
-*/
+
 /*Home Page*/
 .index
 {display: flex;
