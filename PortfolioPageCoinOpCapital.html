@@ -63,8 +63,65 @@
 <!--Overview section-->
     <section>
 <h2>Overview</h2>
-    
-<p>The games theme was to create something in the style of a retro game and an additional bonus for using a limited colour palette of 8.</p> 
+
+      <div class = "initialImage coinOp">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Title.png" width="400px" height= "300px" alt="Coin-Op Capital Title Screen.">
+      </div>
+      <div class = "projectMargin"></div>
+
+      <p>This project was a two person week long games jam. My primary roles in this project were lead project, designer and developer. <br>
+        Additionally I handled some pixel art, story, dual language implementation and audio creation.<br>
+        The games theme was to create a retro game and an additional bonus challenge was to use a limited colour palette of 8.<br>
+        I wanted to create a game based on superhero games such as 'Prototype', 'Infamous' and 'Spider-man'.<br>
+        I was inspired by my recent trip to Japan and the festival Setsubun, where they would celebrate throwing beans at Oni to drive away bad omens.</p>
+      
+    </section>
+
+      <section>
+      <h2>Problems and Solutions</h2>
+        <h5>The Player Character</h5>
+        
+        <p>Movement and traversal</p>
+        <p>The initial problem I encountered was how to get the character to feel 'super'.<br>
+          To deal with this problem I wanted the player to have good traversal and momentum capabilities.<br>
+          This led to the creation of five mechanics, sprint, jump, double jump, air dash and wall running.<br>
+          These mechanics were conceptualised to be chained together.<br>
+          For example, whilst sprinting the player could wall run, if the player pushed the jump button in the air they would air dash.<br>
+          Sprinting also affected properties for jump height and forward movement, encouraging it's usage.<br>
+          An energy meter was also installed to balance the player's traversal skills and their usage in combat.<br></p>
+
+          <p>Combat</p>
+         <p>The next issue was what should the combat entail?<br>
+           The result of this was based objects to be thrown such as beans (part of the Setsubun festival).<br>
+           Each throwable needed an ammo capacity, and to solve the issue of running out of ammo, vending machines were proped around the map<br>
+           Additionally when low on ammo, the character will inform the player akin to 'Spider-man's' self quotes that they should visit a vending machine<br>
+           Two types of throwables were implemented in the game, gatcha and beans. Beans would do more damage to Oni but are more scarce.<br>
+           Similarly to the ammo, health could be restored at an 8Twelve shop, which the player again would be notified.<br>
+           These quotes will also appear once, so player's don't get frustrated being re-told constantly.<br>
+        </p>
+        
+         <h5>The Oni</h5>
+        <p>Combat</p>
+        <p> The first issue was to determine how the player would know when they are in combat. 
+            To solve this a couple of methods were introduced. Firstly the enemies colour would change to their original colours and secondly the music would change.<br>
+            The next issue was deciding the enemies attacks and how do these attacks require the player to use their traversal and combat capabilities.<br>
+            Two primary attacks were concieved and implemented, Will'O'Wisps (Homing projectiles) and Oni Orbs (single shot projectiles). <br>
+            These two attacks will keep the player moving whilst encouraging them to use the distance to their advantage when dodging.<br>
+            Three Oni's Pink, Blue and Yellow have one extra trick up their sleves, a beserk mode.<br>
+            Beserk mode acts similarly to their original attacks but this allows them to fire columns of projectiles and more Will'O'Wisps adding to the player's difficulty.<br>
+            The final problem that needed to be addressed was, why do the players need to fight and defeat the oni, what's in it for the player?<br>
+            Defeating these entities will drop a coin that the player can use to continue the story.
+        </p>
+
+        <h5>Story and Level Structure</h5>
+        <p>Early on I wanted to challenge both myself and my artist friend with this project.<br>
+          I wanted to have a PS1 aesthetic superhero game transition to a pixel art arcade side scroller.<br>
+          To achieve this together we decided the protagonist needed to collect coins from the oni to power up the arcade and save their friend from within.<br>
+          Using Unreal Engine 5's pawn possesion it made switching between the two charcters seemless.<br>
+          I wanted the story to be given in snippets, but also show clear progression, each time the player went to the arcade the art style would increase in clarity.<br>
+          This allowed for good pacing between the 3D segments and 2D story sections.</p>
+      </section>
+<!--<p>The games theme was to create something in the style of a retro game and an additional bonus for using a limited colour palette of 8.</p> 
    <p>We opted for making something low resolution via a shader in the style of classic PS1 era titles, with an additional 2D segment using varying eras of pixel art. </p>
   <p>I used Unreal Engine 5 in Japanese.</p>
 <p>We also wanted to try and make a monochrome game as this would also allow us to aim for the challenge, but additionally we wanted the important elements to be in colour.
@@ -79,10 +136,10 @@
       <li>Red/赤い</li>
       <li>Pink/ピンク色</li> 
       <li>Green/緑/青い</li> 
-      </ul>
+      </ul>-->
         
-    </section>
-    <!--Responsibilities section-->
+   
+    <!--Responsibilities section-
     <section>
       <h2>Responsibilities</h2>
       
@@ -96,65 +153,9 @@
           <p>UI/UX.</p>
         
     
-    </section>
+    </section>->
 <!--Story section-->
-    <section>
-      <h2>Synopsis/Demo</h2>
-      
-    <p>The story and games overall theme was based on my love for Japan and recent holiday, we also decided to reference a certain shop in Japan.</p>  
-    <p>I also based it on the festival Setsubun, which in tradition people would throw soybeans to scare away Oni.</p> 
-     <p> That's why the character can also throw cans of beans, but their main ammo is gatcha.</p> 
-      <p>I also wanted to make the Oni inspired by Japanese businessmen, so they wear suits and carry briefcases.</p>
-      <p>As well as arcades and various Japanese retro games both Ps1 era and prior were a big inspiration.</p>
-      
-    </section>
-
- <section>
-      <h2>Character Mechanics</h2>
-
-      <p>Throw: The player can throw gatcha or a can of soybeans at the oni's to deal damage.</p>
-      <p>Sprint/Wall-Run: Player has stamina bar to govern moment actions such as sprinting or wallrunning. (Player can chain movement actions together for smooth traversal.)</p>
-      <p>AirDash: A small boost in the air which allows the player to reach areas with more ease or use it to reach another wall to wallrun.</p>
-      
-    </section>
-
-    <section>
-      <h2>Enemy Mechanics</h2>
-      <h4>Red Oni</h4>
-    
-      <p>Default enemy, has less health.</p>
-      <p>Oni Orb: fires a single projectile towards the player.</p>
-      <p>Will'O'Wisps: fires one homing will'O'Wisp tracking the player.</p>
-      
-    
-     <h4>Blue, Yellow and Pink Oni</h4>
-      <p>These three are boss Oni's their default functionality is the same as the red's however, they have a few additions.</p>
-    <h5>Default State:</h5>
-    
-      <p>Oni Orb: fires three projectiles, a central orb and two either side diagonaly.</p>
-      <p>Will'O'Wisps: fires three homing will'O'Wisp tracking the player.</p>
-      
-   
-    <h5>Beserk State:</h5>
-      <p>Triggers when bosses have 50% or less health.</p>
-    
-      <p>Beserk Vertical Oni Orbs: Has three variants of firing three projectiles in verticals, Right, middle and left. </p>
-      <p>Beserk Horizontal Oni Orbs: Has three variants of firing three projectiles in horizontals, top, middle and left. </p>
-      <p>Beserk Omni-Oni Orbs: Has a chance to fire all 9 possible projectiles. </p>
-      <p>Beserk Will'O'Wisps: fires six homing will'O'Wisp tracking the player.</p>
-      
-    </section>
-<!--Skills developed section-->
-    <section>
-      <h2>New Skills Developed</h2>
-      
-        <p>New post process technique and how to alter visuals during runtime for gameplay purposes.</p>
-        <p>Attempted UI with a controller.</p>
-        <p>experimented with character possession from 3D characters to 2D characters.</p>
-        <p>Developed a bilingual narrative with a conclusion.</p>
-        <p>Provided diegetic information and objectives to the player using dialogue.</p>
-      
-    </section>
+  
 
     <!--Gallery section-->
     <section> 
@@ -413,7 +414,69 @@
           </iframe>
 </div>
    </div>
-            
+
+        <section>
+      <h2>Synopsis/Demo</h2>
+
+      <p>In this game the player has to use their supernatural powers to navigate the level, find and defeat the oni collect their coins and save your friend who resides in an arcade machine.<br>
+         The project is based on the festival Setsubun, the enemies and some mechanics are based on these and the world being based in Japan. </p>
+     <!--     
+    <p>The story and games overall theme was based on my love for Japan and recent holiday, we also decided to reference a certain shop in Japan.</p>  
+    <p>I also based it on the festival Setsubun, which in tradition people would throw soybeans to scare away Oni.</p> 
+     <p> That's why the character can also throw cans of beans, but their main ammo is gatcha.</p> 
+      <p>I also wanted to make the Oni inspired by Japanese businessmen, so they wear suits and carry briefcases.</p>
+      <p>As well as arcades and various Japanese retro games both Ps1 era and prior were a big inspiration.</p>-->
+      
+    </section>
+<!--
+ <section>
+      <h2>Character Mechanics</h2>
+
+      <p>Throw: The player can throw gatcha or a can of soybeans at the oni's to deal damage.</p>
+      <p>Sprint/Wall-Run: Player has stamina bar to govern moment actions such as sprinting or wallrunning. (Player can chain movement actions together for smooth traversal.)</p>
+      <p>AirDash: A small boost in the air which allows the player to reach areas with more ease or use it to reach another wall to wallrun.</p>
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+      <h4>Red Oni</h4>
+    
+      <p>Default enemy, has less health.</p>
+      <p>Oni Orb: fires a single projectile towards the player.</p>
+      <p>Will'O'Wisps: fires one homing will'O'Wisp tracking the player.</p>
+      
+    
+     <h4>Blue, Yellow and Pink Oni</h4>
+      <p>These three are boss Oni's their default functionality is the same as the red's however, they have a few additions.</p>
+    <h5>Default State:</h5>
+    
+      <p>Oni Orb: fires three projectiles, a central orb and two either side diagonaly.</p>
+      <p>Will'O'Wisps: fires three homing will'O'Wisp tracking the player.</p>
+      
+   
+    <h5>Beserk State:</h5>
+      <p>Triggers when bosses have 50% or less health.</p>
+    
+      <p>Beserk Vertical Oni Orbs: Has three variants of firing three projectiles in verticals, Right, middle and left. </p>
+      <p>Beserk Horizontal Oni Orbs: Has three variants of firing three projectiles in horizontals, top, middle and left. </p>
+      <p>Beserk Omni-Oni Orbs: Has a chance to fire all 9 possible projectiles. </p>
+      <p>Beserk Will'O'Wisps: fires six homing will'O'Wisp tracking the player.</p>
+      
+    </section>
+      -->
+<!--Skills developed section
+    <section>
+      <h2>New Skills Developed</h2>
+      
+        <p>New post process technique and how to alter visuals during runtime for gameplay purposes.</p>
+        <p>Attempted UI with a controller.</p>
+        <p>experimented with character possession from 3D characters to 2D characters.</p>
+        <p>Developed a bilingual narrative with a conclusion.</p>
+        <p>Provided diegetic information and objectives to the player using dialogue.</p>
+      
+    </section>
+            -->
       
     </section>
      <!--Rights & Plugins section-->
