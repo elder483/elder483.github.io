@@ -647,6 +647,9 @@ h5
 {
     flex: 1 1 calc(33.33% - 15px);
     box-sizing: border-box;
+    max-width: 300px;
+    min-width: 200px;
+    overflow: hidden;
 }
 
 .galleryWrapper .gallery img
@@ -654,6 +657,7 @@ h5
     display: block;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .galleryWrapper .gallery gif
@@ -661,6 +665,7 @@ h5
     display: block;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
