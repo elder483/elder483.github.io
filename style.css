@@ -831,7 +831,7 @@ div.video iframe
     max-height: 100%;
 }
 /*Orientations for videos for mobile/tablets.*/
-
+/*
 @media screen and (max-width: 768px) and (orientation: portrait){
 div.video iframe
 {
@@ -864,7 +864,7 @@ div.video iframe
     height: 270px;
 }
 }
-
+*/
 
 div.gallery img,div.gif, div.video
 {
