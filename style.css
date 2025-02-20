@@ -782,7 +782,7 @@ div.gif
     box-sizing: border-box;
 }
 
-/*
+/*Margins for gallery sections on mobile/tablet.*/
 
 @media screen and (max-width: 768px){
 div.gif, div.gallery
@@ -827,7 +827,7 @@ div.video iframe
     max-width: 100%;
     max-height: 100%;
 }
-/*
+/*Orientations for videos for mobile/tablets.*/
 
 @media screen and (max-width: 768px) and (orientation: portrait){
 div.video iframe
@@ -912,7 +912,7 @@ div.desc
   display:block
 }
 
-/*
+/*Padding for mobiles & Tablets below*/
 @media screen and (max-width: 768px){
 div.desc
 {
@@ -926,7 +926,7 @@ div.desc
     padding: 10px;
 }
 }
-*/
+
 
 
 .responsive
