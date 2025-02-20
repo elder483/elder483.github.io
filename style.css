@@ -783,7 +783,7 @@ div.gif
     box-sizing: border-box;
 }
 
-/*Margins for gallery sections on mobile/tablet.*/
+/*Margins for gallery sections on mobile/tablet.
 
 @media screen and (max-width: 768px){
 div.gif, div.gallery
@@ -799,7 +799,7 @@ div.gif, div.gallery
 }
 }
 
- 
+ */
 
 
 div.gif video
@@ -871,7 +871,7 @@ div.gallery img,div.gif, div.video
  height: auto;
 }
 
-/*made some thing for tablets and mobile may need to be adjusted.*/
+/*made some thing for tablets and mobile may need to be adjusted.
 @media screen and (max-width: 768px)
 {
 
@@ -895,6 +895,7 @@ div.gallery img,div.gif, div.video
     margin:0;
 }
 }
+*/
 
 /*Originally just width and height*/
 
