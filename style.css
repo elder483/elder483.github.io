@@ -706,7 +706,7 @@ div.rd2.initialImage
 {display: inline-block;
     max-width: 100%;
     width:100%;
-   /* width: fit-content;*/
+   width: fit-content;
     margin: auto; 
     border:6px solid rgba(255,0,221,0.5);}
 /*Gallery May need to adjust this for AKOM and other games colour palettes*/
