@@ -28,6 +28,7 @@ h1
     width: 100vw;
     margin: 0;
     padding: 50px;
+    padding-top: 0;
     text-decoration: none;
     text-align: center;
     display: flex;
@@ -1147,6 +1148,7 @@ div.robot a:visited
 footer {
 
         margin-top: auto;
+        margin-bottom: 0;
         width:100vw;
         font-family: "Noto Sans","Noto Sans Japanese";
         font-style: bold;
@@ -1156,7 +1158,8 @@ footer {
         border: 3px solid #115F63; 
         border-bottom: none;
         border-radius: 12px 12px 0px 0px;
-        padding: 50px;     
+        padding: 50px; 
+        padding-bottom: 0;
         bottom: 0;
 }
 
