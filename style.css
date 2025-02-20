@@ -442,13 +442,13 @@ background-color: rgba(13,17,22,100);
 
 }
 
-/*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet.*/
+/*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
 
  @media screen and (max-width: 768px)
      {
          body{
         padding: 0 14%; 
-        font-size: 15px;
+        /*font-size: 15px;*/
          }
     }
 
@@ -458,7 +458,7 @@ background-color: rgba(13,17,22,100);
          padding: 0 14%; 
          
            
-        font-size: 12px;
+        /*font-size: 12px;*/
         }
     }
 
