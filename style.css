@@ -422,7 +422,6 @@ body
 min-height: 100vh;
 display: flex;
 flex: 3;
-flex-grow: 1;
 flex-direction: column;
     /*Justify content was felx-start*/
 justify-content: center;
@@ -462,7 +461,10 @@ background-color: rgba(13,17,22,100);
         }
     }
 
-
+main
+{
+    flex-grow: 1;
+}
 
 h2
 {
