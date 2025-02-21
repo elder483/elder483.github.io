@@ -63,13 +63,46 @@
     <div class = "doomedFlux">
     <section>
 <h2>Overview</h2>
-  
-<p>Created as participation for the Theana Game Jam, the theme was push and pull.</p>
-<p>I wanted to experiment with UE5's physics and tried to make a horror game where the box the character would push and pull, would be needed for the whole level.</p>
-        
+      <div class = "initialImage doomedFlux">
+        <img loading= "lazy"src="Images/DoomedFlux/Images/DoomedFlux_Title.png" width="400px" height= "300px"  alt="DoomedFlux Title Screen.">
+      </div>
+      <div class = "projectMargin"></div>
+
+      <p>This project was a two person week long games jam. My primary roles in this project were lead project, designer and developer.<br>
+         Additionally I handled everything in engine including asset placement UI and more.<br>
+         The games theme was push and pull, to accomodate for this I experimented with physics.<br>
+         I wanted to create a horror experience where the player would have to take an object from the start to the end of the level.</p>
     </section>
+ 
+      <h2>Problems and Solutions</h2>
+        <h5>The Player Character and the Box</h5>
+      <p>Movement and Traversal</p>
+      <p>The first issue was the form of movement I wanted to implement.<br>
+         I decided a 2.5D game utilising planar movement I could accomplish some interesting level design and scenarios to use the box.<br>
+         The first thing I wanted the player to do was to be able to use the box for multiple tasks.<br>
+         The player could jump on the box and use it as a platform to reach other areas of the ship one such use was the air vents.<br>
+         I wanted the player to crawl through the vents in a first person perspective, to achieve this I had a separate actor that could be possessed.<br>
+         This would break up some of the 2.5D sections and lead the player to secrets or other sections of the ship.<br>
+         Some areas would have 3D segments where the player could walk in the background and foreground I used collision areas to switch the movements.</p>
+
+      <h5>Combat</h5>
+      <p>The player could kick the box at enemies which would defeat them.<br>
+         To add tension some sections would separate the player from the box meaning they would be powerless.</p>
+
+      <h5>Story and Level Structure</h5>
+      <p>I decided early on I wanted to drip feed the story to the player in a manner similar to the 'Dark Souls' games.<br>
+         To accomplish this data pads were scattered across the level, collecting them would provide story elements regarding the crew.<br>
+         The level was crafted in a way which required the player to use the box to progress.<br> 
+         The box could be used on certain pannels to power up the space station allowing teleporters and elevators to be used.<br>
+         Some segments involved leaving the box behind, this meant the level had to be designed in a way to loop back round to retrieve it at a later point.<br>
+         The next issue was how to provide tension at the right points, pacing tension and finding ways to surprise the player.<br>
+         One vent section included crawling away from a zombie.<br>
+         The final segment I had to think what was the point of dragging the cube, what was the goal?<br>
+         The cube would also act as a bomb and when put in the right place it would begin a countdown.<br>
+         This meant the player had to escape the space station within a time limit and have zombies appear in their path.</p>
+      
     <!--Responsibilities section-->
-    <section>
+    <!--<section>
       <h2>Responsibilities</h2>
         
           <p>Creating the game design (Game rules, mechanics, players, enemies, level progression). </p>
@@ -82,15 +115,10 @@
           <p>All content developed via Blueprints</p>
           <p>Japanese Translations</p>
          
-    </section>
+    </section>-->
 <!--Story section-->
-    <section>
-      <h2>Synopsis/Demo</h2>
-      
-    <p>2.5D Horror/platformer where the theme is to push and pull the cube and use it to activate various panels across the space station. Be careful of the Infection!</p>
-      
-    </section>
-
+   
+<!--
  <section>
       <h2>Character Mechanics</h2>
       
@@ -118,9 +146,9 @@
       <p>Zombies will strike or bite the player if they get close.</p>
       
       
-    </section>
+    </section>-->
 <!--Skills developed section-->
-    <section>
+   <!-- <section>
       <h2>New Skills Developed</h2>
       
         <p>Experimented with Unreal Engine 5's physics systems</p>
@@ -129,7 +157,7 @@
         <p>Adding controlled zones for 3D movement, and then the rest remained 2.5D or first person for vents.</p>
 
       </ul>
-    </section>
+    </section>-->
 
     <!--Gallery section-->
     <section> 
@@ -200,10 +228,7 @@
         </div>
       </div>
       
-      
-    
-      
-      
+
       <h3>Gifs</h3>
 
          <div class = "responsive">
@@ -296,6 +321,13 @@
         </div>
       
     </section>
+
+       <section>
+      <h2>Synopsis/Demo</h2>
+      
+    <p>2.5D Horror/platformer where the theme is to push and pull the cube and use it to activate various panels across the space station. Be careful of the Infection!</p>
+      
+    </section>
      <!--Rights & Plugins section-->
     <section id = "portfolios">
       <h2>Demo Download</h2>
@@ -313,7 +345,7 @@
         <p>Warren McKenzie: Adjusted voice using Unreal Engine 5's audio settings. </p>
   
     </section>
- </body>
+
      <!--Footer section-->
     <div class = "projectMargin"></div>
   
@@ -327,7 +359,8 @@
         <!--<p>Discord: elder483</p>-->
         
       </section>
-    </footer>
+    </footer> 
+    </body>
     </div>
     </html>
     
