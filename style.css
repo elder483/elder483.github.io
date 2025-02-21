@@ -849,6 +849,12 @@ div.pdisorder.gallery, div.pdisorder.gif, div.pdisorder.video
 
 div.pdisorder.gif:hover  ,div.pdisorder.video:hover, div.pdisorder.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
 
+div.pdisorder.initialImage
+{
+ border: 6px solid rgba(245,20,20, 0.5);  
+}
+
+div.pdisorder.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
 /*
 div.rd2.initialImage
 {
