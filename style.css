@@ -809,6 +809,14 @@ div.doomedFlux.gallery, div.doomedFlux.gif, div.doomedFlux.video
 
 div.doomedFlux.gif:hover  ,div.doomedFlux.video:hover, div.doomedFlux.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(68,0,2); box-shadow: 2px 2px 2px 2px  rgba(68,0,2,0.5);}
 
+div.static.initialImage
+{
+  border: 6px solid rgba(31,88,75,0.5);
+}
+
+div.static.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(0,239,255); box-shadow: 2px 2px 2px 2px  rgba(0,239,255,0.5);}
+
+
 div.static.gallery, div.static.gif, div.static.video
 
 {
