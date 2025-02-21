@@ -793,6 +793,14 @@ div.quantumAxle.gallery, div.quantumAxle.gif, div.quantumAxle.video
 
 div.quantumAxle.gif:hover  ,div.quantumAxle.video:hover, div.quantumAxle.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(134,164,255); box-shadow: 2px 2px 2px 2px  rgba(134,164,255,0.5);}
 
+div.doomedFlux.initialImage
+{
+ border: 6px solid rgba(173,9,57,0.5);  
+}
+
+div.doomedFlux.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(68,0,2); box-shadow: 2px 2px 2px 2px  rgba(68,0,2,0.5);}
+
+
 div.doomedFlux.gallery, div.doomedFlux.gif, div.doomedFlux.video
 
 {
