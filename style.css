@@ -703,7 +703,7 @@ h5
 /*Initial Images*/
 /*THIS IS COMMENTED OUT FOR THE TEST*/
 
-div.rd2.initialImage {display: inline-block;
+div.initialImage {display: inline-block;
     max-width: 100%;
     width:100%;
    width: fit-content;
