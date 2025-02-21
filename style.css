@@ -777,6 +777,14 @@ div.hauntedHelper.gallery, div.hauntedHelper.gif, div.hauntedHelper.video
 div.hauntedHelper.gif:hover  ,div.hauntedHelper.video:hover, div.hauntedHelper.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(56,234,230); box-shadow: 2px 2px 2px 2px  rgba(56,234,230,0.5);}
 
 
+div.quantumAxle.initialImage
+{
+  border: 6px solid rgba(70,0,111,0.5);
+}
+
+div.quantumAxle.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(134,164,255); box-shadow: 2px 2px 2px 2px  rgba(134,164,255,0.5);}
+
+
 div.quantumAxle.gallery, div.quantumAxle.gif, div.quantumAxle.video
 
 {
