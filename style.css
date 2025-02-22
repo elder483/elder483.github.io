@@ -863,6 +863,13 @@ div.fotp.gallery, div.fotp.gif, div.fotp.video
 
 div.fotp.gif:hover  ,div.fotp.video:hover, div.fotp.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(223,122,0); box-shadow: 2px 2px 2px 2px  rgba(223,122,0,0.5);}
 
+div.robot.initialImage
+{
+ border: 6px solid  rgba(237,28,36, 0.5);
+}
+
+div.robot.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(64,221,217); box-shadow: 2px 2px 2px 2px  rgba(64,221,217,0.5);}
+
 div.robot.gallery, div.robot.gif, div.robot.video
 
 {
