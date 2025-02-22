@@ -881,6 +881,12 @@ div.sakuraCell.gallery, div.sakuraCell.gif, div.sakuraCell.video
 
 div.sakuraCell.gif:hover  ,div.sakuraCell.video:hover, div.sakuraCell.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(114,46,56); box-shadow: 2px 2px 2px 2px  rgba(114,46,56,0.5);}
 
+div.suzaku.initialImage
+{
+  border: 6px solid rgba(37,234,250, 0.5);
+}
+
+div.suzaku.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,158,46); box-shadow: 2px 2px 2px 2px  rgba(255,158,46);}
 
 div.suzaku.gallery, div.suzaku.gif, div.suzaku.video
 
