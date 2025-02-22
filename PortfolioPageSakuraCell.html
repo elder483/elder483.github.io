@@ -6,64 +6,113 @@
     <title>Harry-James Linford Sakura Cell</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+<body>
     <header>
       <div class = "sakuraCell">
       <h1>Sakura Cell Warp Or Run/サクラセール・ワープ・オル・ラン</h1>
       </div>
-<nav>
-  <ul class = "topnav">
-    <li>
-   <a href="index.html">Home/About Me</a>
-    </li>
-
-    <li>
-      <a href="Skills.html">Skills and Education</a>
-    </li>
-   <li>
+      <nav>
+        <ul class = "topnav">
+          <li>
+         <a href="index.html">Home/About Me</a>
+          </li>
       
-    <li class="dropdown">
-    <a class="dropbtn" href="ProfessionalWorks.html">Professional Works</a>
-      <div class="dropdown-content">
-      <a href="PortfolioPageRD2.html">RetroDrive 2</a>
-      </div>
-   </li>
-   <li class="dropdown">
-            <a class="dropbtn" href="GamesJams.html"> Games Jams</a>
-          
-                 <div class="dropdown-content">
-                  <a href="PortfolioPageCoinOpCapital.html">Coin-Op Capital</a>
-                  <a href="PortfolioPageHauntedHelper.html">Haunted Helper</a>
-                  <a href="PortfolioPageQuantumAxle.html">Quantum Axle</a>
-                  <a href="PortfolioPageDoomedFlux.html">Doomed Flux</a>
-                  <a href="PortfolioPageStatic.html">Static</a>
-                  <a href="PortfolioPageArthurKingOfMars.html">Arthur King Of Mars</a>
-                  <a href="PortfolioPageREM.html">REM</a>
-                  <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
-                 </div>
-                </li>
-  <li class="dropdown">
-            <a class="dropbtn sakuraCell active" href="Solo_University.html"> Solo/University Projects</a>
-           
-              
-                   <div class="dropdown-content">
-                  <a href="PortfolioPagePDisorder.html">P_Disorder</a>
-                  <a href="PortfolioPageSuzaku.html">Suzaku</a>
-                  <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
-                  <a href="PortfolioPageRobot.html">Robot</a>
-                   </div>
-                 </li>
-    <li>
-   <a href="#contact">Contact</a>
-    </li>
-    </ul>
-</nav>
-</header>
+          <li>
+            <a href="Skills.html">Skills and Education</a>
+          </li>
+         <li>
+            
+          <li class="dropdown">
+          <a class="dropbtn" href="ProfessionalWorks.html">Professional Works</a>
+            <div class="dropdown-content">
+            <a href="PortfolioPageRD2.html">RetroDrive 2</a>
+            </div>
+         </li>
+         <li class="dropdown">
+                  <a class="dropbtn" href="GamesJams.html"> Games Jams</a>
+                
+                       <div class="dropdown-content">
+                        <a href="PortfolioPageCoinOpCapital.html">Coin-Op Capital</a>
+                        <a href="PortfolioPageHauntedHelper.html">Haunted Helper</a>
+                        <a href="PortfolioPageQuantumAxle.html">Quantum Axle</a>
+                        <a href="PortfolioPageDoomedFlux.html">Doomed Flux</a>
+                        <a href="PortfolioPageStatic.html">Static</a>
+                        <a href="PortfolioPageArthurKingOfMars.html">Arthur King Of Mars</a>
+                        <a href="PortfolioPageREM.html">REM</a>
+                        <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
+                       </div>
+                      </li>
+        <li class="dropdown">
+                  <a class="dropbtn sakuraCell active" href="Solo_University.html"> Solo/University Projects</a>
+                 
+                    
+                         <div class="dropdown-content">
+                        <a href="PortfolioPagePDisorder.html">P_Disorder</a>
+                        <a href="PortfolioPageSuzaku.html">Suzaku</a>
+                        <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
+                        <a href="PortfolioPageRobot.html">Robot</a>
+                         </div>
+                       </li>
+          <li>
+         <a href="#contact">Contact</a>
+          </li>
+          </ul>
+      </nav>
+      </header>
 <!--Overview section-->
     <div class = "sakuraCell">
     <section>
-<h2>Overview</h2>
-      <p>Developed in Unreal Engine 4</p> 
+    <h2>Overview</h2>
+
+      <div class = "initialImage sakuraCell">
+
+         <p>This was one of two solo university project I made for my final year. My primary role and focus was design.<br>
+            Additionally I created everything for this game.<br>
+            This game is an endless runner which the player uses Sakura's ability of teleportation to escape the prison.<br>
+            This game was developed for mobile devices and utilised touch screen controls to jump, teleport and activate powerups.<br>
+           
+
+            <section>
+      <h2>Problems and Solutions</h2>
+        <h5>The Player Character</h5>
+        <p>The main focus was the player's ability to teleport and how to manage it.<br>
+           I wanted the teleport system to be used as a risk reward tool, allowing you to destroy enemies if you teleport on them,<br> 
+           but increasing your distance means you can't anticipate what occurs ahead.<br>
+           I decided to implement a magic point system, it would cost a certain amount of magic to teleport.<br>
+           Inspired by 'Super Smash Bros Ultimates' iteration of the 'Hero from Dragon Quest', I adopted a similar method to managing MP.<br>
+           This works that every second the player runs 1MP is generated and capped at the maximum capacity.<br>
+           The next issue was how does the player gain any progression during the run?<br>
+           Aside from a distance score, I decided to add crystals. By collecting these the player can increase their maximum capacity.<br>
+           The teleport mechanic worked in a way that the player could backtrack as well if they missed a crystal, allowing players to collect multiple crystals.<br>
+           I also decided that due to the complexity of the game and the chances of an immediate demise a health system was needed to enjoy a well paced run.<br> 
+           I decided to incorporate some single use abilities to increase survivability. <br>
+           these abilities consist of a magnet which will increase the range that the player can acquire crystals, healing and invincibility.</p>
+
+          <h5>Enemies and Obstacles</h5>
+            <p>My main issue for this game was providing an array of enemies and obstacles for the player to overcome.<br>
+               I wanted to have some enemies provide health damage to the player and others provide damage to the magic value.<br>
+               I had three enemys that dealt damage to the player red lasers and policebots would deal a single flower of damage.<br>
+               The red policebot or captain would deal three points out of the player's five.<br>
+               Blue lasers will negate some magic points instead.<br>
+               Every adversary was designed so the player could jump over them if they timed it right or teleport past them.<br>
+               If the player ran out of magic this gave them a chance to overcome the obstacle.</p>
+
+              <h5>Story and Level Structure</h5>
+              <p>The main story has Sakura being locked up in a prison for being gifted with a super natural ability.<br>
+                 The level structure has various tiles with various abilities, each platform has different coloured lights which dictates their behaviours.<br>
+                 There are seven types of platforms, yellow, police, red, blue, purple and green and grey. <br> 
+                 Yellow tiles also flash the word danger and then after a second they will plummet causing the player to jump or teleport to the next tile.<br>
+                 Green tiles have a chance to spawn a pick-up, purples have a chance to spawn crystals.<br>
+                 Police tiles have a chance to spawn police bots, red will spawn red lasers and blue, blue lasers.<br>
+                 Grey platforms are neutral and provide a brief respite and a sense of safety.<br>
+                 To help showcase when a player has landed on a platform the overall design will change the grey platform's colour to pink and leave the lights the same colour.<br>
+                 This became more important for the yellow platforms to indicate to the player they have landed on one and it will soon fall.<br>
+                 Tiles were designed in rows of three a top, middle and bottom path.<br> 
+                 This allowed the user to utilise their teleporting abilities to avoid enemies, by reaching a different level.</p>
+              
+              
+           <!--
+        <p>Developed in Unreal Engine 4</p> 
       <p>A prototype and final year project, experimenting with touch controls to create various mechanics.</p>
       <p>Experimented with 2D animation, 2D VFX via flipbooks, cooldowns and powerups.</p>
       <p>Implemented UI to be operated via the users touch</p>
@@ -83,9 +132,10 @@
       <p>Blue laser: Will reduce 50 MP per hit (the cost of one teleport).</p>
       <p>Gravity platforms: These yellow lighted platforms will fall when the player walks on them.</p>
 
-    </section>
+    </section>-->
     <!--Responsibilities section-->
-    <section>
+           
+    <!--<section>
       <h2>Responsibilities</h2>
     
           <p>Creating all assets.</p>
@@ -93,21 +143,11 @@
           <p>Prototyping and implementing all mechanics.</p>
           <p>UI/UX Design/implementation.</p>
      
-    </section>
+    </section>-->
 <!--Story section-->
-    <section>
-      <h2>Synopsis/Demo</h2>
-      
-    <p>An endless runner mobile game, You play as a female Sakura. The Sakura's are prisoners within the Sakura cell.</p>
-      <p>The vicinity is guarded by robotic personnel, each donning the Sakura blossom on them, as their symbol is said to represent life being short but beautiful.</p> 
-      <p>It is their job to keep fugitives from causing harm to the general populace.</p> 
-       <p>The playable character also knowing that a prison sentence can be long and her life is still in its youth, she plans to escape. </p>
-    
-    
-      
-    </section>
+   
 <!--Skills developed section-->
-    <section>
+    <!--<section>
       <h2>New Skills Developed</h2>
     
         <p>Unreal Engine 4's physics system.</p>
@@ -115,7 +155,7 @@
         <p>Animation via Dragon Bones.</p>
         <p>level design.</p>
 
-    </section>
+    </section>-->
 
     <!--Gallery section-->
     <section> 
@@ -267,6 +307,17 @@
         </div>
       </div>
       
+       <section>
+      <h2>Synopsis/Demo</h2>
+      
+     <p>An endless runner mobile game, You play as a female Sakura. The Sakura's are prisoners within the Sakura cell.<br>
+        The vicinity is guarded by robotic personnel, each donning the Sakura blossom on them, as their symbol is said to represent life being short but beautiful.<br> 
+        It is their job to keep fugitives from causing harm to the general populace.<br> 
+        The playable character also knowing that a prison sentence can be long and her life is still in its youth, she plans to escape. </p>
+    
+    
+      
+    </section>
     </section>
      <!--Rights & Plugins section-->
     <section id = "portfolios">
@@ -284,11 +335,10 @@
         <p>Email: harryjameslinford@gmail.com </p>
         <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
         <p>Line: Harry-James Linford</p>
-        <!--<p>Discord: elder483</p>-->
-        
-      </section>
+        <!--<p>Discord: elder483</p>--> 
+    </section>
     </footer>
     </section>
-    </body>  
-    </div>
-</html>
+  </body>  
+  </div>
+   </html>
