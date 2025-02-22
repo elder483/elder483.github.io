@@ -726,6 +726,13 @@ div.gif, div.video, div.gallery {
 
  div.gif:hover  ,div.video:hover, div.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
 
+div.aKOM.initialImage
+{
+ border: 6px solid rgba(212,14,75, 0.5);  
+}
+
+div.aKOM.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
+
 /*RD2*/
 
 
