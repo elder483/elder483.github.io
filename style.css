@@ -832,6 +832,13 @@ div.static.gallery, div.static.gif, div.static.video
 
 div.static.gif:hover  ,div.static.video:hover, div.static.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(0,239,255); box-shadow: 2px 2px 2px 2px  rgba(0,239,255,0.5);}
 
+div.rem.initialImage
+{
+ border: 6px solid rgba(255,157,2, 0.5);
+}
+
+div.rem.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(241,22,72); box-shadow: 2px 2px 2px 2px  rgba(241,22,72,0.5);}
+
 div.rem.gallery, div.rem.gif, div.rem.video
 
 {
