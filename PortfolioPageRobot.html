@@ -63,17 +63,37 @@
     <div class = "robot">
     <section>
 <h2>Overview</h2>
-      <p>Developed in Unreal Engine 4</p> 
-       <p>A week long project, where we were tasked to create a project which would help develop our skillset.</p>
-       <p>I focused mainly on cameras as I generally had a problem with most projects due to camera issues.</p> 
-       <p>I also experimented with box traces + physics.</p> 
-      <p>The camera transition screens were inspired by games such as Resident Evil/Biohazard and Devil May Cry.</p>
+
+      <div class = "initialImage robot">
+      <img loading= "lazy" src="Images/Robot/Images/RobotTitle.png" width="400px" height= "300px" alt="Robot Project Title Screen.">
+      </div>
       
-       
+      <p>This was a solo two week skills development project. My primary focus at the time was working with cameras to make interesting design choices.<br> 
+         I created everything in the game this includes drawing title screens controls screens modelling characters, VFX audio creation and more.<br>
+         I wanted to experiment with sockets, physics and camera effects, this was all a test to see how much I could achieve in a week.<br>
+         The camera transition screens were inspired by the games 'Resident Evil/Biohazard' and 'Devil May Cry'.</p>          
         
     </section>
+
+ <h2>Problems and Solutions</h2>
+        <h5>The Player Character</h5>
+      <p>The main problem I wanted to solve with the character was utilising Unreal Engine 4's physics system and using sockets.<br>
+         I decided that giving the robot a magnet hand it would allow them to pick up certain objects.<br>
+         I made a very simple puzzle in which the player would pick up a block and place it on a pressure plate.</p>
+
+        <h5>Enemies</h5>
+        <p>I needed some win lose conditions the player could fall if they missed a jump and I incorporated turrets that would fire projectiles.</p>
+      
+        <h5>Story and Level Structure</h5>
+         <p>I made the level fairly simplistic as I wanted to really focus on the camera cuts and techniques of following the player.<br>
+           I implemented force fields to stop the player from advancing, the way to deactivate these was to acquire keys within the level.<br>
+           Using the camera cuts some of the platforming sections were a little difficult due to the perspective. <br>
+           However, I wanted to achieve the feeling similar to 'Crash Bandicoot' where the player would be running towards the camera.<br>
+           I also wanted to experiment changing cameras at different heights and this led to jump pads once the player reaches the next level the camera would shift.<br>
+           This may have created jarring visual experiences but it was a good experience.</p>
+      
     <!--Responsibilities section-->
-    <section>
+  <!--  <section>
       <h2>Responsibilities</h2>
      
           <p>Creating all assets</p>
@@ -81,18 +101,11 @@
           <p>Prototyping and implementing all mechanics</p>
           <p>UI/UX Design/implementation. </p>
       
-    </section>
+    </section>-->
 <!--Story section-->
-    <section>
-      <h2>Synopsis/Demo</h2>
-      
-    <p>The games synopsis, features a robot navigating through a factory, by using his magnet arm.</p>
-    
-    
-      
-    </section>
+   
 <!--Skills developed section-->
-    <section>
+  <!--  <section>
       <h2>New Skills Developed</h2>
      
         <p>Unreal Engine 4's physics system, various camera types and switching between them.</p>
@@ -100,7 +113,7 @@
         <p>Created and implemented Audio.</p>
         <p>level design.</p>
 
-    </section>
+    </section>-->
 
     <!--Gallery section-->
     <section> 
@@ -260,6 +273,13 @@
         </div>
       
     </section>
+       <section>
+      <h2>Synopsis/Demo</h2>
+      
+    <p>The story features a defect robot trying to escape a factory, by using their magnet arm.</p>
+
+    </section>
+      
      <!--Rights & Plugins section-->
     <section id = "portfolios">
       <h2>Demo Download</h2>
@@ -281,5 +301,5 @@
       </section>
     </footer>
   </body>
-</div>
+ </div>
 </html>
