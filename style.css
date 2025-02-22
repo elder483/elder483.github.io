@@ -848,6 +848,13 @@ div.rem.gallery, div.rem.gif, div.rem.video
 
 div.rem.gif:hover  ,div.rem.video:hover, div.rem.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(241,22,72); box-shadow: 2px 2px 2px 2px  rgba(241,22,72,0.5);}
 
+div.fotp.initialImage
+{
+ border: 6px solid rgba(6,0,0, 0.5);
+}
+
+div.fotp.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(223,122,0); box-shadow: 2px 2px 2px 2px  rgba(223,122,0,0.5);}
+
 div.fotp.gallery, div.fotp.gif, div.fotp.video
 
 {
