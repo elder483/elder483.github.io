@@ -873,6 +873,13 @@ div.robot.gallery, div.robot.gif, div.robot.video
 
 div.robot.gif:hover  ,div.robot.video:hover, div.robot.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(64,221,217); box-shadow: 2px 2px 2px 2px  rgba(64,221,217,0.5);}
 
+div.sakuraCell.initialImage
+{
+ border: 6px solid rgba(255,170,184, 0.5);
+}
+
+div.sakuraCell.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(114,46,56); box-shadow: 2px 2px 2px 2px  rgba(114,46,56,0.5);}
+
 div.sakuraCell.gallery, div.sakuraCell.gif, div.sakuraCell.video
 
 {
