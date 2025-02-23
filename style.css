@@ -455,15 +455,15 @@ background-color: rgba(13,17,22,100);
 }
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
-
+/*
  @media screen and (max-width: 768px)
      {
          body{
         padding: 0 14%; 
         /*font-size: 15px;*/
-         }
-    }
-
+         /*}
+    }*/
+/*
  @media screen and (max-width: 500px)
     {
         body{
@@ -471,8 +471,8 @@ background-color: rgba(13,17,22,100);
          
            
         /*font-size: 12px;*/
-        }
-    }
+       /* }
+    }*/
 
 /*Home Page*/
 .index
@@ -1108,19 +1108,40 @@ div.desc {
     text-align: center;
     vertical-align: top;
 }
+/*Tablet*/
 
-
-@media only screen and (max-width: 768px)
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
 {.responsive
  {
+     width: 90%;
+     max-width: 90%;
+     /*
     width: 49.99999%;
-    margin: 0px 6px;
+    margin: 0px 6px;*/
  }
 }
-@media only screen and (max-width: 500px)
+
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
+    .responsive {
+        width: 85%;
+        max-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait)
 {.responsive
  {
-    width: 100%;
+        width: 95%;
+        max-width: 100%;
+        padding: 10px;
+ }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+{.responsive
+ {
+     width: 95%;
+        max-width: 700px;
  }
 }
 
