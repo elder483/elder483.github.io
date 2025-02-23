@@ -481,6 +481,7 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 500px) and (orientation: portrait)
 { main
  {
+     max-width: 50%;
      /*margin-left: 20px;
      margin-right: 20px;*/
         /*padding: 0 26%;*/ 
@@ -490,6 +491,7 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 767px) and (orientation: landscape)
 { main
  {
+     max-width: 50%;
        /*margin-left: 15px;
        margin-right: 15px;*/
       /*padding: 0 22%;*/ 
