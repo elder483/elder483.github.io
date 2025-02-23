@@ -450,53 +450,29 @@ background-color: rgba(13,17,22,100);
     overflow-wrap: break-word;
     /*Seeing if this fixes Horizontal scrolling.*/
     overflow-x: hidden;
-    width: 100vw;/*was 100%*/
+    width: 100%;
 
 }
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
-/*Tablet*/
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
-{
-    main {
-        margin-left: 10px;
-        margin-right: 10px;
-   /* padding: 0 14%;*/
-     /*
-    width: 49.99999%;
-    */
- }
-}
 
-@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
-    main {
-        /*padding: 0 14%*/
-        margin-left: 10px;
-        margin-right: 10px;
+ @media screen and (max-width: 768px)
+     {
+         body{
+        padding: 0 14%; 
+        /*font-size: 15px;*/
+         }
     }
-}
 
-/*Mobile*/
-
-@media only screen and (max-width: 500px) and (orientation: portrait)
-{ main
- {
-     max-width: 50%;
-     /*margin-left: 20px;
-     margin-right: 20px;*/
-        /*padding: 0 26%;*/ 
- }
-}
-
-@media only screen and (max-width: 767px) and (orientation: landscape)
-{ main
- {
-     max-width: 50%;
-       /*margin-left: 15px;
-       margin-right: 15px;*/
-      /*padding: 0 22%;*/ 
- }
-}
+ @media screen and (max-width: 500px)
+    {
+        body{
+         padding: 0 16%; 
+         
+           
+        /*font-size: 12px;*/
+        }
+    }
 
 /*Home Page*/
 .index
@@ -749,44 +725,6 @@ div.gif, div.video, div.gallery {
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
-/*Tablet*/
-/*
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
-{div.initialImage, div.gif, div.video, div.gallery
- {
-     width: 90%;
-     max-width: 90%;
-     /*
-    width: 49.99999%;
-    margin: 0px 6px;*/
- /*}
-}*/
-
-/*@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
-   div.initialImage, div.gif, div.video, div.gallery {
-        width: 85%;
-        max-width: 1100px;
-    }
-}
-
-@media only screen and (max-width: 500px) and (orientation: portrait)
-{div.initialImage, div.gif, div.video, div.gallery
- {
-        width: 95%;
-        max-width: 100%;
-        padding: 10px;
- }
-}
-
-@media only screen and (max-width: 767px) and (orientation: landscape)
-{div.initialImage, div.gif, div.video, div.gallery
- {
-     width: 95%;
-        max-width: 700px;
- }
-}*/
-
-
 
 
  div.gif:hover  ,div.video:hover, div.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
@@ -994,7 +932,7 @@ div.pdisorder.initialImage
 
 div.pdisorder.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
 /*
-initialImage
+div.rd2.initialImage
 {
     display: flex;
     justify-content: center;
@@ -1170,41 +1108,21 @@ div.desc {
     text-align: center;
     vertical-align: top;
 }
-/*Tablet*/
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
+
+@media only screen and (max-width: 768px)
 {.responsive
  {
-     /*width: 90%;
-     max-width: 90%;*/
-     
     width: 49.99999%;
-   
+    margin: 0px 6px;
  }
 }
-
-@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
-    .responsive {
-        width: 49.99999%;
-    }
-}
-
-@media only screen and (max-width: 500px) and (orientation: portrait)
+@media only screen and (max-width: 500px)
 {.responsive
  {
-        width: 100%;
-        
-        
+    width: 100%;
  }
 }
-
-@media only screen and (max-width: 767px) and (orientation: landscape)
-{.responsive
- {
-      width: 100%;
-  
- }
-}*/
 
 ul li
 {
