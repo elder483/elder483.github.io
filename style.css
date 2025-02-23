@@ -455,24 +455,38 @@ background-color: rgba(13,17,22,100);
 }
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
-/*
- @media screen and (max-width: 768px)
-     {
-         body{
-        padding: 0 14%; 
-        /*font-size: 15px;*/
-         /*}
-    }*/
-/*
- @media screen and (max-width: 500px)
-    {
-        body{
-         padding: 0 16%; 
-         
-           
-        /*font-size: 12px;*/
-       /* }
-    }*/
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
+{
+    body {
+    padding: 0 14%;
+     /*
+    width: 49.99999%;
+    margin: 0px 6px;*/
+ }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
+    body {
+        padding: 0 14%
+    }
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 500px) and (orientation: portrait)
+{ body
+ {
+        padding: 0 16%; 
+ }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+{ body
+ {
+      padding: 0 16%; 
+ }
+}
 
 /*Home Page*/
 .index
