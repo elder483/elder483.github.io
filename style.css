@@ -993,8 +993,8 @@ div.pdisorder.initialImage
 }
 
 div.pdisorder.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
-/*
-div.rd2.initialImage
+
+initialImage
 {
     display: flex;
     justify-content: center;
@@ -1004,7 +1004,7 @@ div.rd2.initialImage
     width: fit-content;
     max-width: 100%;
     box-sizing: border-box;
-}*/
+}
 
 div.gif
 {
