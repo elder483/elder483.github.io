@@ -1169,39 +1169,38 @@ div.desc {
     vertical-align: top;
 }
 /*Tablet*/
-/*
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
 {.responsive
  {
-     width: 90%;
-     max-width: 90%;
-     /*
+     /*width: 90%;
+     max-width: 90%;*/
+     
     width: 49.99999%;
-    margin: 0px 6px;*/
- /*}
+   
+ }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
     .responsive {
-        width: 85%;
-        max-width: 1100px;
+        width: 49.99999%;
     }
 }
 
 @media only screen and (max-width: 500px) and (orientation: portrait)
 {.responsive
  {
-        width: 95%;
-        max-width: 100%;
-        padding: 10px;
+        width: 49.99999%;
+        
+        
  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape)
 {.responsive
  {
-     width: 95%;
-        max-width: 700px;
+      width: 49.99999%;
+  
  }
 }*/
 
