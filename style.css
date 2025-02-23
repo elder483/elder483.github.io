@@ -448,6 +448,9 @@ background-color: rgba(13,17,22,100);
  white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    /*Seeing if this fixes Horizontal scrolling.*/
+    overflow-x: hidden;
+    width: 100%;
 
 }
 
