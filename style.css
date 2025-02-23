@@ -481,8 +481,8 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 500px) and (orientation: portrait)
 { main
  {
-     margin-left: 15px;
-     margin-right: 15px;
+     margin-left: 20px;
+     margin-right: 20px;
         /*padding: 0 26%;*/ 
  }
 }
