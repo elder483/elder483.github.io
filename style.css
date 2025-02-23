@@ -85,7 +85,7 @@ h1
 {
      background-color: rgba(255,0,221,0.5);
      border: 3px solid rgb(57,21,93);
-    font-family: "Shippori Antique B1", sans-serif !important;
+    font-family: "Dela Gothic One", sans-serif !important;
 }
 
 .coinOp h1
@@ -457,7 +457,7 @@ background-color: rgba(13,17,22,100);
 
 body.rd2 
 {
-    font-family: "Shippori Antique B1", sans-serif !important;
+    font-family: "Dela Gothic One", sans-serif !important;
 }
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
