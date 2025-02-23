@@ -68,7 +68,7 @@
       </div>
  
       
-      <p>This was my first solo project outside of university, it spanned roughly 6 months as this was an on and off project. This was also my first attmept at a design document.<br>
+      <p>This was my first solo project outside of university, it spanned roughly 6 months as this was an on and off project. This was also my first attempt at a design document.<br>
          This project is a first person shooter which relies on the player to use different weapon modes to combat adversaries and navigate the level.<br> 
          I handled everything from characters, levels and game design, 3D models in blender, linking animations, AI and more.<br>
          I wanted to continue my Japanese studies and integrate that into my work.<br> 
@@ -82,13 +82,13 @@
       <p>Movement and traversal</p>
       <p>The initial problem I wanted to address was player movement capabilities and how I could design a level using these.<br>
           I decided to add mechanics seen in various modern shooter games such as mantles and the wall run in 'Titanfall'.<br>
-          This allowed me to gradually showcase these mechanics at the beginning in a safe environment, and build up player's mastery over the course of the level.<br>
+          This allowed me to gradually showcase these mechanics at the beginning in a safe environment, and build up the player's mastery over the course of the level.<br>
           The ability to mantle allowed the player to reach certain areas and allowed for interesting platforming sections by chaining wall jumps to mantles.</p>
 
           <p>Combat</p>
       <p>My primary challenge was to implement weapon abilities that each have their own purpose both inside and outside of combat.<br>
-         I started off concepting two weapons, the gun and katana, I knew I wanted to have a maximum of four modes on each useable weapon.<br>
-         My next issue was what abilities do I give them, how can they be used in and out of combat, what aboult health, are they fun to use?<br> 
+         I started off concepting two weapons, the gun and katana. I knew I wanted to have a maximum of four modes on each usable weapon.<br>
+         My next issue was what abilities do I give them, how can they be used in and out of combat, what about health, are they fun to use?<br> 
          Both weapons needed a primary firing/attack mode, this was the easiest to implement and the foundation that the rest were built on.<br>
          I needed to show the player what ability they had equipped but also in the environment what ability they should use.<br> 
          To accomplish this I incorporated tutorials implemented by UI each time they needed to use the ability for the first time, and each ability had a colour to signify this.<br>
@@ -99,7 +99,7 @@
         <p>The Gun</p>
          The gun's modes are, Shoot, Chargeshot, Barrier and Shinkansen (ultimate).<br> 
          Shooting would be used as the primary form, this was used to defeat enemies, killing certain enemies would unlock the next room or a portal.<br>
-         Chargeshot, like shooting it could be used to defeat enemies, however, it could also be used to destroy certain walls, signified by a red crack.<br>
+         Chargeshot, like shooting, could be used to defeat enemies, however, it could also be used to destroy certain walls, signified by a red crack.<br>
          Chargeshot's damage value had a minimum and a maximum as the player could charge and expand the size of the projectile, the cooldown would be the same regardless.<br>
          Barrier was an interesting concept as I wanted a way for the player to defend themselves but also recover health, as I didn't want to implement pick-ups.<br>
          The initial tutorial for Barrier pits the player against a turret in a hallway after applying some damage and using the barrier they will see their health recover.<br>
@@ -107,7 +107,7 @@
          This also like the Chargeshot had a duration and cooldown.<br>
          The Shinkansen (Bullet Train in Japanese) is an ultimate ability which would have been unlocked through a quest, but was implemented and left in the final build.<br>
          I wanted to create a mechanic which when used encouraged mastery. The player fires a remote controlled projectile, which collects enemies that it hits and then detonates when a timer has expired.<br>
-         The mastery element was increasing time, everytime an enemy was hit the timer would regain some time extending the abilties use.<br>
+         The mastery element was increasing time, everytime an enemy was hit the timer would regain some time extending the abilities use.<br>
          The next issue during this ability was the player could still be hurt, so during this ability I had to set it so the player couldn't be hurt.<br>
          Due to the nature of it being an ultimate skill a long cooldown was required.<br>
          The final issue was what about bosses? The player shouldn't be able to pick up and destroy a boss in a single hit, for this using a tag to check if it was a boss or enemy it would provide a different outcome.<br>
@@ -119,9 +119,9 @@
          SoulShift was inspired by 'Final Fantasy IV's Dark Knight Cecil'. I wanted to add a high risk, high reward ability.<br>
          Soulshift has three tiers, to activate this ability the player would charge their sword with dark energy, sapping their health in the process.<br>
          Tier 1 provides extra damage, tier 2 adds a chance to fire a blade beam which does ranged damage and extra damage, Tier 3 more damage and always fires beams.<br>
-         The player must switch from soulshift back to attack to use this abilities properties. If the player has low health they can use SoulShift to enter tier 3.<br>
-         The player can't attack whilst charging and will walk slowly. Although not implemented one concept was to have certain doors open when the player's health was low enough.<br>
-         Counter would act differently depending on the type of attack recieved. Firstly if hit by melee the player would knockback and strike the instigator.<br>
+         The player must switch from soulshift back to attack to use this ability's properties. If the player has low health they can use SoulShift to enter tier 3.<br>
+         The player can't attack whilst charging and will walk slowly. Although not implemented, one concept was to have certain doors open when the player's health was low enough.<br>
+         Counter would act differently depending on the type of attack received. Firstly if hit by melee the player would knock-back and strike the instigator.<br>
          If the attack was a ranged projectile they would teleport to the enemies location and deal a counterattack.<br>
          I used a healing turret to showcase the counter ability for the first time allowing the player to warp to progress.<br>
          Dragon's Blade originally was to be unlocked via a quest. This ability would have a long cooldown but essentially incorporated all three of the other abilities into one with none of the negatives.<br>
@@ -129,7 +129,7 @@
 
       <h5>Enemies and Bosses</h5>
       <p>I needed to provide the player with enemies to utilise all of these abilities. Two enemies and turrets all provide similar functionality.<br>
-         Bosses however, would be more complex. The first boss the Ronin gives the player the katana at the start and the battle won't initiate until the weapon is equipped.<br>
+         Bosses however, would be more complex. The first boss, the Ronin, gives the player the katana at the start and the battle won't initiate until the weapon is equipped.<br>
          If the player shoots the Ronin then he will reflect/parry the bullets encouraging the player to switch.<br>
          In the gallery section you can see the bosses functionality through gifs and videos.</p>
 
@@ -138,7 +138,7 @@
       <p>The level was split into four main sections, the Tutorial section, the Garden, the Bridge and the Tower.<br>
          The game would introduce new mechanics as and when they were required to progress. <br>
          The Ronin boss was used as a way to challenge the player and throw them in the deep end with the katana.<br>
-         After this the katana's skills such as counter was taught more efficiently in the tower.</p>
+         After this the katana's skills such as the counter were taught more efficiently in the tower.</p>
 
     </section>
 
