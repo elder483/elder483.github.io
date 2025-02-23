@@ -459,7 +459,8 @@ background-color: rgba(13,17,22,100);
 @media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) 
 {
     body {
-        margin: 0px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
    /* padding: 0 14%;*/
      /*
     width: 49.99999%;
@@ -470,7 +471,8 @@ background-color: rgba(13,17,22,100);
 @media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape;) {
     body {
         /*padding: 0 14%*/
-          margin: 0px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -479,7 +481,8 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 500px) and (orientation: portrait)
 { body
  {
-       margin: 0px 15px;
+     margin-left: 15px;
+     margin-right: 15px;
         /*padding: 0 26%;*/ 
  }
 }
@@ -487,7 +490,8 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 767px) and (orientation: landscape)
 { body
  {
-       margin: 0px 15px;
+       margin-left: 15px;
+       margin-right: 15px;
       /*padding: 0 22%;*/ 
  }
 }
