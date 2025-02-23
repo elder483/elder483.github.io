@@ -477,14 +477,14 @@ background-color: rgba(13,17,22,100);
 @media only screen and (max-width: 500px) and (orientation: portrait)
 { body
  {
-        padding: 0 20%; 
+        padding: 0 26%; 
  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: landscape)
 { body
  {
-      padding: 0 18%; 
+      padding: 0 22%; 
  }
 }
 
