@@ -457,7 +457,7 @@ background-color: rgba(13,17,22,100);
 
 body.rd2 
 {
-    font-family: "Shippori Antique B1";
+    font-family: "Shippori Antique B1" !important;
 }
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
